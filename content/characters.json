@@ -32,7 +32,7 @@
         "skillId": "investigator_c"
       }
     ],
-    "portrait": "public/art/portraits/characters/investigator.png",
+    "portrait": "public/art/portraits/characters/investigator-5ad2d770e6.png",
     "start": {
       "caseId": "sumireko_first_story",
       "locationId": "dormitory"
