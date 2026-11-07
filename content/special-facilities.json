@@ -1,0 +1,187 @@
+[
+  {
+    "id": "library_reading",
+    "locationId": "library",
+    "kind": "reading",
+    "name": "看书",
+    "description": "你在书架间找到一些记载着奇妙技艺的书籍。",
+    "sceneImage": "public/art/scenes/locations/library.bmp",
+    "actionHover": "随机学习一个其他角色的技能",
+    "leaveHover": "返回地图",
+    "actionText": "看书（异变 +{cost}）",
+    "leaveText": "离开",
+    "anomalyCost": 6,
+    "resultText": "你从书中领悟了「{name}」。\n\n可以继续看书，或离开图书馆。"
+  },
+  {
+    "id": "park_divination",
+    "locationId": "park",
+    "kind": "divination",
+    "name": "占卜小摊",
+    "description": "占卜师将塔罗牌铺在桌上：“要来占卜吗？”",
+    "price": 5,
+    "sceneImage": "public/art/scenes/divination/back.bmp",
+    "actionHover": "每张牌等概率抽取，结果立即生效",
+    "leaveHover": "返回地图",
+    "cards": [
+      {
+        "id": "strength",
+        "name": "力量",
+        "text": "勇气在你心中升起。",
+        "effect": {
+          "kind": "attribute",
+          "amount": 1,
+          "attribute": "strength"
+        },
+        "sceneImage": "public/art/scenes/divination/strength.bmp"
+      },
+      {
+        "id": "chariot",
+        "name": "战车",
+        "text": "你的脚步变得更加轻快。",
+        "effect": {
+          "kind": "attribute",
+          "amount": 1,
+          "attribute": "agility"
+        },
+        "sceneImage": "public/art/scenes/divination/chariot.bmp"
+      },
+      {
+        "id": "empress",
+        "name": "皇后",
+        "text": "蓬勃的生命力滋养着你。",
+        "effect": {
+          "kind": "attribute",
+          "amount": 1,
+          "attribute": "constitution"
+        },
+        "sceneImage": "public/art/scenes/divination/empress.bmp"
+      },
+      {
+        "id": "magician",
+        "name": "魔术师",
+        "text": "你感到精神更加敏锐。",
+        "effect": {
+          "kind": "attribute",
+          "amount": 1,
+          "attribute": "spirit"
+        },
+        "sceneImage": "public/art/scenes/divination/magician.bmp"
+      },
+      {
+        "id": "priestess",
+        "name": "女祭司",
+        "text": "隐秘的知识向你敞开。",
+        "effect": {
+          "kind": "attribute",
+          "amount": 1,
+          "attribute": "knowledge"
+        },
+        "sceneImage": "public/art/scenes/divination/priestess.bmp"
+      },
+      {
+        "id": "emperor",
+        "name": "皇帝",
+        "text": "你的意志越发坚定。",
+        "effect": {
+          "kind": "attribute",
+          "amount": 1,
+          "attribute": "will"
+        },
+        "sceneImage": "public/art/scenes/divination/emperor.bmp"
+      },
+      {
+        "id": "hermit",
+        "name": "隐者",
+        "text": "过往的经历化为了领悟。",
+        "effect": {
+          "kind": "experience",
+          "amount": 50
+        },
+        "sceneImage": "public/art/scenes/divination/hermit.bmp"
+      },
+      {
+        "id": "sun",
+        "name": "太阳",
+        "text": "温暖的光芒抚平了伤痛。",
+        "effect": {
+          "kind": "full_restore",
+          "resource": "health"
+        },
+        "sceneImage": "public/art/scenes/divination/sun.bmp"
+      },
+      {
+        "id": "tower",
+        "name": "高塔",
+        "text": "突如其来的灾厄令你受伤。",
+        "effect": {
+          "kind": "health",
+          "amount": -20
+        },
+        "sceneImage": "public/art/scenes/divination/tower.bmp"
+      },
+      {
+        "id": "star",
+        "name": "星星",
+        "text": "希望让你重新振作。",
+        "effect": {
+          "kind": "full_restore",
+          "resource": "energy"
+        },
+        "sceneImage": "public/art/scenes/divination/star.bmp"
+      },
+      {
+        "id": "moon",
+        "name": "月亮",
+        "text": "不安的影子渐渐扩散。",
+        "effect": {
+          "kind": "anomaly",
+          "amount": 10
+        },
+        "sceneImage": "public/art/scenes/divination/moon.bmp"
+      },
+      {
+        "id": "temperance",
+        "name": "节制",
+        "text": "躁动的气息逐渐平息。",
+        "effect": {
+          "kind": "anomaly",
+          "amount": -10
+        },
+        "sceneImage": "public/art/scenes/divination/temperance.bmp"
+      }
+    ],
+    "actionText": "花费 {price} 零钱抽一张塔罗牌",
+    "leaveText": "离开",
+    "resultText": "你抽到了「{name}」。\n\n{text}\n\n{result}\n\n可以继续占卜，或离开小摊。"
+  },
+  {
+    "id": "dormitory_rest",
+    "locationId": "dormitory",
+    "kind": "rest",
+    "name": "休息一下",
+    "description": "回到宿舍歇一会儿，生命值和精力恢复到上限。",
+    "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+    "actionHover": "补满生命值和精力，异变 +{cost}",
+    "leaveHover": "返回地图",
+    "anomalyCost": 20,
+    "resultText": "你睡了一觉。不对……是不是花太多时间了？",
+    "leaveText": "离开",
+    "actionText": "休息一下（异变+{cost}）"
+  },
+  {
+    "id": "auditorium_donation",
+    "locationId": "auditorium",
+    "kind": "donation",
+    "name": "捐款箱",
+    "description": "礼堂里摆着一个捐款箱。往里投些零钱吗？",
+    "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+    "actionHover": "花费 {price} 零钱，异变减少 {reduction}，最低降至 0",
+    "leaveHover": "返回地图",
+    "price": 5,
+    "anomalyReduction": 10,
+    "resultText": "你捐出了 {price} 零钱。",
+    "leaveText": "离开",
+    "actionText": "投入 {price} 零钱"
+  }
+]

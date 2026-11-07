@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mamizou_sisters_duty",
+    "title": "姐姐的职责",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "mamizou"
+      ]
+    },
+    "description": "到市场为鵺购买吃的，再回教学楼交给她。",
+    "issuer": "鵺",
+    "startOnAccept": true,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 100
+      },
+      {
+        "kind": "money",
+        "amount": 15
+      },
+      {
+        "kind": "anomaly",
+        "amount": -10
+      }
+    ],
+    "flow": {
+      "start": "hungry_nue",
+      "nodes": [
+        {
+          "id": "hungry_nue",
+          "title": "什么声音？",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "你晃悠到了教学楼，发现你的同僚，学生会成员鵺的肚子正在咕咕叫。原来她又拿生活费去公园里买那些占卜用的小玩意了。",
+          "choices": [
+            {
+              "id": "help",
+              "text": "真拿你没办法",
+              "next": {
+                "kind": "node",
+                "id": "deliver_food"
+              }
+            },
+            {
+              "id": "refuse",
+              "text": "长长教训吧！（暂离）",
+              "next": {
+                "kind": "end",
+                "id": "shopping"
+              }
+            }
+          ]
+        },
+        {
+          "id": "deliver_food",
+          "title": "交付食物",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "给鵺的食物准备好了吗？",
+          "choices": [
+            {
+              "id": "deliver",
+              "text": "把豪华便当交给鵺",
+              "next": {
+                "kind": "node",
+                "id": "feed_nue"
+              },
+              "costs": [
+                {
+                  "itemId": "deluxe_bento",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "shop",
+              "text": "先去市场",
+              "next": {
+                "kind": "end",
+                "id": "shopping"
+              }
+            }
+          ]
+        },
+        {
+          "id": "feed_nue",
+          "title": "喂食",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "“谢谢老大——唔，唔，好吃！”\n\n你看着鵺狼吞虎咽，心想着这个月还有好几天呢。\n\n“每次把生活费花光，最后还不是得让我来替你收拾残局？”你无奈地摇了摇头。\n\n“嘿嘿，又让会长操心了嘛……”鵺倒是很乐天派，嘴里塞得满满当当，用含糊不清的声音让你从她刚买的新宝贝里挑一样作谢礼。",
+          "choices": [
+            {
+              "id": "gift_a",
+              "text": "倒走的腕表",
+              "next": {
+                "kind": "end",
+                "id": "done"
+              },
+              "effects": [
+                {
+                  "kind": "item",
+                  "itemId": "reverse_watch",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": "gift_b",
+              "text": "盐罐",
+              "next": {
+                "kind": "end",
+                "id": "done"
+              },
+              "effects": [
+                {
+                  "kind": "item",
+                  "itemId": "salt_jar",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": "gift_c",
+              "text": "银戒指",
+              "next": {
+                "kind": "end",
+                "id": "done"
+              },
+              "effects": [
+                {
+                  "kind": "item",
+                  "itemId": "silver_ring",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "shopping",
+          "title": "去买些食物",
+          "text": "先去市场，买好豪华便当再回来找鵺。",
+          "outcome": "left",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp"
+        },
+        {
+          "id": "done",
+          "title": "姐姐的职责",
+          "text": "鵺吃饱了，你也收下了她送的小玩意。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "investigator",
+    "name": "宇佐见堇子",
+    "description": "非法社团社长，灵异爱好者，曾经侦破过其校园七大不可思议之一，但因为其乖张的行事风格上了学生会的黑名单。\n最近做了一些有关旧校舍的怪梦，于是出发前往调查。",
+    "themeColor": "#9040c0",
+    "money": 10,
+    "base": {
+      "strength": 1,
+      "agility": 3,
+      "constitution": 2,
+      "spirit": 6,
+      "knowledge": 5,
+      "will": 4
+    },
+    "inventory": {
+      "bandage": 2,
+      "smartphone": 1
+    },
+    "equipment": {
+      "weapon": null,
+      "equipment1": "smartphone",
+      "equipment2": null
+    },
+    "skills": [
+      "investigator_a",
+      "investigator_b"
+    ],
+    "levelSkills": [
+      {
+        "level": 3,
+        "skillId": "investigator_c"
+      }
+    ],
+    "portrait": "public/art/portraits/characters/investigator.bmp",
+    "start": {
+      "caseId": "sumireko_first_story",
+      "locationId": "dormitory"
+    }
+  },
+  {
+    "id": "mamizou",
+    "name": "二岩猯藏",
+    "description": "学生会长，据说她的眼线遍布学校。不知出于何种目的，推开了旧校舍尘封已久的大门。",
+    "themeColor": "#68b000",
+    "money": 10,
+    "base": {
+      "strength": 2,
+      "agility": 2,
+      "constitution": 4,
+      "spirit": 3,
+      "knowledge": 6,
+      "will": 4
+    },
+    "inventory": {
+      "bandage": 2,
+      "tanuki_pillow": 1
+    },
+    "equipment": {
+      "weapon": null,
+      "equipment1": "tanuki_pillow",
+      "equipment2": null
+    },
+    "skills": [
+      "mamizou_a",
+      "mamizou_b"
+    ],
+    "levelSkills": [
+      {
+        "level": 3,
+        "skillId": "mamizou_c"
+      }
+    ],
+    "portrait": "public/art/portraits/characters/mamizou.bmp",
+    "start": {
+      "caseId": "mamizou_first_story",
+      "locationId": "auditorium"
+    }
+  },
+  {
+    "id": "aya",
+    "name": "射命丸文",
+    "description": "校报记者，对旧校舍的传闻很感兴趣……但当被问起感兴趣的原因时，却总是拒绝回答。",
+    "themeColor": "#ffae00",
+    "money": 10,
+    "base": {
+      "strength": 1,
+      "agility": 7,
+      "constitution": 3,
+      "spirit": 3,
+      "knowledge": 4,
+      "will": 3
+    },
+    "inventory": {
+      "bandage": 2,
+      "instant_camera": 1
+    },
+    "equipment": {
+      "weapon": "instant_camera",
+      "equipment1": null,
+      "equipment2": null
+    },
+    "skills": [
+      "aya_a",
+      "aya_b"
+    ],
+    "levelSkills": [
+      {
+        "level": 3,
+        "skillId": "aya_c"
+      }
+    ],
+    "portrait": "public/art/portraits/characters/aya.bmp",
+    "start": {
+      "caseId": "aya_first_story",
+      "locationId": "library"
+    }
+  },
+  {
+    "id": "reimu",
+    "name": "博丽灵梦",
+    "description": "风纪委员。原本只想抓堇子回去，还得带回魔理沙。可眼下她不得不面对更大的问题……",
+    "themeColor": "#dc0000",
+    "money": 10,
+    "base": {
+      "strength": 4,
+      "agility": 3,
+      "constitution": 5,
+      "spirit": 4,
+      "knowledge": 1,
+      "will": 4
+    },
+    "inventory": {
+      "bandage": 2,
+      "mop": 1
+    },
+    "equipment": {
+      "weapon": "mop",
+      "equipment1": null,
+      "equipment2": null
+    },
+    "skills": [
+      "reimu_a",
+      "reimu_b"
+    ],
+    "levelSkills": [
+      {
+        "level": 3,
+        "skillId": "reimu_c"
+      }
+    ],
+    "portrait": "public/art/portraits/characters/reimu.bmp",
+    "start": {
+      "caseId": "reimu_first_story",
+      "locationId": "dormitory"
+    }
+  },
+  {
+    "id": "marisa",
+    "name": "雾雨魔理沙",
+    "description": "博丽灵梦的姐妹，相爱相杀的状态，目前是“志愿风纪委员”，因为没有正式的风纪委员编制……不过在和灵梦的竞争上是认真的。",
+    "themeColor": "#a1a6fe",
+    "money": 10,
+    "base": {
+      "strength": 3,
+      "agility": 5,
+      "constitution": 2,
+      "spirit": 5,
+      "knowledge": 4,
+      "will": 2
+    },
+    "inventory": {
+      "bandage": 2,
+      "flashlight": 1
+    },
+    "equipment": {
+      "weapon": "flashlight",
+      "equipment1": null,
+      "equipment2": null
+    },
+    "skills": [
+      "marisa_a",
+      "marisa_b"
+    ],
+    "levelSkills": [
+      {
+        "level": 3,
+        "skillId": "marisa_c"
+      }
+    ],
+    "portrait": "public/art/portraits/characters/marisa.bmp",
+    "start": {
+      "caseId": "marisa_first_story",
+      "locationId": "dormitory"
+    }
+  }
+]

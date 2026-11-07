@@ -1,0 +1,171 @@
+[
+  {
+    "id": "marisa_gift",
+    "title": "礼物",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "marisa"
+      ]
+    },
+    "description": "一想到灵梦输给自己了可能会哭鼻子……要不要提前给她准备一点礼物呢？毕竟你是她的姐妹啊！在市图书馆的纪念品店，为灵梦挑一份礼物。",
+    "issuer": "雾雨魔理沙",
+    "startOnAccept": true,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 100
+      },
+      {
+        "kind": "money",
+        "amount": 15
+      },
+      {
+        "kind": "anomaly",
+        "amount": -10
+      }
+    ],
+    "flow": {
+      "start": "shop_intro",
+      "nodes": [
+        {
+          "id": "shop_intro",
+          "title": "纪念品店",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "近些年，为了促进旅游业，图书馆开设了纪念品店……谁会买这些又贵又意义不明的东西啊？",
+          "next": {
+            "kind": "node",
+            "id": "gift_plan"
+          }
+        },
+        {
+          "id": "gift_plan",
+          "title": "胜利的准备",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "一想到灵梦输给自己了可能会哭鼻子……要不要提前给她准备一点礼物呢？毕竟你是她的姐妹啊！",
+          "choices": [
+            {
+              "id": "shop",
+              "text": "去纪念品商店看看",
+              "next": {
+                "kind": "node",
+                "id": "choose_gift"
+              }
+            }
+          ]
+        },
+        {
+          "id": "choose_gift",
+          "title": "就这个了",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "这里的东西都好贵！而且看起来灵梦都不太会喜欢，不过来都来了，不能白跑一趟……",
+          "choices": [
+            {
+              "id": "gift_a",
+              "text": "包装好的音乐盒",
+              "next": {
+                "kind": "node",
+                "id": "bonus"
+              },
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": -6
+                },
+                {
+                  "kind": "item",
+                  "itemId": "music_box",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": "gift_b",
+              "text": "包装好的红绳手链",
+              "next": {
+                "kind": "node",
+                "id": "bonus"
+              },
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": -6
+                },
+                {
+                  "kind": "item",
+                  "itemId": "red_string_bracelet",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": "gift_c",
+              "text": "包装好的指南针",
+              "next": {
+                "kind": "node",
+                "id": "bonus"
+              },
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": -6
+                },
+                {
+                  "kind": "item",
+                  "itemId": "compass",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": "leave",
+              "text": "暂时不买",
+              "next": {
+                "kind": "end",
+                "id": "left"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bonus",
+          "title": "……赠品！",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "不过今天还有活动，买一赠一！那另一个就留给你自己了！",
+          "choices": [
+            {
+              "id": "pair",
+              "text": "是一对呢……",
+              "next": {
+                "kind": "end",
+                "id": "done"
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "done",
+          "title": "礼物",
+          "text": "给灵梦的礼物挑好了，店里的赠品则留给你自己。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/library.bmp"
+        },
+        {
+          "id": "left",
+          "title": "暂时不买",
+          "text": "先离开纪念品店，想好了再来。",
+          "outcome": "left",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/library.bmp"
+        }
+      ]
+    }
+  }
+]

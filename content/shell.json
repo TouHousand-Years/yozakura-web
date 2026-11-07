@@ -1,0 +1,9 @@
+{
+  "windowTitle": "夜樱",
+  "editorExecutableName": "夜樱编辑器",
+  "startupError": "游戏启动失败",
+  "packageComplete": "桌面游戏已生成：\n",
+  "launchError": "无法启动桌面游戏：",
+  "sandboxRetry": "启动进程以 0x80000003 退出，改用无沙箱兼容模式重试；具体原因尚未确定。",
+  "contentValidated": "内容校验通过："
+}

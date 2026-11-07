@@ -1,0 +1,472 @@
+[
+  {
+    "id": "sumireko_second_story",
+    "title": "第六章 空庭之影",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "investigator"
+      ]
+    },
+    "intro": "你来到了旧校舍，谜题的答案一定就在此处等着你！",
+    "sceneImage": "public/art/scenes/locations/old_school.bmp",
+    "flow": {
+      "start": "breath",
+      "nodes": [
+        {
+          "id": "breath",
+          "title": "快跑！",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "“魔理沙！别跑！”\n\n灵梦的声音忽然出现在门外。\n\n怎么风纪委员也来了？！那个姓博丽的可比老师还难缠，虽然她好像在追另一个女生……你赶紧缩回门后。先别让她发现你，旧校舍还没查呢。",
+          "choices": [
+            {
+              "id": "hide",
+              "text": "屏住呼吸，听清脚步的位置",
+              "next": {
+                "kind": "node",
+                "id": "listen"
+              },
+              "requires": {
+                "kind": "attribute_at_least",
+                "attributeId": "will",
+                "value": 6
+              }
+            },
+            {
+              "id": "wait",
+              "text": "躲到门后，等外面安静下来",
+              "next": {
+                "kind": "node",
+                "id": "wait"
+              },
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "listen",
+          "title": "脚步远了",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "脚步停在门外。你一动也不敢动，直到那声音转向院子的另一边，才慢慢松开顶住门板的手。",
+          "next": {
+            "kind": "node",
+            "id": "seal"
+          }
+        },
+        {
+          "id": "wait",
+          "title": "等一会儿",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你蹲在门板后面。外面有人来回走了几步，又喊了一声魔理沙。过了好一会儿，声音才远下去。",
+          "next": {
+            "kind": "node",
+            "id": "seal"
+          }
+        },
+        {
+          "id": "seal",
+          "title": "旧封条",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "门内侧贴着几张老化的封条，边缘一碰就碎了。你揭起松脱的一角，凑近辨认。落款的年份已经很久远，许多字你认不全，盖章处却还能看出政府机关的字样。这里究竟发生过什么？\n\n门边还贴着与封条年代明显不同的新勘测标记，像是近期拆迁准备留下的。",
+          "choices": [
+            {
+              "id": "look",
+              "text": "把门虚掩上，钥匙留在原处",
+              "next": {
+                "kind": "node",
+                "id": "moonlight"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moonlight",
+          "title": "月光",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "穿过门厅就是中庭。这里荒草丛生，看上去已经荒废很久，路灯也没有亮。你想起梦中闪耀的夜樱，眼前却只有一片空地和一个低矮的树桩。\n\n树桩后站着一个穿旧校服的身影。它一动不动地背对着你。",
+          "choices": [
+            {
+              "id": "wall",
+              "text": "贴着墙根绕开它",
+              "next": {
+                "kind": "node",
+                "id": "quiet"
+              },
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 10
+                }
+              ]
+            },
+            {
+              "id": "rush",
+              "text": "穿过院子，迎上那个身影",
+              "next": {
+                "kind": "node",
+                "id": "courtyard_warning"
+              }
+            }
+          ]
+        },
+        {
+          "id": "quiet",
+          "title": "绕过树桩",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你踩着没有落叶的地方绕过院子。那个身影没有转头。等它走进另一端的门洞，你才回到树桩旁。",
+          "next": {
+            "kind": "node",
+            "id": "plaque"
+          }
+        },
+        {
+          "id": "courtyard_warning",
+          "title": "无面学生",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "脚下的枯枝忽然啪地断了。那个身影注意到你，你看到她的脸上没有五官，伸手朝你扑来。",
+          "next": {
+            "kind": "node",
+            "id": "courtyard_battle"
+          }
+        },
+        {
+          "id": "courtyard_battle",
+          "title": "庭院里的无面学生",
+          "kind": "battle",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "encounter": {
+            "kind": "enemy_pool",
+            "enemyIds": [
+              "mirror_person"
+            ],
+            "rewards": []
+          },
+          "onVictory": {
+            "kind": "node",
+            "id": "courtyard_clear"
+          }
+        },
+        {
+          "id": "courtyard_clear",
+          "title": "空下来的院子",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "院子暂时安全了，你停下来听了听，门外没有新的脚步声。先看看那棵被砍掉的树吧。",
+          "next": {
+            "kind": "node",
+            "id": "plaque"
+          }
+        },
+        {
+          "id": "plaque",
+          "title": "树桩",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你拨开荒草，看见一个低矮而粗壮的树桩。借着幽暗的月光，你才发现上面的纹路不是年轮，而是无数重叠的划痕。\n\n像是两个名字和相合伞，被反复刻了成百上千遍。树桩已经千疮百孔，具体的名字完全无法辨认。",
+          "choices": [
+            {
+              "id": "read",
+              "text": "这是谁刻下的？",
+              "next": {
+                "kind": "node",
+                "id": "note"
+              }
+            }
+          ]
+        },
+        {
+          "id": "note",
+          "title": "反复刻下的名字",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "梦里盛放的樱花树，如今只剩这个树桩。即使看不清名字，你仿佛仍能看见刻刀一次次落下的样子。\n\n到底是谁执着地刻下了这些？\n\n这时，你注意到院子旁开着门的值班室。",
+          "next": {
+            "kind": "node",
+            "id": "uniform"
+          }
+        },
+        {
+          "id": "uniform",
+          "title": "灰尘铺满",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "值班室的门没锁。里面很多东西都朽坏了，全是灰，好像曾经发生过什么突然的事情，让这里的人再也没有回来。\n\n你小心避开风化的桌椅，看向墙上的值班表。",
+          "choices": [
+            {
+              "id": "check",
+              "text": "看看最后一页值班表",
+              "next": {
+                "kind": "node",
+                "id": "roster"
+              }
+            }
+          ]
+        },
+        {
+          "id": "roster",
+          "title": "值班表",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "大多数东西已经无法辨认。墙上的值班表因为一直悬挂着，积灰还不算太厚。\n\n记录停在某一年的八月，之后的格子全是空的。",
+          "choices": [
+            {
+              "id": "remember",
+              "text": "记住这个月份，继续往里找",
+              "next": {
+                "kind": "node",
+                "id": "dripping"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dripping",
+          "title": "隔壁是谁？",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你来到厕所，忽然听到一个隔间传来细微的人声。\n\n水龙头还在一滴滴漏水。\n\n你不禁后退了几步，隔间的声音却愈加接近。",
+          "choices": [
+            {
+              "id": "wait",
+              "text": "听它说话，等声音消失",
+              "next": {
+                "kind": "node",
+                "id": "restroom_wait"
+              },
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 10
+                }
+              ]
+            },
+            {
+              "id": "peek",
+              "text": "拉开隔间门，看看里面有什么",
+              "next": {
+                "kind": "node",
+                "id": "restroom_warning"
+              }
+            }
+          ]
+        },
+        {
+          "id": "restroom_wait",
+          "title": "听它说完",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你没有去碰隔间的门，只隔着门板听着里面的声音。那些断断续续的低语很轻，你始终听不清它在说谁。\n\n过了好一会儿，声音渐渐消失。你又等了片刻，才从厕所里退出来。\n\n至于隔间里有什么，还是不要好奇为好……",
+          "next": {
+            "kind": "node",
+            "id": "restroom_seal"
+          }
+        },
+        {
+          "id": "restroom_warning",
+          "title": "带血的断手",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你拉开隔间门。里面空无一物……不，地上躺着一只带血的断手，指尖朝着门口。\n\n你还没来得及退开，就感到背后有什么东西正在靠近！",
+          "next": {
+            "kind": "node",
+            "id": "restroom_battle"
+          }
+        },
+        {
+          "id": "restroom_battle",
+          "title": "身后的赤人",
+          "kind": "battle",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "encounter": {
+            "kind": "enemy_pool",
+            "enemyIds": [
+              "red_person"
+            ],
+            "rewards": []
+          },
+          "onVictory": {
+            "kind": "node",
+            "id": "restroom_clear"
+          }
+        },
+        {
+          "id": "restroom_clear",
+          "title": "只剩滴水声",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "赤人的身影消散了。你回到洗手台旁，扶着台沿缓了口气。",
+          "next": {
+            "kind": "node",
+            "id": "restroom_seal"
+          }
+        },
+        {
+          "id": "restroom_seal",
+          "title": "反正结束了……",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "隔间里已经没有声音了，你来到走廊另一端。\n\n有间房的门没有锁，你向里看去。屋里有两张并排的床，被褥还保持着有人睡过的形状。\n\n你在地上发现一张画，画上是个粉色头发的少女，看起来和你差不多年纪。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "不得不说，还挺漂亮……",
+              "next": {
+                "kind": "node",
+                "id": "beds"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beds",
+          "title": "两张床",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "床架边坐着一只旧木偶。你刚跨过门槛，它手腕上的细线便绷紧了，木头关节吱呀作响。",
+          "choices": [
+            {
+              "id": "fight",
+              "text": "挡开袭来的木偶（战斗）",
+              "next": {
+                "kind": "node",
+                "id": "room_battle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "room_battle",
+          "title": "床边的提线木偶",
+          "kind": "battle",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "encounter": {
+            "kind": "enemy_pool",
+            "enemyIds": [
+              "string_puppet"
+            ],
+            "rewards": []
+          },
+          "onVictory": {
+            "kind": "node",
+            "id": "diary"
+          }
+        },
+        {
+          "id": "diary",
+          "title": "姐妹的痕迹",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "细线断了，木偶落在地上。你绕过它，才注意到这间房间干净得异样，像是仍有人住在这里。\n\n桌上留着交换日记和几张黑白照片。两种字迹轮流写着日常琐事，还写着家人要拆散她们、安排婚配、限制她们见面……照片里的二人并肩站着。\n\n她们应当也是一对制度姐妹——这所学校里结对相伴的学姐与学妹，像博丽和雾雨那样。但究竟是谁？",
+          "choices": [
+            {
+              "id": "keep",
+              "text": "她们很要好吧？",
+              "next": {
+                "kind": "node",
+                "id": "inscription"
+              }
+            }
+          ]
+        },
+        {
+          "id": "inscription",
+          "title": "等谁回来",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "两张床、交换的日记，还有这些照片……这个房间完全不像是尘封已久，反而像是在等人回来。\n\n可你一路看到的怪异身影中，为什么会有男性的模样？这里明明是女校。那些身影与住在这里的两个人，又有什么关系？\n\n还有那个格格不入的木偶，难道住在这里的是它？不，照片里明显是两个活人，你也不记得有什么把人变成木偶的灵异。就算有那种危险的存在，也应该早就被抹杀了。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "去长椅边看看",
+              "next": {
+                "kind": "node",
+                "id": "bench"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bench",
+          "title": "路灯下的长椅",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "石板路从高高的草叶间通向长椅，旁边就是那棵树桩。长椅似乎刚好坐得下两个人，你独自坐在一端，觉得身边空得很。\n\n你低下头，却看见地上有两个清晰的影子。",
+          "next": {
+            "kind": "node",
+            "id": "shadows"
+          }
+        },
+        {
+          "id": "shadows",
+          "title": "两个影子",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "路灯没有亮，那两个影子也不像是月光投下来的。你抬起手，影子留在原位；你又往旁边挪了一点，它们都没有动。\n\n它们像是一直停留在这里，等着什么。",
+          "choices": [
+            {
+              "id": "look",
+              "text": "难道说……？",
+              "next": {
+                "kind": "node",
+                "id": "badge"
+              }
+            }
+          ]
+        },
+        {
+          "id": "badge",
+          "title": "断线",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "画像、树桩上的刻痕、日记，还有那两个不动的影子……你已经找到不少东西，却仍缺少把它们连起来的线索。\n\n你感叹俱乐部只有你一个人。这时候，要是有人能交换一下见解就好了。",
+          "choices": [
+            {
+              "id": "finish",
+              "text": "先把这些线索记下来吧",
+              "next": {
+                "kind": "end",
+                "id": "held_breath"
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 100
+                },
+                {
+                  "kind": "money",
+                  "amount": 15
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": -10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "held_breath",
+          "title": "尚有疑点",
+          "text": "你又看了一眼地上凝固的影子。光靠眼前这些线索，还无法解开谜题。\n\n这时院外传来了说话声。\n\n是啊，今晚这里可不止你一人。你抬起头，决定循着声音的方向去看看。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+        }
+      ]
+    }
+  }
+]

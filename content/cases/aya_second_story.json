@@ -1,0 +1,333 @@
+[
+  {
+    "id": "aya_second_story",
+    "title": "第八章 寻名问形",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "intro": "回到宿舍整理笔记时，二岩会长的电话正好打来。是时候把你记下的旧报道与校史照片拿出来逐一核对了。",
+    "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+    "stages": [
+      {
+        "id": "call",
+        "title": "会长来电",
+        "locationId": "dormitory",
+        "start": "dorm_intro"
+      },
+      {
+        "id": "fortune",
+        "title": "请教占卜师",
+        "locationId": "park",
+        "start": "fortune_intro"
+      },
+      {
+        "id": "ritual",
+        "title": "确认答案",
+        "locationId": "old_school",
+        "start": "reception"
+      }
+    ],
+    "flow": {
+      "start": "dorm_intro",
+      "nodes": [
+        {
+          "id": "dorm_intro",
+          "title": "宿舍",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "text": "少女们的宿舍，一切故事的起点……。",
+          "next": {
+            "kind": "node",
+            "id": "old_dream"
+          }
+        },
+        {
+          "id": "old_dream",
+          "title": "梦里的名字",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "text": "电话里，二岩会长报出了那两个名字，你立马就从床上蹦了起来。\n\n入学后，你为了报道开始追查校园旧事，从那时起，那些断断续续的梦境便频繁袭来。\n\n梦里那金发少女哭泣着道歉，模糊的脸庞在破碎的樱花中闪现，她说她失约了……",
+          "choices": [
+            {
+              "id": "name",
+              "text": "“幽幽子，和……”",
+              "next": {
+                "kind": "node",
+                "id": "names"
+              }
+            }
+          ]
+        },
+        {
+          "id": "names",
+          "title": "两位当事人",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "text": "猯藏会长提到的名字，你感到一阵熟悉。你立刻从调查笔记中翻找出此前在图书馆查阅的旧报道，又拿出那些旧照片。\n\n随着信息逐渐吻合，梦中那个金发少女的身份在你心中呼之欲出——那正是八云紫。",
+          "choices": [
+            {
+              "id": "confirm",
+              "text": "整理资料",
+              "next": {
+                "kind": "node",
+                "id": "silence"
+              }
+            }
+          ]
+        },
+        {
+          "id": "silence",
+          "title": "核对",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "text": "报道中的信息终于连成了一线：梦中的金发少女是八云紫，她在当年被救了下来，但再也没回到学校。\n\n然而，后来她突然失踪，没人知道她去了哪里。人们猜测她是因思念故人投水自尽……这就解释了她为什么会出现在梦中，带着那份沉重的失约歉意。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "“现在，只要再确认一件事……”",
+              "next": {
+                "kind": "end",
+                "id": "to_fortune"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fortune_intro",
+          "title": "占卜小店",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "新开的占卜店，店长虽然是日本人，不过却穿得又像吉卜赛人又像西洋人，东西方的占卜法也都会。",
+          "next": {
+            "kind": "node",
+            "id": "night_shop"
+          }
+        },
+        {
+          "id": "night_shop",
+          "title": "两个人形，一个影子",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你将那张在公园拍下的樱花照片出示给占卜师看。他接过照片，用放大镜仔细端详了片刻，眉头紧锁地指着花瓣间那处空隙。\n\n“嗯……这两个模糊的人形虽然重叠在一起，但地上的影子却只有一个。”他将照片还给你，“这不正常，难道这地方其实并没有两个灵魂，而是……完全是一个人的执念？”",
+          "choices": [
+            {
+              "id": "ask",
+              "text": "“那要如何验证？”",
+              "next": {
+                "kind": "node",
+                "id": "instructions"
+              }
+            }
+          ]
+        },
+        {
+          "id": "instructions",
+          "title": "仪式规则",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "占卜师点燃了一根不知名的熏香，为你描述了那个仪式。\n\n“仪式很简单，如果有两个独立的回应，它们会在烟雾中留下各自的痕迹。”\n\n“反之，如果只有单一的灵魂，无论如何它都只会产生同一道痕迹。”\n\n他将纸递给你，“这就是验证的方法，去吧，用它看清旧校舍里那究竟是什么。”",
+          "choices": [
+            {
+              "id": "listen",
+              "text": "认真倾听",
+              "next": {
+                "kind": "node",
+                "id": "spiritualism"
+              }
+            }
+          ]
+        },
+        {
+          "id": "spiritualism",
+          "title": "准备出发",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你感到信心倍增。今夜，那个答案终于要揭晓了。你离开了公园，奔向旧校舍。",
+          "choices": [
+            {
+              "id": "go",
+              "text": "前往旧校舍",
+              "next": {
+                "kind": "end",
+                "id": "to_school"
+              }
+            }
+          ]
+        },
+        {
+          "id": "reception",
+          "title": "接待",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你走进旧校舍的大厅。\n\n借着月光，你隐约能看见一个身形——不，更准确地说只是聚成人形的……某种东西。你看不清它的脸，那里只是一片模糊。\n\n它朝着闹鬼房间走去，也不回头看你，像是相信你会跟上来一样。",
+          "choices": [
+            {
+              "id": "follow",
+              "text": "“……带路吗？”",
+              "next": {
+                "kind": "node",
+                "id": "ritual"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ritual",
+          "title": "仪式",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你走进房间，窗外虽然已经不见了樱花，却好像还是能闻到香气。没有光源，但房间是幽幽地亮着的，你感觉到那个影子正坐在窗边。",
+          "choices": [
+            {
+              "id": "perform",
+              "text": "“不敢相信我真的要这么做……”",
+              "next": {
+                "kind": "node",
+                "id": "answer"
+              }
+            }
+          ]
+        },
+        {
+          "id": "answer",
+          "title": "答案",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你屏住呼吸，点燃了仪式所需的熏香。烟雾在房间内缓缓弥漫，你紧盯着那黑影。随着咒语念出，烟雾中显现出了两张面孔，但仔细看，这只是同一道痕迹。这里确实只有一个真正的怨灵。\n\n没错，留下来的，是幽幽子。",
+          "choices": [
+            {
+              "id": "confirm",
+              "text": "如我所料？",
+              "next": {
+                "kind": "node",
+                "id": "bench_intro"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bench_intro",
+          "title": "路灯下的长椅",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "“喂，记者小姐！这边！”\n\n这时，你听见有人呼唤着你。",
+          "choices": [
+            {
+              "id": "continue",
+              "text": "看来你也按约定来了",
+              "next": {
+                "kind": "node",
+                "id": "gathering"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gathering",
+          "title": "集合",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "回过神来，黑影已经不见了。你循着声音走下楼去，今夜你并不孤独。\n\n但你发现来的人比想象中多不少，学生会长二岩猯藏和其他的学生们都在这里了。\n\n为什么偏偏是今天，大家都不约而同地聚集在这里？",
+          "choices": [
+            {
+              "id": "finish",
+              "text": "快结束了",
+              "next": {
+                "kind": "end",
+                "id": "final_piece"
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 100
+                },
+                {
+                  "kind": "money",
+                  "amount": 15
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": -10
+                }
+              ]
+            },
+            {
+              "id": "photo",
+              "text": "出示砍树前的照片",
+              "requires": {
+                "kind": "task_completed",
+                "taskId": "aya_extra_information"
+              },
+              "next": {
+                "kind": "node",
+                "id": "photo_proof"
+              }
+            }
+          ]
+        },
+        {
+          "id": "photo_proof",
+          "title": "砍树前的照片",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "你掏出那张旧照，还看到堇子手中的少女画像、猯藏手中的校史照片……\n\n“看这里，这就是那棵树，而且她们站的位置……”随着你的指引，众人仿佛看到了当年幽幽子与紫曾并肩在树下的样子，这与如今庭院遗迹的布局完全吻合。",
+          "choices": [
+            {
+              "id": "finish",
+              "text": "快结束了",
+              "next": {
+                "kind": "end",
+                "id": "final_piece"
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 100
+                },
+                {
+                  "kind": "money",
+                  "amount": 15
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": -10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "to_fortune",
+          "title": "去公园确认",
+          "text": "带着刚刚记下的名字和心中的疑问，你决定去公园找占卜师。",
+          "outcome": "stage_completed",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "nextStage": "fortune"
+        },
+        {
+          "id": "to_school",
+          "title": "前往旧校舍",
+          "text": "你记住占卜师教的方法，带上仪式所需之物，前往旧校舍亲眼确认。",
+          "outcome": "stage_completed",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "nextStage": "ritual"
+        },
+        {
+          "id": "final_piece",
+          "title": "最后的拼图",
+          "text": "快结束了，只需将最后的拼图拼好，你们五个人都在等待着的那个答案，就呼之欲出。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+        }
+      ]
+    }
+  }
+]

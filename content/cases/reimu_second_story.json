@@ -1,0 +1,223 @@
+[
+  {
+    "id": "reimu_second_story",
+    "title": "第十章 此言须达",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "reimu"
+      ]
+    },
+    "intro": "有些话来不及传达，有些误会留了太久。今晚至少要让她听见。",
+    "sceneImage": "public/art/scenes/locations/old_school.bmp",
+    "stages": [
+      {
+        "id": "release",
+        "title": "最后的工作",
+        "locationId": "old_school",
+        "start": "courtyard_intro"
+      }
+    ],
+    "flow": {
+      "start": "courtyard_intro",
+      "nodes": [
+        {
+          "id": "courtyard_intro",
+          "title": "庭院",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "这一夜实在发生了太多事。你在广场追上魔理沙后，与她联手击退了袭击过来的二宫像，随后一起去学生会调查、到公园折来樱花枝献在树桩前，却没能平息异象。\n\n直到五个人在庭院会合，猯藏会长拿出了当年八云紫获救离校的记录，堇子展示了写有家庭阻挠与婚配压力的交换日记，文又通过仪式验证了这组异象全都源自西行寺幽幽子一人——所有的线索终于拼合完整。如今，轮到你进那个房间去解除危险的束缚，好让文把迟来的话传达给对方了。",
+          "next": {
+            "kind": "node",
+            "id": "tactics"
+          }
+        },
+        {
+          "id": "tactics",
+          "title": "战术",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "“我去把西行寺小姐的怨念祛除，之后就交给你了，文。”\n\n校报记者对你点了点头。",
+          "choices": [
+            {
+              "id": "enter",
+              "text": "“那我上了。”",
+              "next": {
+                "kind": "node",
+                "id": "room_intro"
+              }
+            }
+          ]
+        },
+        {
+          "id": "room_intro",
+          "title": "闹鬼的房间",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "马上就结束了，但是夜晚还长着呢……",
+          "next": {
+            "kind": "node",
+            "id": "two_figures"
+          }
+        },
+        {
+          "id": "two_figures",
+          "title": "两个",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "房间里有一个黑影，反复分成相依的两个人形。",
+          "choices": [
+            {
+              "id": "greet",
+              "text": "“打扰了……”",
+              "next": {
+                "kind": "node",
+                "id": "obsession"
+              }
+            }
+          ]
+        },
+        {
+          "id": "obsession",
+          "title": "执念",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "又有影子从那身影中浮现：先是父亲的影子，然后又是另一些人，这些人当中坐着一具木偶……嘈杂的声音在你耳边响起，像是某种斥责的声音。即使没有亲身经历那些事，你也大概能理解她们遭遇了什么……等等，那些影子攻过来了！",
+          "choices": [
+            {
+              "id": "confront",
+              "text": "解决他们",
+              "next": {
+                "kind": "node",
+                "id": "puppet_battle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "puppet_battle",
+          "title": "提线木偶",
+          "kind": "battle",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "encounter": {
+            "kind": "enemy_pool",
+            "enemyIds": [
+              "string_puppet"
+            ],
+            "rewards": []
+          },
+          "onVictory": {
+            "kind": "node",
+            "id": "puppet_after"
+          }
+        },
+        {
+          "id": "puppet_after",
+          "title": "第一次不同的反应",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "随着你的攻击，那具巨大的提线木偶在一声脆响中化为碎片。那残留的黑影第一次停止了那无休止的循环。",
+          "choices": [
+            {
+              "id": "next",
+              "text": "继续前进",
+              "next": {
+                "kind": "node",
+                "id": "shadow_battle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "shadow_battle",
+          "title": "男人的阴影",
+          "kind": "battle",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "encounter": {
+            "kind": "enemy_pool",
+            "enemyIds": [
+              "fathers_shadow"
+            ],
+            "rewards": []
+          },
+          "onVictory": {
+            "kind": "node",
+            "id": "shadow_after"
+          }
+        },
+        {
+          "id": "shadow_after",
+          "title": "斥责减弱",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "当男人的阴影也被驱散，那股一直笼罩在空间中，令人窒息的压迫感终于消散了。你耳边的嘈杂声音也逐渐减弱。",
+          "choices": [
+            {
+              "id": "next",
+              "text": "直面最后的执念",
+              "next": {
+                "kind": "node",
+                "id": "final_battle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "final_battle",
+          "title": "永远地相伴",
+          "kind": "battle",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "encounter": {
+            "kind": "battle",
+            "battleId": "reimu_final_obsession"
+          },
+          "onVictory": {
+            "kind": "node",
+            "id": "ayas_turn"
+          }
+        },
+        {
+          "id": "ayas_turn",
+          "title": "文的回合",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "text": "战斗的余波平息，房间内的阴霾彻底散去。你又看了房间里那个已恢复平静的影子一眼。你向门口的射命丸文点了点头，退出了房间。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "“有事儿就先跑。”",
+              "next": {
+                "kind": "end",
+                "id": "handoff"
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 100
+                },
+                {
+                  "kind": "money",
+                  "amount": 15
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": -10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "handoff",
+          "title": "交棒",
+          "text": "你让文完成最后的一步。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sumireko_old_school_ghost",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "investigator"
+      ]
+    },
+    "enemyId": "fathers_shadow",
+    "rewards": []
+  },
+  {
+    "id": "aya_basement_apparition",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "enemyId": "anatomical_mannequin",
+    "rewards": []
+  },
+  {
+    "id": "reimu_chapel_mystery",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "reimu"
+      ]
+    },
+    "enemyId": "smiling_bloody_madonna",
+    "rewards": []
+  },
+  {
+    "id": "reimu_final_obsession",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "reimu"
+      ]
+    },
+    "enemyId": "eternal_companionship",
+    "rewards": []
+  }
+]

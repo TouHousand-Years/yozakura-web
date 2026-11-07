@@ -1,0 +1,989 @@
+{
+  "start": "dormitory",
+  "locations": [
+    {
+      "id": "dormitory",
+      "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+      "name": "学生宿舍",
+      "description": "学生宿舍，校外地点。",
+      "x": 347,
+      "y": 103,
+      "localMap": {
+        "image": "public/art/maps/local/clinic.bmp",
+        "actions": [
+          {
+            "id": "sumireko_first_story_dormitory",
+            "kind": "case",
+            "caseId": "sumireko_first_story",
+            "stageId": "dormitory",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "investigator"
+              ]
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "marisa_first_story_dormitory",
+            "kind": "case",
+            "caseId": "marisa_first_story",
+            "stageId": "dormitory",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 224,
+            "y": 80
+          },
+          {
+            "id": "reimu_first_story_dormitory",
+            "kind": "case",
+            "caseId": "reimu_first_story",
+            "stageId": "dormitory",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 304,
+            "y": 80
+          },
+          {
+            "id": "aya_second_call",
+            "kind": "case",
+            "caseId": "aya_second_story",
+            "stageId": "call",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "dormitory_rest",
+            "kind": "facility",
+            "facilityId": "dormitory_rest",
+            "x": 384,
+            "y": 80
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/clinic.bmp",
+      "campus": false
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "sumireko_first_story_classroom",
+            "kind": "case",
+            "caseId": "sumireko_first_story",
+            "stageId": "classroom",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "investigator"
+              ]
+            },
+            "x": 64,
+            "y": 80
+          },
+          {
+            "id": "mamizou_sisters_duty_0_offer",
+            "kind": "task",
+            "taskId": "mamizou_sisters_duty",
+            "facilityId": "mamizou_sisters_duty_board",
+            "phase": "offer",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "mamizou_sisters_duty_0_progress",
+            "kind": "task",
+            "taskId": "mamizou_sisters_duty",
+            "facilityId": "mamizou_sisters_duty_board",
+            "phase": "progress",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 224,
+            "y": 80
+          },
+          {
+            "id": "aya_first_story_delivery",
+            "kind": "case",
+            "caseId": "aya_first_story",
+            "stageId": "delivery",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "x": 304,
+            "y": 80
+          },
+          {
+            "id": "reimu_first_story_classroom",
+            "kind": "case",
+            "caseId": "reimu_first_story",
+            "stageId": "classroom",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 384,
+            "y": 80
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "teaching_building",
+      "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+      "name": "教学楼",
+      "x": 256,
+      "y": 273,
+      "campus": true,
+      "description": "教学楼，校内地点。"
+    },
+    {
+      "id": "square",
+      "sceneImage": "public/art/scenes/locations/square.bmp",
+      "name": "广场",
+      "description": "广场，校内地点。",
+      "x": 408,
+      "y": 305,
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "marisa_second_square",
+            "kind": "case",
+            "caseId": "marisa_second_story",
+            "stageId": "square",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "campus": true
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "mamizou_first_story_chapel",
+            "kind": "case",
+            "caseId": "mamizou_first_story",
+            "stageId": "chapel",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 64,
+            "y": 80
+          },
+          {
+            "id": "aya_basement_help_0_offer",
+            "kind": "task",
+            "taskId": "aya_basement_help",
+            "facilityId": "aya_basement_help_board",
+            "phase": "offer",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "visibleWhen": {
+              "kind": "case_stage_completed",
+              "caseId": "aya_first_story",
+              "stageId": "fortune"
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "aya_basement_help_0_progress",
+            "kind": "task",
+            "taskId": "aya_basement_help",
+            "facilityId": "aya_basement_help_board",
+            "phase": "progress",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "visibleWhen": {
+              "kind": "case_stage_completed",
+              "caseId": "aya_first_story",
+              "stageId": "fortune"
+            },
+            "x": 224,
+            "y": 80
+          },
+          {
+            "id": "marisa_first_story_warehouse",
+            "kind": "case",
+            "caseId": "marisa_first_story",
+            "stageId": "warehouse",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 304,
+            "y": 80
+          },
+          {
+            "id": "reimu_first_story_chapel",
+            "kind": "case",
+            "caseId": "reimu_first_story",
+            "stageId": "chapel",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 384,
+            "y": 80
+          },
+          {
+            "id": "auditorium_donation",
+            "kind": "facility",
+            "facilityId": "auditorium_donation",
+            "x": 464,
+            "y": 80
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "auditorium",
+      "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+      "name": "礼堂",
+      "x": 422,
+      "y": 215,
+      "campus": true,
+      "description": "礼堂，校内地点。"
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "mamizou_first_story_council",
+            "kind": "case",
+            "caseId": "mamizou_first_story",
+            "stageId": "council",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 64,
+            "y": 80
+          },
+          {
+            "id": "aya_extra_information_0_offer",
+            "kind": "task",
+            "taskId": "aya_extra_information",
+            "facilityId": "aya_extra_information_board",
+            "phase": "offer",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "visibleWhen": {
+              "kind": "case_stage_completed",
+              "caseId": "aya_first_story",
+              "stageId": "fortune"
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "aya_extra_information_0_progress",
+            "kind": "task",
+            "taskId": "aya_extra_information",
+            "facilityId": "aya_extra_information_board",
+            "phase": "progress",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "visibleWhen": {
+              "kind": "case_stage_completed",
+              "caseId": "aya_first_story",
+              "stageId": "fortune"
+            },
+            "x": 224,
+            "y": 80
+          },
+          {
+            "id": "marisa_second_archives",
+            "kind": "case",
+            "caseId": "marisa_second_story",
+            "stageId": "archives",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "mamizou_first_story_report",
+            "kind": "case",
+            "caseId": "mamizou_first_story",
+            "stageId": "report",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 144,
+            "y": 80
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "student_union",
+      "sceneImage": "public/art/scenes/locations/student_union.bmp",
+      "name": "学生会",
+      "x": 482,
+      "y": 397,
+      "campus": true,
+      "description": "学生会，校内地点。"
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "clinic_shop",
+            "kind": "shop",
+            "facilityId": "clinic_kiosk",
+            "x": 312,
+            "y": 99
+          },
+          {
+            "id": "mamizou_first_story_kiosk",
+            "kind": "case",
+            "caseId": "mamizou_first_story",
+            "stageId": "kiosk",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "reimu_first_story_kiosk",
+            "kind": "case",
+            "caseId": "reimu_first_story",
+            "stageId": "kiosk",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 384,
+            "y": 80
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "kiosk",
+      "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+      "name": "小卖部",
+      "x": 239,
+      "y": 203,
+      "campus": true,
+      "description": "小卖部，校内地点。"
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "sumireko_first_story_old_school",
+            "kind": "case",
+            "caseId": "sumireko_first_story",
+            "stageId": "old_school",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "investigator"
+              ]
+            },
+            "x": 64,
+            "y": 80
+          },
+          {
+            "id": "marisa_first_story_gate",
+            "kind": "case",
+            "caseId": "marisa_first_story",
+            "stageId": "gate",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "marisa_first_story_waiting",
+            "kind": "case",
+            "caseId": "marisa_first_story",
+            "stageId": "waiting",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 224,
+            "y": 80
+          },
+          {
+            "id": "reimu_first_story_first_gate",
+            "kind": "case",
+            "caseId": "reimu_first_story",
+            "stageId": "first_gate",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 304,
+            "y": 80
+          },
+          {
+            "id": "reimu_first_story_return_gate",
+            "kind": "case",
+            "caseId": "reimu_first_story",
+            "stageId": "return_gate",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 384,
+            "y": 80
+          },
+          {
+            "id": "sumireko_second_story_old_school",
+            "kind": "case",
+            "caseId": "sumireko_second_story",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "investigator"
+              ]
+            },
+            "visibleWhen": {
+              "kind": "case_completed",
+              "caseId": "sumireko_first_story"
+            },
+            "x": 64,
+            "y": 80
+          },
+          {
+            "id": "marisa_second_offering",
+            "kind": "case",
+            "caseId": "marisa_second_story",
+            "stageId": "offering",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "aya_second_ritual",
+            "kind": "case",
+            "caseId": "aya_second_story",
+            "stageId": "ritual",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "mamizou_second_story_entry",
+            "kind": "case",
+            "caseId": "mamizou_second_story",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "reimu_second_release",
+            "kind": "case",
+            "caseId": "reimu_second_story",
+            "stageId": "release",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "reimu"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "old_school",
+      "sceneImage": "public/art/scenes/locations/old_school.bmp",
+      "name": "旧校舍",
+      "x": 263,
+      "y": 371,
+      "campus": true,
+      "description": "旧校舍，校内地点。"
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "aya_first_story_fortune",
+            "kind": "case",
+            "caseId": "aya_first_story",
+            "stageId": "fortune",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "x": 64,
+            "y": 80
+          },
+          {
+            "id": "park_divination",
+            "kind": "facility",
+            "facilityId": "park_divination",
+            "x": 480,
+            "y": 99
+          },
+          {
+            "id": "marisa_second_blossom",
+            "kind": "case",
+            "caseId": "marisa_second_story",
+            "stageId": "blossom",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "aya_second_fortune",
+            "kind": "case",
+            "caseId": "aya_second_story",
+            "stageId": "fortune",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "park",
+      "sceneImage": "public/art/scenes/locations/park.bmp",
+      "name": "公园",
+      "x": 680,
+      "y": 165,
+      "campus": false,
+      "description": "公园，校外地点。"
+    },
+    {
+      "id": "library",
+      "sceneImage": "public/art/scenes/locations/library.bmp",
+      "name": "市图书馆",
+      "description": "市图书馆，校外地点。",
+      "x": 639,
+      "y": 388,
+      "localMap": {
+        "image": "public/art/maps/local/archive.bmp",
+        "actions": [
+          {
+            "id": "library_reading",
+            "kind": "facility",
+            "facilityId": "library_reading",
+            "x": 384,
+            "y": 160
+          },
+          {
+            "id": "aya_first_story_archive",
+            "kind": "case",
+            "caseId": "aya_first_story",
+            "stageId": "archive",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "aya"
+              ]
+            },
+            "x": 144,
+            "y": 80
+          },
+          {
+            "id": "marisa_gift_0_offer",
+            "kind": "task",
+            "taskId": "marisa_gift",
+            "facilityId": "marisa_gift_board",
+            "phase": "offer",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 224,
+            "y": 80
+          },
+          {
+            "id": "marisa_gift_0_progress",
+            "kind": "task",
+            "taskId": "marisa_gift",
+            "facilityId": "marisa_gift_board",
+            "phase": "progress",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "marisa"
+              ]
+            },
+            "x": 304,
+            "y": 80
+          },
+          {
+            "id": "library_souvenir",
+            "kind": "shop",
+            "facilityId": "library_souvenir",
+            "x": 480,
+            "y": 99
+          },
+          {
+            "id": "mamizou_first_story_research",
+            "kind": "case",
+            "caseId": "mamizou_first_story",
+            "stageId": "research",
+            "scope": {
+              "kind": "characters",
+              "characterIds": [
+                "mamizou"
+              ]
+            },
+            "x": 64,
+            "y": 80
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/archive.bmp",
+      "campus": false
+    },
+    {
+      "localMap": {
+        "image": "public/art/maps/local/square.bmp",
+        "actions": [
+          {
+            "id": "square_market",
+            "kind": "shop",
+            "facilityId": "square_market",
+            "x": 312,
+            "y": 99
+          }
+        ]
+      },
+      "mapIcon": "public/art/maps/locations/square.bmp",
+      "id": "market",
+      "sceneImage": "public/art/scenes/locations/market.bmp",
+      "name": "市场",
+      "x": 120,
+      "y": 349,
+      "campus": false,
+      "description": "市场，校外地点。"
+    }
+  ],
+  "roads": [],
+  "cases": [
+    {
+      "caseId": "mamizou_first_story",
+      "locationId": "auditorium",
+      "requires": []
+    },
+    {
+      "caseId": "aya_first_story",
+      "locationId": "library",
+      "requires": []
+    },
+    {
+      "caseId": "sumireko_first_story",
+      "locationId": "dormitory",
+      "requires": []
+    },
+    {
+      "caseId": "marisa_first_story",
+      "locationId": "dormitory",
+      "requires": []
+    },
+    {
+      "caseId": "reimu_first_story",
+      "locationId": "dormitory",
+      "requires": []
+    },
+    {
+      "caseId": "sumireko_second_story",
+      "locationId": "old_school",
+      "requires": [
+        "sumireko_first_story"
+      ]
+    },
+    {
+      "caseId": "marisa_second_story",
+      "locationId": "square",
+      "requires": [
+        "marisa_first_story"
+      ]
+    },
+    {
+      "caseId": "aya_second_story",
+      "locationId": "dormitory",
+      "requires": [
+        "aya_first_story"
+      ]
+    },
+    {
+      "caseId": "mamizou_second_story",
+      "locationId": "old_school",
+      "requires": [
+        "mamizou_first_story"
+      ]
+    },
+    {
+      "caseId": "reimu_second_story",
+      "locationId": "old_school",
+      "requires": [
+        "reimu_first_story"
+      ]
+    }
+  ],
+  "eventInterval": 1,
+  "mapImage": "public/art/maps/world/city.bmp",
+  "facilities": [
+    {
+      "id": "clinic_kiosk",
+      "locationId": "kiosk",
+      "kind": "shop",
+      "shopId": "kiosk",
+      "name": "小卖部",
+      "description": "购买日常消耗用品。"
+    },
+    {
+      "id": "square_market",
+      "locationId": "market",
+      "kind": "shop",
+      "shopId": "market",
+      "name": "市场",
+      "description": "购买日常工具和装备。"
+    },
+    {
+      "id": "mamizou_sisters_duty_board",
+      "kind": "task_board",
+      "name": "姐姐的职责",
+      "locationId": "teaching_building",
+      "taskIds": [
+        "mamizou_sisters_duty"
+      ],
+      "scope": {
+        "kind": "characters",
+        "characterIds": [
+          "mamizou"
+        ]
+      }
+    },
+    {
+      "id": "aya_basement_help_board",
+      "kind": "task_board",
+      "name": "地下室的帮忙",
+      "locationId": "auditorium",
+      "taskIds": [
+        "aya_basement_help"
+      ],
+      "scope": {
+        "kind": "characters",
+        "characterIds": [
+          "aya"
+        ]
+      }
+    },
+    {
+      "id": "aya_extra_information_board",
+      "kind": "task_board",
+      "name": "额外情报",
+      "locationId": "student_union",
+      "taskIds": [
+        "aya_extra_information"
+      ],
+      "scope": {
+        "kind": "characters",
+        "characterIds": [
+          "aya"
+        ]
+      }
+    },
+    {
+      "id": "marisa_gift_board",
+      "kind": "task_board",
+      "name": "礼物",
+      "locationId": "library",
+      "taskIds": [
+        "marisa_gift"
+      ],
+      "scope": {
+        "kind": "characters",
+        "characterIds": [
+          "marisa"
+        ]
+      }
+    },
+    {
+      "id": "library_souvenir",
+      "locationId": "library",
+      "kind": "shop",
+      "shopId": "souvenir",
+      "name": "纪念品商店",
+      "description": "购买纪念品。"
+    }
+  ],
+  "actionIcons": {
+    "main": {
+      "image": "public/art/icons/map-main.bmp",
+      "label": "主线任务推进"
+    },
+    "accept": {
+      "image": "public/art/icons/map-accept.bmp",
+      "label": "支线任务接取"
+    },
+    "progress": {
+      "image": "public/art/icons/map-progress.bmp",
+      "label": "支线任务推进"
+    },
+    "shop": {
+      "image": "public/art/icons/map-shop.bmp",
+      "label": "商店&特殊"
+    },
+    "facility": {
+      "image": "public/art/icons/map-shop.bmp",
+      "label": "特殊设施"
+    }
+  },
+  "nodeIcons": {
+    "main": {
+      "image": "public/art/icons/world-map-main.bmp",
+      "label": "主线推进"
+    },
+    "accept": {
+      "image": "public/art/icons/world-map-accept.bmp",
+      "label": "支线接取"
+    },
+    "progress": {
+      "image": "public/art/icons/world-map-progress.bmp",
+      "label": "支线推进"
+    },
+    "shop": {
+      "image": "public/art/icons/world-map-shop.bmp",
+      "label": "商店"
+    },
+    "none": {
+      "image": "public/art/icons/world-map-none.bmp",
+      "label": "无特殊"
+    },
+    "facility": {
+      "image": "public/art/icons/world-map-shop.bmp",
+      "label": "特殊设施"
+    }
+  },
+  "playerImage": "public/art/icons/world-map-player.bmp",
+  "mapSize": {
+    "width": 768,
+    "height": 512
+  },
+  "completedActionImage": "public/art/icons/map-completed.bmp",
+  "travel": {
+    "pixelsPerDistance": 100,
+    "campusTransitionTime": 1
+  }
+}

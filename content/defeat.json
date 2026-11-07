@@ -1,0 +1,12 @@
+{
+  "id": "defeat",
+  "pageBreak": "[pagebreak]",
+  "continueLabel": "点击以继续",
+  "text": "还是不行吗，难道是我看错人了？\n[pagebreak]\n不，还是再给她们一次机会吧。\n[pagebreak]\n非常抱歉，我现在无法出面，还需要你的帮忙……\n[pagebreak]\n帮我传递迟来的道歉……",
+  "parts": [
+    { "id": "doubt", "music": "menu" },
+    { "id": "chance", "music": "menu" },
+    { "id": "request", "music": "menu" },
+    { "id": "apology", "music": "menu" }
+  ]
+}

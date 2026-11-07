@@ -1,0 +1,450 @@
+[
+  {
+    "id": "tanuki_pillow",
+    "name": "狸抱枕",
+    "attributes": {},
+    "stats": {
+      "mentalAvoidanceChance": 0.1,
+      "physicalAvoidanceChance": 0.1
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "狸抱枕",
+        "persistent": "持有 {count}",
+        "hover": "软乎乎的狸猫抱枕，能给人心灵的慰藉。"
+      }
+    },
+    "image": "public/art/equipment/tanuki_pillow.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "smartphone",
+    "name": "智能手机",
+    "attributes": {
+      "knowledge": 2
+    },
+    "stats": {
+      "experienceMultiplier": 0.1
+    },
+    "skills": [
+      "burst_photo"
+    ],
+    "display": {
+      "default": {
+        "label": "智能手机",
+        "persistent": "持有 {count}",
+        "hover": "一部还没断网的智能手机。\n既能查资料，又能拍摄照片，真是方便。"
+      }
+    },
+    "image": "public/art/equipment/smartphone.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "patched_uniform",
+    "name": "缝补过的校服",
+    "attributes": {
+      "strength": 1,
+      "constitution": 1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "缝补过的校服",
+        "persistent": "持有 {count}",
+        "hover": "缝了又补的旧校服。"
+      }
+    },
+    "image": "public/art/equipment/patched_uniform.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  },
+  {
+    "id": "music_box",
+    "name": "八音盒",
+    "attributes": {
+      "spirit": 2
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "八音盒",
+        "persistent": "持有 {count}",
+        "hover": "上满发条就会奏出旋律的八音盒。"
+      }
+    },
+    "image": "public/art/equipment/music_box.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "duty_armband",
+    "name": "值日袖章",
+    "attributes": {
+      "will": 1,
+      "constitution": 1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "值日袖章",
+        "persistent": "持有 {count}",
+        "hover": "红色的值日袖章。"
+      }
+    },
+    "image": "public/art/equipment/duty_armband.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "cut_resistant_gloves",
+    "name": "防割手套",
+    "attributes": {
+      "strength": 1
+    },
+    "stats": {
+      "physicalAvoidanceChance": 0.1
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "防割手套",
+        "persistent": "持有 {count}",
+        "hover": "耐磨防割的手套，让你握紧刀刃也不会受伤。"
+      }
+    },
+    "image": "public/art/equipment/cut_resistant_gloves.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  },
+  {
+    "id": "track_spikes",
+    "name": "田径钉鞋",
+    "attributes": {
+      "agility": 2
+    },
+    "stats": {
+      "movementSpeed": 0.1
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "田径钉鞋",
+        "persistent": "持有 {count}",
+        "hover": "鞋底满是钉子的田径鞋。"
+      }
+    },
+    "image": "public/art/equipment/track_spikes.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "goggles",
+    "name": "护目镜",
+    "attributes": {},
+    "stats": {
+      "physicalAvoidanceChance": 0.05
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "护目镜",
+        "persistent": "持有 {count}",
+        "hover": "防飞溅的护目镜。\n进入实验室前必须佩戴。"
+      }
+    },
+    "image": "public/art/equipment/goggles.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  },
+  {
+    "id": "simple_bracelet",
+    "name": "简单手镯",
+    "attributes": {},
+    "stats": {
+      "mentalAvoidanceChance": 0.05
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "简单手镯",
+        "persistent": "持有 {count}",
+        "hover": "一枚素净的金属手镯。"
+      }
+    },
+    "image": "public/art/equipment/simple_bracelet.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "red_string_bracelet",
+    "name": "红绳手链",
+    "attributes": {
+      "will": 1
+    },
+    "stats": {
+      "mentalAvoidanceChance": 0.05
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "红绳手链",
+        "persistent": "持有 {count}",
+        "hover": "系在腕上的红绳手链。\n据说红绳能避邪，希望那是真的。"
+      }
+    },
+    "image": "public/art/equipment/red_string_bracelet.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "knee_pads",
+    "name": "运动护膝",
+    "attributes": {
+      "constitution": 2
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "运动护膝",
+        "persistent": "持有 {count}",
+        "hover": "保护膝盖的运动护膝，让你摔倒了还能再站起来。"
+      }
+    },
+    "image": "public/art/equipment/knee_pads.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  },
+  {
+    "id": "black_glasses",
+    "name": "黑框眼镜",
+    "attributes": {
+      "knowledge": 3,
+      "constitution": -1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "黑框眼镜",
+        "persistent": "持有 {count}",
+        "hover": "尺寸合适的黑框眼镜。\n戴上之后，你感觉思路都清晰了。"
+      }
+    },
+    "image": "public/art/equipment/black_glasses.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "blank_name_tag",
+    "name": "空白姓名牌",
+    "attributes": {
+      "will": -1
+    },
+    "stats": {
+      "mentalAvoidanceChance": 0.15
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "空白姓名牌",
+        "persistent": "持有 {count}",
+        "hover": "没有名字的姓名牌，曾属于谁已经没人知道。"
+      }
+    },
+    "image": "public/art/equipment/blank_name_tag.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "library_card",
+    "name": "借书证",
+    "attributes": {},
+    "stats": {
+      "experienceMultiplier": 0.2
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "借书证",
+        "persistent": "持有 {count}",
+        "hover": "一张图书馆的借书证。\n从密密麻麻的借阅记录可以看出，其主人应该也是个热爱学习之人。"
+      }
+    },
+    "image": "public/art/equipment/library_card.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "reverse_watch",
+    "name": "倒走的腕表",
+    "attributes": {
+      "will": 1,
+      "spirit": 1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "倒走的腕表",
+        "persistent": "持有 {count}",
+        "hover": "指针逆走的旧腕表，看起来十分诡异。\n时间像是能倒流，只是它从没真的回去过。"
+      }
+    },
+    "image": "public/art/equipment/reverse_watch.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "silver_ring",
+    "name": "银戒指",
+    "attributes": {
+      "spirit": 1
+    },
+    "stats": {
+      "mentalCriticalChance": 0.05
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "银戒指",
+        "persistent": "持有 {count}",
+        "hover": "一枚素面的银戒指。"
+      }
+    },
+    "image": "public/art/equipment/silver_ring.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "riot_shield",
+    "name": "防暴盾牌",
+    "attributes": {
+      "constitution": 2,
+      "agility": -2
+    },
+    "stats": {
+      "physicalAvoidanceChance": 0.15
+    },
+    "skills": [
+      "shield_bash"
+    ],
+    "display": {
+      "default": {
+        "label": "防暴盾牌",
+        "persistent": "持有 {count}",
+        "hover": "厚重结实的防暴盾牌。\n举在身前，你终于敢正面对上那些东西。"
+      }
+    },
+    "image": "public/art/equipment/riot_shield.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  },
+  {
+    "id": "brass_knuckles",
+    "name": "指虎",
+    "attributes": {},
+    "stats": {
+      "physicalCriticalChance": 0.15
+    },
+    "skills": [
+      "sudden_punch"
+    ],
+    "display": {
+      "default": {
+        "label": "指虎",
+        "persistent": "持有 {count}",
+        "hover": "套在指节上的金属指虎。"
+      }
+    },
+    "image": "public/art/equipment/brass_knuckles.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  },
+  {
+    "id": "salt_jar",
+    "name": "盐罐",
+    "attributes": {},
+    "stats": {
+      "mentalAvoidanceChance": 0.05,
+      "mentalCriticalChance": 0.05
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "盐罐",
+        "persistent": "持有 {count}",
+        "hover": "装满粗盐的小罐子。\n传说盐能辟邪，或许应该带上一罐。"
+      }
+    },
+    "image": "public/art/equipment/salt_jar.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "running_shoes",
+    "name": "长跑鞋",
+    "attributes": {
+      "agility": 1,
+      "will": 1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "长跑鞋",
+        "persistent": "持有 {count}",
+        "hover": "轻盈合脚的长跑鞋。"
+      }
+    },
+    "image": "public/art/equipment/running_shoes.bmp",
+    "icon": "public/art/icons/categories/equipment-other.bmp"
+  },
+  {
+    "id": "chalk_box",
+    "name": "一盒粉笔",
+    "attributes": {
+      "knowledge": 1
+    },
+    "stats": {
+      "mentalCriticalChance": 0.1
+    },
+    "skills": [
+      "draw_seal"
+    ],
+    "display": {
+      "default": {
+        "label": "一盒粉笔",
+        "persistent": "持有 {count}",
+        "hover": "一盒五颜六色的粉笔。\n也许可以用来画点什么。"
+      }
+    },
+    "image": "public/art/equipment/chalk_box.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "compass",
+    "name": "指南针",
+    "attributes": {
+      "spirit": 1,
+      "knowledge": 1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "指南针",
+        "persistent": "持有 {count}",
+        "hover": "指针摇摆不定的指南针。\n有时候，一个明确的方向是最奢侈的东西。"
+      }
+    },
+    "image": "public/art/equipment/compass.bmp",
+    "icon": "public/art/icons/categories/equipment-mental.bmp"
+  },
+  {
+    "id": "sports_medal",
+    "name": "运动会奖牌",
+    "attributes": {
+      "strength": 1,
+      "agility": 1
+    },
+    "stats": {},
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "运动会奖牌",
+        "persistent": "持有 {count}",
+        "hover": "运动会上赢来的奖牌。\n金光已经褪色，握在手里却还是沉甸甸的。"
+      }
+    },
+    "image": "public/art/equipment/sports_medal.bmp",
+    "icon": "public/art/icons/categories/equipment-physical.bmp"
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "aya_extra_information",
+    "title": "额外情报",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "description": "与线人介绍的知情者交易，打听旧校舍的消息。",
+    "issuer": "新闻社同事",
+    "startOnAccept": true,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 100
+      },
+      {
+        "kind": "money",
+        "amount": 15
+      },
+      {
+        "kind": "anomaly",
+        "amount": -10
+      }
+    ],
+    "flow": {
+      "start": "council_intro",
+      "nodes": [
+        {
+          "id": "council_intro",
+          "title": "学生会大楼",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "text": "学生会大楼，不光让少女们憧憬，也让少女们敬畏。",
+          "next": {
+            "kind": "node",
+            "id": "tip"
+          }
+        },
+        {
+          "id": "tip",
+          "title": "交易",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "text": "你的线人（新闻社的同事）告诉你有人声称自己知道一个关于旧校舍的不可思议的消息。",
+          "choices": [
+            {
+              "id": "meet",
+              "text": "去看看吧",
+              "next": {
+                "kind": "node",
+                "id": "deal"
+              }
+            }
+          ]
+        },
+        {
+          "id": "deal",
+          "title": "会面",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "text": "“如果您对下一任学生会会长的位置感兴趣的话……这个价格就不贵。”对方说，似乎把你当作想要竞争下一任学生会长的家伙了。",
+          "choices": [
+            {
+              "id": "pay",
+              "text": "成交！",
+              "next": {
+                "kind": "node",
+                "id": "information"
+              },
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": -10
+                }
+              ]
+            },
+            {
+              "id": "leave",
+              "text": "先离开",
+              "next": {
+                "kind": "end",
+                "id": "left"
+              }
+            }
+          ]
+        },
+        {
+          "id": "information",
+          "title": "成交",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "text": "“关于旧校舍的事情，你一定感兴趣吧？旧校舍的院子里曾经有一棵樱花树，后来在‘那件事’之后，树就被砍了。”她说，并把一张照片交给你——是一张很老的旧校舍照片，庭院中心的樱花开得正盛。",
+          "choices": [
+            {
+              "id": "finish",
+              "text": "原来是真的……",
+              "next": {
+                "kind": "end",
+                "id": "done"
+              }
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "left",
+          "title": "暂缓交易",
+          "text": "先准备好对方要的东西，再回来交易。",
+          "outcome": "left",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/student_union.bmp"
+        },
+        {
+          "id": "done",
+          "title": "额外情报",
+          "text": "你得知了旧校舍院子里那棵樱花树的消息，也收下了对方交来的旧照片。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/student_union.bmp"
+        }
+      ]
+    },
+    "requires": {
+      "kind": "case_stage_completed",
+      "caseId": "aya_first_story",
+      "stageId": "fortune"
+    }
+  }
+]

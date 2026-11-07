@@ -1,0 +1,475 @@
+[
+  {
+    "id": "aya_first_story",
+    "title": "第二章 花期之外",
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "intro": "入学之后，你凭着记者的兴趣开始追查校园旧事，此后你不知为何开始做相关的梦，让你更加在意。樱花……于公于私你都要抵达那里，无论是为了成为正直的记者，还是为了解开那些神秘的梦。",
+    "sceneImage": "public/art/scenes/locations/library.bmp",
+    "stages": [
+      {
+        "id": "archive",
+        "title": "查阅旧档案",
+        "locationId": "library",
+        "start": "archive_intro"
+      },
+      {
+        "id": "fortune",
+        "title": "替学姐跑腿",
+        "locationId": "park",
+        "start": "photo_cherry_intro"
+      },
+      {
+        "id": "delivery",
+        "title": "交付运势报告",
+        "locationId": "teaching_building",
+        "start": "classroom_intro"
+      }
+    ],
+    "flow": {
+      "start": "archive_intro",
+      "nodes": [
+        {
+          "id": "archive_intro",
+          "title": "储藏室",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "之所以不叫档案室是因为这里除了档案之外还有很多东西……别乱碰！",
+          "next": {
+            "kind": "node",
+            "id": "research"
+          }
+        },
+        {
+          "id": "research",
+          "title": "……看看表",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "一个不留神，你又查资料查过头了，不过你仍然不能从老旧的档案里找到一条新的道路……",
+          "choices": [
+            {
+              "id": "reports",
+              "text": "查看报道",
+              "next": {
+                "kind": "node",
+                "id": "late"
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 50
+                }
+              ]
+            },
+            {
+              "id": "specialist",
+              "text": "查阅专业书籍",
+              "next": {
+                "kind": "node",
+                "id": "late"
+              },
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 10
+                },
+                {
+                  "kind": "experience",
+                  "amount": 100
+                }
+              ]
+            },
+            {
+              "id": "occult",
+              "text": "查查神秘学书籍",
+              "next": {
+                "kind": "node",
+                "id": "late"
+              },
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 20
+                },
+                {
+                  "kind": "experience",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "late",
+          "title": "这都几点了？",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "text": "还是没有什么新发现……你熟悉这间储藏室的一切，有空的时候你常来这里，把旧报道和校史里有姓名的旧照片的来源、时间都记进调查笔记。只是直到现在，这些材料仍没能和你梦中的人物对应上，关于当年的事情也不会多出别的报道……",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "先去一趟公园吧……",
+              "next": {
+                "kind": "end",
+                "id": "to_park"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fortune_intro",
+          "title": "占卜小店",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "新开的占卜店，店长虽然是日本人，不过却穿得又像吉卜赛人又像西洋人，东西方的占卜法也都会。",
+          "next": {
+            "kind": "node",
+            "id": "stall"
+          }
+        },
+        {
+          "id": "stall",
+          "title": "店前",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你看到占卜店的那位老板兼唯一的占卜师又在从小车中探出头来。你是来帮一位学姐跑腿的，学校里有很多人都痴迷于占星术还有塔罗牌之类的东西。",
+          "choices": [
+            {
+              "id": "explain",
+              "text": "解释情况",
+              "next": {
+                "kind": "node",
+                "id": "fortune_choice"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fortune_choice",
+          "title": "我吗？",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "“您要不要也来算一下？”接过装着学姐近期运势的信封，老板突然对你说。老实说，你不能靠声音分辨老板的性别。",
+          "choices": [
+            {
+              "id": "decline",
+              "text": "不了，我赶时间",
+              "next": {
+                "kind": "node",
+                "id": "hurry"
+              }
+            },
+            {
+              "id": "accept",
+              "text": "来都来了",
+              "next": {
+                "kind": "node",
+                "id": "judgement"
+              },
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": -10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hurry",
+          "title": "赶时间",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "“不了，我赶时间。”你拒绝了，然后回头跑向了学校。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "赶快！",
+              "next": {
+                "kind": "end",
+                "id": "to_school"
+              }
+            }
+          ]
+        },
+        {
+          "id": "judgement",
+          "title": "试试",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "“审判，正位……您最近，想必是在……嗯，您在做的事情大概会有一个结局了，不过千万小心。”占卜师神神叨叨的，把塔罗牌递给了你，却不告诉你到底会发生什么。",
+          "choices": [
+            {
+              "id": "thank",
+              "text": "谢谢，我记住了",
+              "next": {
+                "kind": "end",
+                "id": "to_school"
+              }
+            }
+          ]
+        },
+        {
+          "id": "classroom_intro",
+          "title": "教学楼",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "学校的教学楼，就连下课铃也用的是圣歌，不过学生们大多数不能很好地唱出来。",
+          "next": {
+            "kind": "node",
+            "id": "handover"
+          }
+        },
+        {
+          "id": "handover",
+          "title": "交付运势报告",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "学姐就在教学楼里，把占卜师写好的报告交给她吧。",
+          "choices": [
+            {
+              "id": "deliver",
+              "text": "交给学姐",
+              "next": {
+                "kind": "node",
+                "id": "delivered"
+              }
+            }
+          ]
+        },
+        {
+          "id": "delivered",
+          "title": "交付",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "“对了，就是这个，谢谢你，文！”名叫姬海棠果的学姐收下了她的运势报告。",
+          "choices": [
+            {
+              "id": "ask",
+              "text": "按照之前说好的，学姐？",
+              "next": {
+                "kind": "node",
+                "id": "reward"
+              }
+            }
+          ]
+        },
+        {
+          "id": "reward",
+          "title": "报酬",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "“哦……对，这个呢，我只能说我知道的部分。”她压低声音告诉你：“其实，似乎当年的那起案子，两个学生中有一个被抢救了回来……”",
+          "choices": [
+            {
+              "id": "surprised",
+              "text": "“啊？真的？！”",
+              "next": {
+                "kind": "node",
+                "id": "discovery"
+              }
+            }
+          ]
+        },
+        {
+          "id": "discovery",
+          "title": "重大发现",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "text": "你忍不住叫了出来，不过这似乎也可以理解，出于隐私或者校方的要求，或者是单纯的年代久远，有些事情被隐藏了也是很正常的。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "得去旧校舍看看了",
+              "next": {
+                "kind": "end",
+                "id": "turning_point"
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 100
+                },
+                {
+                  "kind": "money",
+                  "amount": 15
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": -10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "photo_cherry_intro",
+          "title": "樱花树下",
+          "kind": "story",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "不知道为什么，你感到在樱花树下的每一刻……都是永恒的。只要保持注视，花瓣就会永远在半空中。",
+          "next": {
+            "kind": "node",
+            "id": "photo_cherry"
+          }
+        },
+        {
+          "id": "photo_cherry",
+          "title": "樱花？",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你走到樱花树下，真不可思议，樱花的花期应该已经过了吧？樱花纷纷扬扬地落下，好像是在流泪一样。而路人们对此居然也没有太惊讶。",
+          "choices": [
+            {
+              "id": "photo",
+              "text": "拍一个照？",
+              "next": {
+                "kind": "node",
+                "id": "photo_clue"
+              }
+            }
+          ]
+        },
+        {
+          "id": "photo_memory",
+          "title": "奇怪",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你突然想起来，入学并开始调查旧案之后才出现的那个梦……好像……",
+          "choices": [
+            {
+              "id": "analyze",
+              "text": "分析",
+              "next": {
+                "kind": "node",
+                "id": "photo_finish"
+              },
+              "requires": {
+                "kind": "attribute_at_least",
+                "attributeId": "knowledge",
+                "value": 5
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 50
+                }
+              ]
+            },
+            {
+              "id": "observe",
+              "text": "观察",
+              "next": {
+                "kind": "node",
+                "id": "photo_finish"
+              },
+              "requires": {
+                "kind": "attribute_at_least",
+                "attributeId": "spirit",
+                "value": 5
+              },
+              "effects": [
+                {
+                  "kind": "experience",
+                  "amount": 50
+                }
+              ]
+            },
+            {
+              "id": "recall",
+              "text": "用力回想……",
+              "next": {
+                "kind": "node",
+                "id": "photo_recall_failed"
+              }
+            }
+          ]
+        },
+        {
+          "id": "photo_recall_failed",
+          "title": "还是想不起来",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你站在树下想了许久，仍然想不起梦里的细节。",
+          "choices": [
+            {
+              "id": "leave",
+              "text": "收好照片",
+              "next": {
+                "kind": "node",
+                "id": "photo_finish"
+              }
+            }
+          ]
+        },
+        {
+          "id": "photo_clue",
+          "title": "疑点",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "你发现……樱花飘落的轨迹似乎刻意避开了一些位置……就好像那里站着两个看不见的人一样……",
+          "choices": [
+            {
+              "id": "look_closer",
+              "text": "再仔细看看",
+              "next": {
+                "kind": "node",
+                "id": "photo_memory"
+              }
+            }
+          ]
+        },
+        {
+          "id": "photo_finish",
+          "title": "收好照片",
+          "kind": "choice",
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "text": "……还是等有了头绪再来吧。你把相机收好，继续去占卜店替学姐取报告。",
+          "choices": [
+            {
+              "id": "continue",
+              "text": "前往占卜店",
+              "next": {
+                "kind": "node",
+                "id": "fortune_intro"
+              },
+              "once": true
+            }
+          ]
+        }
+      ],
+      "endings": [
+        {
+          "id": "to_park",
+          "title": "去公园跑一趟",
+          "text": "替学姐取回运势报告，才能向她打听旧事。",
+          "outcome": "stage_completed",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "nextStage": "fortune"
+        },
+        {
+          "id": "to_school",
+          "title": "回学校交付",
+          "text": "运势报告已经拿到，回教学楼找学姐吧。",
+          "outcome": "stage_completed",
+          "completes": false,
+          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "nextStage": "delivery"
+        },
+        {
+          "id": "turning_point",
+          "title": "转折点",
+          "text": "“这样……这样的话，就解释得通了。”你决定今晚就去旧校舍看看，虽然拆迁不是这两天就要做的，但是越早越好。回到宿舍，你正在整理今晚的笔记时，电话响了。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/locations/dormitory.bmp"
+        }
+      ]
+    }
+  }
+]

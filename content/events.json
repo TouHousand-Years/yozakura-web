@@ -1,0 +1,504 @@
+[
+  {
+    "id": "lost_wallet",
+    "title": "捡到学生卡",
+    "category": "positive",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "捡到学生卡",
+          "text": "你捡到一张学生卡。失主的地址就在隔壁，你敲门归还，对方递来谢礼。",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "accept",
+              "text": "收下谢礼",
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": 4
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "decline",
+              "text": "婉拒谢礼",
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": -5
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/lost_wallet/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/lost_wallet/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wild_encounter",
+    "title": "暗巷中的袭击",
+    "category": "battle",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "暗巷中的袭击",
+          "kind": "battle",
+          "encounter": {
+            "kind": "enemy_pool",
+            "enemyIds": [
+              "running_ninomiya",
+              "mirror_person",
+              "anatomical_mannequin",
+              "rail_crawler",
+              "slit_mouth_woman",
+              "eight_foot_shadow",
+              "red_person",
+              "smiling_bloody_madonna",
+              "watching_beethoven"
+            ],
+            "rewards": []
+          },
+          "onVictory": {
+            "kind": "end",
+            "id": "completed"
+          },
+          "sceneImage": "public/art/scenes/events/wild_encounter/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/wild_encounter/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cold_rain",
+    "category": "negative",
+    "title": "冷雨侵袭",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "冷雨侵袭",
+          "text": "骤雨落下，你被淋了一身。",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "accept",
+              "text": "忍痛继续赶路",
+              "effects": [
+                {
+                  "kind": "health",
+                  "amount": -10
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/cold_rain/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/cold_rain/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "new_shop",
+    "sceneImage": "public/art/scenes/events/new_shop/background.bmp",
+    "category": "shop",
+    "title": "新开商店",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "新开商店",
+          "text": "一家新开的商店？你不知道这里什么时候新开了一家商店，门口的店员向你投来诡异的微笑，要进去看看吗？",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "enter",
+              "text": "进入商店",
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 5
+                }
+              ],
+              "shopId": "new_shop",
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "leave",
+              "text": "离开，继续赶路",
+              "effects": [],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "playground_cat",
+    "title": "操场上的猫",
+    "category": "neutral",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "操场上的猫",
+          "text": "一只猫挡住去路，翻身露出肚皮。你蹲下时，它把爪子搭在你的鞋上。",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "play",
+              "text": "陪它玩一会儿",
+              "effects": [
+                {
+                  "kind": "energy",
+                  "amount": 2
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": 5
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "leave",
+              "text": "直接离开",
+              "effects": [],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "road_construction",
+    "title": "道路施工",
+    "category": "negative",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "道路施工",
+          "text": "前方道路施工，你不得不绕远路。",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "detour",
+              "text": "绕行",
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 5
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "missed_step",
+    "title": "踏空的一级台阶",
+    "category": "negative",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "踏空的一级台阶",
+          "text": "你以为已经走到平地，脚下却还有一级台阶。你直接摔在了地上。",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "stand",
+              "text": "扶着墙站稳",
+              "effects": [
+                {
+                  "kind": "health",
+                  "amount": -10
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "investigate",
+              "text": "调查台阶",
+              "effects": [
+                {
+                  "kind": "health",
+                  "amount": -10
+                },
+                {
+                  "kind": "anomaly",
+                  "amount": -5
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              },
+              "requires": {
+                "kind": "attribute_at_least",
+                "attributeId": "spirit",
+                "value": 8
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "red_and_blue_paper",
+    "title": "红纸与蓝纸",
+    "category": "neutral",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "红纸与蓝纸",
+          "text": "你在上厕所时，隔间外有人问：“红纸，还是蓝纸？”",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "red",
+              "text": "选红色",
+              "effects": [
+                {
+                  "kind": "health",
+                  "amount": -10
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "blue",
+              "text": "选蓝色",
+              "effects": [
+                {
+                  "kind": "anomaly",
+                  "amount": 10
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "orange",
+              "text": "我更喜欢橙色",
+              "effects": [
+                {
+                  "kind": "item",
+                  "amount": 1,
+                  "itemId": "orange"
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              },
+              "requires": {
+                "kind": "attribute_at_least",
+                "attributeId": "knowledge",
+                "value": 8
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "old_friend",
+    "title": "老朋友",
+    "category": "positive",
+    "flow": {
+      "start": "stage",
+      "nodes": [
+        {
+          "id": "stage",
+          "title": "老朋友",
+          "text": "你在路上遇见了一个许久不见的老朋友。",
+          "kind": "choice",
+          "choices": [
+            {
+              "id": "coffee",
+              "text": "请她喝咖啡",
+              "effects": [
+                {
+                  "kind": "money",
+                  "amount": -3
+                },
+                {
+                  "kind": "experience",
+                  "amount": 50
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            },
+            {
+              "id": "chat",
+              "text": "和她聊天",
+              "effects": [
+                {
+                  "kind": "energy",
+                  "amount": 2
+                }
+              ],
+              "next": {
+                "kind": "end",
+                "id": "completed"
+              }
+            }
+          ],
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+        }
+      ],
+      "endings": [
+        {
+          "id": "completed",
+          "title": "继续旅途",
+          "text": "你继续前行。",
+          "outcome": "completed",
+          "completes": true,
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+        }
+      ]
+    }
+  }
+]

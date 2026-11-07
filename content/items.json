@@ -1,0 +1,321 @@
+[
+  {
+    "id": "printed_gun",
+    "name": "3D打印枪",
+    "effects": [],
+    "display": {
+      "bag": {
+        "label": "3D打印枪",
+        "persistent": "持有 {count}",
+        "hover": "用打印零件组装的非法枪械。\n与二战时期盟军所投放的“解放者”手枪同名，但却比前者还要难用。"
+      }
+    },
+    "image": "public/art/items/printed_gun.bmp",
+    "icon": "public/art/icons/categories/item-damage.bmp",
+    "target": "enemy",
+    "damage": {
+      "amount": 150,
+      "damageType": "physical"
+    }
+  },
+  {
+    "id": "orange",
+    "name": "橘子",
+    "effects": [
+      {
+        "kind": "health",
+        "amount": 5
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "橘子",
+        "persistent": "持有 {count}",
+        "hover": "一颗新鲜的橘子。\n最好不要好奇它是从哪来的。"
+      }
+    },
+    "image": "public/art/items/orange.bmp",
+    "icon": "public/art/icons/categories/item-healing.bmp"
+  },
+  {
+    "id": "wire",
+    "name": "铁丝",
+    "effects": [],
+    "display": {
+      "bag": {
+        "label": "铁丝",
+        "persistent": "持有 {count}",
+        "hover": "某些地方可以用来撬锁。"
+      }
+    },
+    "image": "public/art/items/wire.bmp",
+    "icon": "public/art/icons/categories/item-other.bmp",
+    "usableInBattle": false
+  },
+  {
+    "id": "adhesive_bandage",
+    "name": "创可贴",
+    "effects": [
+      {
+        "kind": "health",
+        "amount": 10
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "创可贴",
+        "persistent": "持有 {count}",
+        "hover": "只能包扎小伤口。"
+      }
+    },
+    "image": "public/art/items/adhesive_bandage.bmp",
+    "icon": "public/art/icons/categories/item-healing.bmp"
+  },
+  {
+    "id": "bandage",
+    "name": "绷带",
+    "effects": [
+      {
+        "kind": "health",
+        "amount": 20
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "绷带",
+        "persistent": "持有 {count}",
+        "hover": "用于包扎中等伤口的绷带。"
+      }
+    },
+    "image": "public/art/items/bandage.bmp",
+    "icon": "public/art/icons/categories/item-healing.bmp"
+  },
+  {
+    "id": "painkiller",
+    "name": "止痛药",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "painkiller",
+        "attribute": "will",
+        "amount": 2
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "止痛药",
+        "persistent": "持有 {count}",
+        "hover": "缓解疼痛的药片。\n并不能缓解伤势，只能让你暂时不那么在乎。"
+      }
+    },
+    "image": "public/art/items/painkiller.bmp",
+    "icon": "public/art/icons/categories/item-attribute.bmp"
+  },
+  {
+    "id": "soda",
+    "name": "汽水",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "soda",
+        "attribute": "agility",
+        "amount": 2
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "汽水",
+        "persistent": "持有 {count}",
+        "hover": "一瓶清凉的汽水，承载了多少人的夏日回忆。"
+      }
+    },
+    "image": "public/art/items/soda.bmp",
+    "icon": "public/art/icons/categories/item-attribute.bmp"
+  },
+  {
+    "id": "spirit_tonic",
+    "name": "提神口服液",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "spirit_tonic",
+        "attribute": "spirit",
+        "amount": 2
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "提神口服液",
+        "persistent": "持有 {count}",
+        "hover": "让精神振作的口服液。\n苦得让人瞬间清醒——这大概就是它的原理。"
+      }
+    },
+    "image": "public/art/items/spirit_tonic.bmp",
+    "icon": "public/art/icons/categories/item-attribute.bmp"
+  },
+  {
+    "id": "deluxe_bento",
+    "name": "豪华便当",
+    "effects": [
+      {
+        "kind": "health_regen",
+        "amount": 15,
+        "turns": 3
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "豪华便当",
+        "persistent": "持有 {count}",
+        "hover": "一份过于丰盛的便当，放在平时肯定舍不得吃。"
+      }
+    },
+    "image": "public/art/items/deluxe_bento.bmp",
+    "icon": "public/art/icons/categories/item-healing.bmp"
+  },
+  {
+    "id": "energy_drink",
+    "name": "能量饮料",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "energy_drink",
+        "attribute": "strength",
+        "amount": 2
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "能量饮料",
+        "persistent": "持有 {count}",
+        "hover": "甜得发腻的糖水，灌下去的几秒里，你确实觉得自己能一拳撂倒任何东西。"
+      }
+    },
+    "image": "public/art/items/energy_drink.bmp",
+    "icon": "public/art/icons/categories/item-attribute.bmp"
+  },
+  {
+    "id": "study_notes",
+    "name": "学霸的笔记",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "study_notes",
+        "attribute": "knowledge",
+        "amount": 2
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "学霸的笔记",
+        "persistent": "持有 {count}",
+        "hover": "写满重点的笔记，常在考试之前被学生传阅。\n大部分学生选择在考试前一周内学完整个学期的内容，然后在考试后一周内把它忘掉。"
+      }
+    },
+    "image": "public/art/items/study_notes.bmp",
+    "icon": "public/art/icons/categories/item-attribute.bmp"
+  },
+  {
+    "id": "fire_bomb",
+    "name": "燃烧瓶",
+    "effects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "healthLossPerTurn",
+        "amount": 20,
+        "turns": 3
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "燃烧瓶",
+        "persistent": "持有 {count}",
+        "hover": "装满酒精的玻璃瓶，瓶口塞了一小段布条。\n化学课没有白上，只是老师大概没想过它会派上这种用场。"
+      }
+    },
+    "image": "public/art/items/fire_bomb.bmp",
+    "icon": "public/art/icons/categories/item-damage.bmp",
+    "target": "enemy"
+  },
+  {
+    "id": "spirit_seal",
+    "name": "符纸",
+    "effects": [],
+    "display": {
+      "bag": {
+        "label": "符纸",
+        "persistent": "持有 {count}",
+        "hover": "绘有驱灵符文的纸张。\n笔迹潦草得没人能认得出来，可那些东西似乎真的会怕。"
+      }
+    },
+    "image": "public/art/items/spirit_seal.bmp",
+    "icon": "public/art/icons/categories/item-damage.bmp",
+    "target": "enemy",
+    "damage": {
+      "amount": 20,
+      "damageType": "mental"
+    }
+  },
+  {
+    "id": "sand",
+    "name": "一把沙子",
+    "effects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "hitChance",
+        "amount": -0.2,
+        "turns": 3
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "一把沙子",
+        "persistent": "持有 {count}",
+        "hover": "一把松散的沙土。\n可能是最古老的格斗术之一：迷住对方的眼睛。"
+      }
+    },
+    "image": "public/art/items/sand.bmp",
+    "icon": "public/art/icons/categories/item-other.bmp",
+    "target": "enemy"
+  },
+  {
+    "id": "glass_bottle",
+    "name": "玻璃瓶",
+    "effects": [],
+    "display": {
+      "bag": {
+        "label": "玻璃瓶",
+        "persistent": "持有 {count}",
+        "hover": "空玻璃瓶，打碎时会产生尖锐的边缘。"
+      }
+    },
+    "image": "public/art/items/glass_bottle.bmp",
+    "icon": "public/art/icons/categories/item-damage.bmp",
+    "target": "enemy",
+    "damage": {
+      "amount": 20,
+      "damageType": "physical"
+    }
+  },
+  {
+    "id": "old_book",
+    "name": "旧书",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "old_book",
+        "attribute": "constitution",
+        "amount": 2
+      }
+    ],
+    "display": {
+      "bag": {
+        "label": "旧书",
+        "persistent": "持有 {count}",
+        "hover": "一本旧书，写满了看不懂的内容。\n塞在衣服下能抵挡少许伤害，也算是没有白费。"
+      }
+    },
+    "image": "public/art/items/old_book.bmp",
+    "icon": "public/art/icons/categories/item-attribute.bmp"
+  }
+]

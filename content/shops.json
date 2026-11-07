@@ -1,0 +1,297 @@
+[
+  {
+    "id": "kiosk",
+    "rotatingStock": true,
+    "name": "小卖部",
+    "products": [
+      {
+        "itemId": "rust_compass",
+        "price": 3
+      },
+      {
+        "itemId": "paper_cutter",
+        "price": 5
+      },
+      {
+        "itemId": "flashlight",
+        "price": 5
+      },
+      {
+        "itemId": "mop",
+        "price": 5
+      },
+      {
+        "itemId": "dictionary",
+        "price": 3
+      },
+      {
+        "itemId": "goggles",
+        "price": 4
+      },
+      {
+        "itemId": "knee_pads",
+        "price": 6
+      },
+      {
+        "itemId": "black_glasses",
+        "price": 6
+      },
+      {
+        "itemId": "orange",
+        "price": 5
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "price": 3
+      },
+      {
+        "itemId": "soda",
+        "price": 4
+      },
+      {
+        "itemId": "spirit_tonic",
+        "price": 4
+      },
+      {
+        "itemId": "energy_drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "market",
+    "rotatingStock": true,
+    "name": "市场",
+    "products": [
+      {
+        "itemId": "garden_shears",
+        "price": 3
+      },
+      {
+        "itemId": "kitchen_knife",
+        "price": 8
+      },
+      {
+        "itemId": "claw_hammer",
+        "price": 8
+      },
+      {
+        "itemId": "sledgehammer",
+        "price": 12
+      },
+      {
+        "itemId": "baseball_bat",
+        "price": 8
+      },
+      {
+        "itemId": "crowbar",
+        "price": 12
+      },
+      {
+        "itemId": "instant_camera",
+        "price": 5
+      },
+      {
+        "itemId": "pepper_spray",
+        "price": 8
+      },
+      {
+        "itemId": "stun_gun",
+        "price": 12
+      },
+      {
+        "itemId": "iron_pointer",
+        "price": 8
+      },
+      {
+        "itemId": "cut_resistant_gloves",
+        "price": 10
+      },
+      {
+        "itemId": "track_spikes",
+        "price": 10
+      },
+      {
+        "itemId": "running_shoes",
+        "price": 6
+      },
+      {
+        "itemId": "wire",
+        "price": 5
+      },
+      {
+        "itemId": "bandage",
+        "price": 5
+      },
+      {
+        "itemId": "painkiller",
+        "price": 4
+      },
+      {
+        "itemId": "deluxe_bento",
+        "price": 7
+      },
+      {
+        "itemId": "study_notes",
+        "price": 4
+      },
+      {
+        "itemId": "old_book",
+        "price": 4
+      },
+      {
+        "itemId": "red_string_bracelet",
+        "price": 6
+      },
+      {
+        "itemId": "reverse_watch",
+        "price": 6
+      },
+      {
+        "itemId": "silver_ring",
+        "price": 6
+      },
+      {
+        "itemId": "spirit_seal",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "souvenir",
+    "name": "纪念品商店",
+    "products": [
+      {
+        "itemId": "music_box",
+        "price": 6
+      },
+      {
+        "itemId": "simple_bracelet",
+        "price": 4
+      },
+      {
+        "itemId": "red_string_bracelet",
+        "price": 6
+      },
+      {
+        "itemId": "compass",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "new_shop",
+    "name": "新开商店",
+    "products": [
+      {
+        "itemId": "kitchen_knife",
+        "price": 8
+      },
+      {
+        "itemId": "claw_hammer",
+        "price": 8
+      },
+      {
+        "itemId": "sledgehammer",
+        "price": 12
+      },
+      {
+        "itemId": "baseball_bat",
+        "price": 8
+      },
+      {
+        "itemId": "crowbar",
+        "price": 12
+      },
+      {
+        "itemId": "instant_camera",
+        "price": 5
+      },
+      {
+        "itemId": "pepper_spray",
+        "price": 8
+      },
+      {
+        "itemId": "iron_pointer",
+        "price": 8
+      },
+      {
+        "itemId": "patched_uniform",
+        "price": 6
+      },
+      {
+        "itemId": "duty_armband",
+        "price": 6
+      },
+      {
+        "itemId": "cut_resistant_gloves",
+        "price": 10
+      },
+      {
+        "itemId": "track_spikes",
+        "price": 10
+      },
+      {
+        "itemId": "blank_name_tag",
+        "price": 6
+      },
+      {
+        "itemId": "library_card",
+        "price": 6
+      },
+      {
+        "itemId": "reverse_watch",
+        "price": 6
+      },
+      {
+        "itemId": "silver_ring",
+        "price": 6
+      },
+      {
+        "itemId": "brass_knuckles",
+        "price": 10
+      },
+      {
+        "itemId": "salt_jar",
+        "price": 6
+      },
+      {
+        "itemId": "chalk_box",
+        "price": 10
+      },
+      {
+        "itemId": "sports_medal",
+        "price": 6
+      },
+      {
+        "itemId": "bandage",
+        "price": 5
+      },
+      {
+        "itemId": "deluxe_bento",
+        "price": 7
+      },
+      {
+        "itemId": "fire_bomb",
+        "price": 3
+      },
+      {
+        "itemId": "spirit_seal",
+        "price": 3
+      },
+      {
+        "itemId": "sand",
+        "price": 3
+      },
+      {
+        "itemId": "glass_bottle",
+        "price": 3
+      },
+      {
+        "itemId": "old_book",
+        "price": 4
+      }
+    ],
+    "randomStock": true
+  }
+]

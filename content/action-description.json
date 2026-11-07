@@ -1,0 +1,47 @@
+{
+  "damageTypes": {
+    "physical": "物理",
+    "mental": "精神"
+  },
+  "damage": "{type}伤害 {value}",
+  "formula": "{type}伤害：{formula}",
+  "basis": {
+    "weapon_base": "当前武器基础伤害",
+    "weapon_actual": "当前武器实际伤害"
+  },
+  "multiply": "{source} × {value}%",
+  "flat": "固定加成 {value}",
+  "scaling": "追加当前武器能力补正",
+  "preview": "当前伤害 {value}",
+  "hit": "命中率 {value}%",
+  "critical": "暴击倍率 {value}%",
+  "noCritical": "不可暴击",
+  "healthCost": "生命消耗 {value}",
+  "energyCost": "精力消耗 {value}",
+  "health": "生命 {value}",
+  "heal": "生命恢复 {value}",
+  "money": "零钱 {value}",
+  "experience": "经验 {value}",
+  "item": "获得 {name} × {value}",
+  "learn": "习得技能 {name}",
+  "modifier": "{name} {value}",
+  "regen": "每回合生命恢复 {value}",
+  "enemy": "敌方{name} {value}",
+  "onHit": "命中后：{effect}",
+  "enemyStats": {
+    "attack": "攻击伤害",
+    "hitChance": "命中率",
+    "physicalAvoidanceChance": "物理免伤率",
+    "mentalAvoidanceChance": "精神免伤率",
+    "healthLossPerTurn": "每回合生命损失"
+  },
+  "turns": "持续 {value} 回合（含使用回合）。",
+  "battleEnd": "持续到战斗结束。",
+  "outsideEnd": "持续到战斗结束，战斗外使用持续到下次战斗结束或对应属性检定，重复使用不叠加。",
+  "battleOnly": "仅限战斗中使用。",
+  "outsideOnly": "仅限战斗外使用。",
+  "healthMissing": "生命不足：消耗 {required}，当前 {actual}，使用后生命须大于 0。",
+  "energyMissing": "精力不足：需要 {required}，当前 {actual}。",
+  "dead": "生命已归零，无法使用。",
+  "unavailable": "当前无法使用。"
+}

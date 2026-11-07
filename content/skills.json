@@ -1,0 +1,667 @@
+[
+  {
+    "id": "throat_cut",
+    "name": "放血",
+    "description": "划开敌人的伤口。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 3
+    },
+    "damageType": "physical",
+    "energyCost": 5,
+    "image": "public/art/skills/throat_cut.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "healthLossPerTurn",
+        "amount": 20,
+        "turns": 5
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "armor_break",
+    "name": "破甲一击",
+    "description": "瞄准敌人的防御弱点。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 3
+    },
+    "damageType": "physical",
+    "energyCost": 5,
+    "image": "public/art/skills/armor_break.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "physicalAvoidanceChance",
+        "amount": -0.3,
+        "turns": 3
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "heavy_blow",
+    "name": "猛击",
+    "description": "挥出沉重的一击。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 2.4
+    },
+    "damageType": "physical",
+    "energyCost": 4,
+    "image": "public/art/skills/heavy_blow.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "dazzle",
+    "name": "强光晃眼",
+    "description": "用强光扰乱敌人。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.5
+    },
+    "damageType": "mental",
+    "energyCost": 2,
+    "image": "public/art/skills/dazzle.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "slow_motion",
+    "name": "升格拍摄",
+    "description": "捕捉敌人的行动破绽。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 2.4
+    },
+    "damageType": "mental",
+    "energyCost": 4,
+    "image": "public/art/skills/slow_motion.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "mentalAvoidanceChance",
+        "amount": -0.25,
+        "turns": 3
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "face_spray",
+    "name": "喷射面部",
+    "description": "朝敌人面部喷射。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.6
+    },
+    "damageType": "mental",
+    "energyCost": 3,
+    "image": "public/art/skills/face_spray.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "hitChance",
+        "amount": -0.3,
+        "turns": 3
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "bead_release",
+    "name": "释放珠子的力量",
+    "description": "释放珠子中蕴藏的力量。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 3
+    },
+    "damageType": "mental",
+    "energyCost": 5,
+    "image": "public/art/skills/bead_release.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "healthLossPerTurn",
+        "amount": 10,
+        "turns": 3
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "burst_photo",
+    "name": "连拍",
+    "description": "连续拍摄，扰乱敌人。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.3
+    },
+    "damageType": "mental",
+    "energyCost": 2,
+    "image": "public/art/skills/burst_photo.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "mentalAvoidanceChance",
+        "amount": -0.2,
+        "turns": 2
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "shield_bash",
+    "name": "盾击",
+    "description": "用盾牌撞击敌人。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.6
+    },
+    "damageType": "physical",
+    "energyCost": 3,
+    "image": "public/art/skills/shield_bash.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "attack",
+        "amount": -7,
+        "turns": 3
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "sudden_punch",
+    "name": "突然一拳",
+    "description": "出其不意地挥出一拳。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.3
+    },
+    "damageType": "physical",
+    "energyCost": 2,
+    "image": "public/art/skills/sudden_punch.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "physicalAvoidanceChance",
+        "amount": -0.2,
+        "turns": 2
+      }
+    ],
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "draw_seal",
+    "name": "绘制驱灵符",
+    "description": "绘制符文攻击敌人，同时强化自身的精神防护。\n即使敌人避开攻击，符文仍会庇护自己。",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1
+    },
+    "damageType": "mental",
+    "energyCost": 2,
+    "image": "public/art/skills/draw_seal.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon",
+    "effects": [
+      {
+        "kind": "stat_modifier",
+        "sourceId": "draw_seal",
+        "stat": "mentalAvoidanceChance",
+        "amount": 0.25,
+        "turns": 3
+      }
+    ]
+  },
+  {
+    "id": "investigator_a",
+    "name": "念动「废物投掷」",
+    "description": "操纵身旁的杂物，朝对方倾泻而去。\n“说了多少遍，不要乱丢垃圾！”",
+    "energyCost": 1,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "investigator"
+      ]
+    },
+    "image": "public/art/skills/investigator_a.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.2
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "investigator_b",
+    "name": "凭依「梦境中人」",
+    "description": "集中精神，使梦境中的自己凭依到现实中，获得能力加成。\n“那边的我，别丢份啊！”",
+    "energyCost": 2,
+    "usableOutsideBattle": true,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "investigator"
+      ]
+    },
+    "image": "public/art/skills/investigator_b.bmp",
+    "icon": "public/art/icons/categories/skill-other.bmp",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "dream",
+        "attribute": "knowledge",
+        "amount": 3
+      },
+      {
+        "kind": "modifier",
+        "sourceId": "dream",
+        "attribute": "spirit",
+        "amount": 3
+      }
+    ],
+    "healthCost": 5
+  },
+  {
+    "id": "investigator_c",
+    "name": "念力「精神爆破」",
+    "description": "使用强大的念力冲击对方的精神，使其直面最深的恐惧。\n对堇子自己来说，大概是对期末考试的恐惧。",
+    "energyCost": 3,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "investigator"
+      ]
+    },
+    "image": "public/art/skills/investigator_c.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.9
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "mentalAvoidanceChance",
+        "amount": -0.25,
+        "turns": 3
+      }
+    ],
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "mamizou_a",
+    "name": "变化「假相成真」",
+    "description": "高深的变换术，使对手连眼前的景象也开始怀疑。\n“对的对的对的……啊不对不对不对……”",
+    "energyCost": 1,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "mamizou"
+      ]
+    },
+    "image": "public/art/skills/mamizou_a.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.2
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "hitChance",
+        "amount": -0.1,
+        "turns": 2
+      }
+    ],
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "mamizou_b",
+    "name": "变化「狸猫替身」",
+    "description": "在敌人击中前瞬间使用的变换术，每次消耗一个狸猫抱枕（并不会）。\n“打中了！不……这是什么？！”",
+    "energyCost": 2,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "mamizou"
+      ]
+    },
+    "image": "public/art/skills/mamizou_b.bmp",
+    "icon": "public/art/icons/categories/skill-other.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "hitChance",
+        "amount": -0.8,
+        "turns": 1
+      }
+    ]
+  },
+  {
+    "id": "mamizou_c",
+    "name": "变化「百鬼档案」",
+    "description": "让封存的记录化作百般怪影，向对方袭去。\n“对付异象的最好方法，当然是用另一些异象！”",
+    "energyCost": 3,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "mamizou"
+      ]
+    },
+    "image": "public/art/skills/mamizou_c.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.9
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "physicalAvoidanceChance",
+        "amount": -0.2,
+        "turns": 3
+      },
+      {
+        "kind": "enemy_modifier",
+        "stat": "mentalAvoidanceChance",
+        "amount": -0.2,
+        "turns": 3
+      }
+    ],
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "aya_a",
+    "name": "风写「抢拍破绽」",
+    "description": "将灵力凝聚进相机，然后在对方招架之前按下快门。\n“记者就是要抓住决定性瞬间！”",
+    "energyCost": 1,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "image": "public/art/skills/aya_a.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.2
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "aya_b",
+    "name": "风速「疾走风靡」",
+    "description": "借助风的加速抢拍敌人，暴露其防御破绽，为后续攻击创造机会。\n“好，再来一个角度！”",
+    "energyCost": 2,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "image": "public/art/skills/aya_b.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "physicalAvoidanceChance",
+        "amount": -0.25,
+        "turns": 3
+      },
+      {
+        "kind": "enemy_modifier",
+        "stat": "mentalAvoidanceChance",
+        "amount": -0.25,
+        "turns": 3
+      }
+    ],
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 0.8
+    },
+    "damageType": "mental",
+    "hitChance": 1,
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "aya_c",
+    "name": "风符「超强台风」",
+    "description": "卷起周围的气流，使对方仿佛置身风暴。",
+    "energyCost": 3,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "aya"
+      ]
+    },
+    "image": "public/art/skills/aya_c.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.9
+    },
+    "damageType": "physical",
+    "hitChance": "weapon",
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "healthLossPerTurn",
+        "amount": 10,
+        "turns": 3
+      }
+    ],
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "reimu_a",
+    "name": "退魔「阻滞结界」",
+    "description": "以结界冲击敌人，压缩其活动空间。",
+    "energyCost": 1,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "reimu"
+      ]
+    },
+    "image": "public/art/skills/reimu_a.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "damageType": "physical",
+    "hitChance": 1,
+    "enemyEffects": [
+      {
+        "kind": "enemy_modifier",
+        "stat": "attack",
+        "amount": -3,
+        "turns": 3
+      },
+      {
+        "kind": "enemy_modifier",
+        "stat": "physicalAvoidanceChance",
+        "amount": -0.1,
+        "turns": 3
+      },
+      {
+        "kind": "enemy_modifier",
+        "stat": "mentalAvoidanceChance",
+        "amount": -0.1,
+        "turns": 3
+      }
+    ],
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 0.5
+    },
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "reimu_b",
+    "name": "结界「风纪守护」",
+    "description": "使用结界术强化自身的防护。",
+    "energyCost": 2,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "reimu"
+      ]
+    },
+    "image": "public/art/skills/reimu_b.bmp",
+    "icon": "public/art/icons/categories/skill-other.bmp",
+    "effects": [
+      {
+        "kind": "stat_modifier",
+        "sourceId": "reimu_b",
+        "stat": "physicalAvoidanceChance",
+        "amount": 0.3
+      },
+      {
+        "kind": "stat_modifier",
+        "sourceId": "reimu_b",
+        "stat": "mentalAvoidanceChance",
+        "amount": 0.15
+      }
+    ]
+  },
+  {
+    "id": "reimu_c",
+    "name": "灵符「梦想封印」",
+    "description": "灵梦的代表招式，汇聚灵力为光球并砸向对方。简单粗暴。",
+    "energyCost": 3,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "reimu"
+      ]
+    },
+    "image": "public/art/skills/reimu_c.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.9
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "marisa_a",
+    "name": "彗星「抢先一步」",
+    "description": "像划过夜空的彗星一样向前突进。",
+    "energyCost": 1,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "marisa"
+      ]
+    },
+    "image": "public/art/skills/marisa_a.bmp",
+    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.2
+    },
+    "damageType": "physical",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  },
+  {
+    "id": "marisa_b",
+    "name": "魔力「星光充填」",
+    "description": "积蓄魔力，为后续攻击做好准备。",
+    "energyCost": 2,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "marisa"
+      ]
+    },
+    "image": "public/art/skills/marisa_b.bmp",
+    "icon": "public/art/icons/categories/skill-other.bmp",
+    "effects": [
+      {
+        "kind": "modifier",
+        "sourceId": "rush",
+        "attribute": "agility",
+        "amount": 5,
+        "turns": 4
+      },
+      {
+        "kind": "modifier",
+        "sourceId": "rush",
+        "attribute": "spirit",
+        "amount": 5,
+        "turns": 4
+      }
+    ]
+  },
+  {
+    "id": "marisa_c",
+    "name": "恋符「极限火花」",
+    "description": "魔理沙的代表招式，把积蓄的魔力化作一道耀眼强光，照穿任何黑暗。\n“符卡最重要的就是火力！”",
+    "energyCost": 3,
+    "usableOutsideBattle": false,
+    "scope": {
+      "kind": "characters",
+      "characterIds": [
+        "marisa"
+      ]
+    },
+    "image": "public/art/skills/marisa_c.bmp",
+    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "damage": {
+      "basis": "weapon_actual",
+      "multiplier": 1.9
+    },
+    "damageType": "mental",
+    "hitChance": "weapon",
+    "criticalChanceSource": "weapon"
+  }
+]

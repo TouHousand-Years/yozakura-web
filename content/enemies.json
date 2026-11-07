@@ -1,0 +1,2311 @@
+[
+  {
+    "id": "anatomical_mannequin",
+    "name": "游荡人体模型",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "attack",
+      "states": [
+        {
+          "id": "attack",
+          "name": "物理攻击",
+          "description": "造成 8 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "physical"
+          },
+          "transitions": []
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/anatomical_mannequin.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "running_ninomiya",
+    "name": "移动的二宫像",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "charge",
+      "states": [
+        {
+          "id": "charge",
+          "name": "蓄力",
+          "description": "本回合蓄力。",
+          "action": {
+            "kind": "wait"
+          },
+          "transitions": [
+            {
+              "to": "burst",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "burst",
+          "name": "物理攻击",
+          "description": "造成 16 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 16,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "charge",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/running_ninomiya.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "mirror_person",
+    "name": "无面学生",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "attack",
+      "states": [
+        {
+          "id": "attack",
+          "name": "精神攻击",
+          "description": "造成 8 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "mental"
+          },
+          "transitions": []
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/mirror_person.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "rail_crawler",
+    "name": "铁轨爬行者",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "opening",
+      "states": [
+        {
+          "id": "opening",
+          "name": "物理攻击",
+          "description": "造成 6 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 6,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "rising",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rising",
+          "name": "物理攻击",
+          "description": "造成 8 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "peak",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "peak",
+          "name": "物理攻击",
+          "description": "造成 10 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 10,
+            "damageType": "physical"
+          },
+          "transitions": []
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/rail_crawler.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "slit_mouth_woman",
+    "name": "裂口女",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "opening_physical",
+      "states": [
+        {
+          "id": "opening_physical",
+          "name": "物理攻击",
+          "description": "造成 6 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 6,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "rising_mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rising_mental",
+          "name": "精神攻击",
+          "description": "造成 8 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "peak_physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "peak_physical",
+          "name": "物理攻击",
+          "description": "造成 10 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 10,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "peak_mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "peak_mental",
+          "name": "精神攻击",
+          "description": "造成 10 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 10,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "peak_physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/slit_mouth_woman.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "eight_foot_shadow",
+    "name": "八尺夫人",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "physical",
+      "states": [
+        {
+          "id": "physical",
+          "name": "物理攻击",
+          "description": "造成 8 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mental",
+          "name": "精神攻击",
+          "description": "造成 8 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/eight_foot_shadow.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "eternal_companionship",
+    "name": "“永远的陪伴”",
+    "health": 300,
+    "rewardPool": [],
+    "stateMachine": {
+      "initialState": "normal_physical",
+      "states": [
+        {
+          "id": "normal_physical",
+          "name": "物理攻击",
+          "description": "造成 9 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 9,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "enraged_mental",
+              "when": {
+                "kind": "health_at_most",
+                "percent": 50
+              }
+            },
+            {
+              "to": "normal_mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "normal_mental",
+          "name": "精神攻击",
+          "description": "造成 9 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 9,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "enraged_physical",
+              "when": {
+                "kind": "health_at_most",
+                "percent": 50
+              }
+            },
+            {
+              "to": "normal_physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "enraged_physical",
+          "name": "物理攻击",
+          "description": "造成 15 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 15,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "enraged_mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "enraged_mental",
+          "name": "精神攻击",
+          "description": "造成 15 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 15,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "enraged_physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/eternal_companionship.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": []
+  },
+  {
+    "id": "fathers_shadow",
+    "name": "男人的阴影",
+    "health": 200,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "attack",
+      "states": [
+        {
+          "id": "attack",
+          "name": "精神攻击",
+          "description": "造成 10 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 10,
+            "damageType": "mental"
+          },
+          "transitions": []
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/fathers_shadow.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 120
+      },
+      {
+        "kind": "money",
+        "amount": 10
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "red_person",
+    "name": "赤人",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "charge_physical",
+      "states": [
+        {
+          "id": "charge_physical",
+          "name": "蓄力",
+          "description": "本回合蓄力。",
+          "action": {
+            "kind": "wait"
+          },
+          "transitions": [
+            {
+              "to": "burst_physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "burst_physical",
+          "name": "物理攻击",
+          "description": "造成 16 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 16,
+            "damageType": "physical"
+          },
+          "transitions": [
+            {
+              "to": "charge_mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "charge_mental",
+          "name": "蓄力",
+          "description": "本回合蓄力。",
+          "action": {
+            "kind": "wait"
+          },
+          "transitions": [
+            {
+              "to": "burst_mental",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "burst_mental",
+          "name": "精神攻击",
+          "description": "造成 16 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 16,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "charge_physical",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/red_person.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "smiling_bloody_madonna",
+    "name": "哭泣的圣母雕塑",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "opening",
+      "states": [
+        {
+          "id": "opening",
+          "name": "精神攻击",
+          "description": "造成 6 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 6,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "rising",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rising",
+          "name": "精神攻击",
+          "description": "造成 8 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 8,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "peak",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "peak",
+          "name": "精神攻击",
+          "description": "造成 10 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 10,
+            "damageType": "mental"
+          },
+          "transitions": []
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/smiling_bloody_madonna.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "string_puppet",
+    "name": "提线木偶",
+    "health": 200,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "attack",
+      "states": [
+        {
+          "id": "attack",
+          "name": "物理攻击",
+          "description": "造成 10 点物理伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 10,
+            "damageType": "physical"
+          },
+          "transitions": []
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/string_puppet.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 120
+      },
+      {
+        "kind": "money",
+        "amount": 10
+      }
+    ],
+    "rewardPoolMode": "single"
+  },
+  {
+    "id": "watching_beethoven",
+    "name": "看着你的贝多芬像",
+    "health": 80,
+    "rewardPool": [
+      {
+        "itemId": "orange",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "wire",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "adhesive_bandage",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "painkiller",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "soda",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_tonic",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "energy_drink",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "study_notes",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "fire_bomb",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "spirit_seal",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "sand",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "glass_bottle",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "old_book",
+        "amount": 1,
+        "probability": 0.038461538461538464
+      },
+      {
+        "itemId": "patched_uniform",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "duty_armband",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "goggles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "knee_pads",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "black_glasses",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "blank_name_tag",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "library_card",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "riot_shield",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "brass_knuckles",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "chalk_box",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "sports_medal",
+        "amount": 1,
+        "probability": 0.018181818181818184
+      },
+      {
+        "itemId": "katana",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "fire_axe",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "baton",
+        "amount": 1,
+        "probability": 0.025
+      },
+      {
+        "itemId": "strange_bead",
+        "amount": 1,
+        "probability": 0.025
+      }
+    ],
+    "stateMachine": {
+      "initialState": "charge",
+      "states": [
+        {
+          "id": "charge",
+          "name": "蓄力",
+          "description": "本回合蓄力。",
+          "action": {
+            "kind": "wait"
+          },
+          "transitions": [
+            {
+              "to": "burst",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        },
+        {
+          "id": "burst",
+          "name": "精神攻击",
+          "description": "造成 16 点精神伤害。",
+          "action": {
+            "kind": "attack",
+            "damage": 16,
+            "damageType": "mental"
+          },
+          "transitions": [
+            {
+              "to": "charge",
+              "when": {
+                "kind": "always"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "portrait": "public/art/portraits/enemies/watching_beethoven.bmp",
+    "physicalAvoidanceChance": 0,
+    "mentalAvoidanceChance": 0,
+    "rewards": [
+      {
+        "kind": "experience",
+        "amount": 50
+      },
+      {
+        "kind": "money",
+        "amount": 4
+      }
+    ],
+    "rewardPoolMode": "single"
+  }
+]

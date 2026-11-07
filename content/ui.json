@@ -1,0 +1,56 @@
+{
+  "mapToggleIcons": {
+    "world": "public/art/maps/to-world.bmp",
+    "local": "public/art/maps/to-local.bmp"
+  },
+  "navigationIcons": {
+    "investigation": "public/art/icons/navigation/investigation.bmp",
+    "journal": "public/art/icons/navigation/journal.bmp",
+    "bag": "public/art/icons/navigation/bag.bmp",
+    "attributes": "public/art/icons/navigation/attributes.bmp",
+    "equipment": "public/art/icons/navigation/equipment.bmp",
+    "skills": "public/art/icons/navigation/skills.bmp",
+    "map": "public/art/icons/navigation/map.bmp",
+    "settings": "public/art/icons/navigation/settings.bmp"
+  },
+  "shopPersistent": "售价 {price} 零钱 持有 {count}",
+  "shopRefresh": "看看别的（+5异变）",
+  "equipmentSlots": {
+    "equipment1": {
+      "label": "装入一"
+    },
+    "equipment2": {
+      "label": "装入二"
+    }
+  },
+  "latestLog": {
+    "label": "最近记录"
+  },
+  "anomaly": {
+    "hover": "异变 {value}%\n商店 {shopChance}，正面 {positiveChance}，中性 {neutralChance}，负面 {negativeChance}，战斗 {battleChance}\n敌人强度与敌人经验、零钱掉落倍率：{enemyStrength}；掉落独立乘算后舍去小数。\n新开商店每20%异变额外增加一件随机商品（当前额外{extraStock}件）。\n每单位移动时间增加{travelGain}%，节点推进增加{nodeGain}%，战斗胜利减少{victoryReduction}%。"
+  },
+  "equipmentDescription": {
+    "damage": "{type}基础伤害 {value}",
+    "damageTypes": {
+      "physical": "物理",
+      "mental": "精神"
+    },
+    "hitChance": "命中 {value}%",
+    "criticalMultiplier": "暴击倍率 {value}",
+    "requirement": "最低基础能力 {attribute} ≥ {value}",
+    "scaling": "能力加成 {attribute} × {value}",
+    "bonus": "{name} {value}",
+    "percentBonus": "{name} {value}%",
+    "skill": "特殊技能 {name}",
+    "unmet": "基础能力未达要求：{attribute}需要 {required}，当前 {actual}",
+    "stats": {
+      "physicalCriticalChance": "物理暴击率",
+      "mentalCriticalChance": "精神暴击率",
+      "physicalAvoidanceChance": "物理免伤率",
+      "mentalAvoidanceChance": "精神免伤率",
+      "movementSpeed": "移动速度",
+      "experienceMultiplier": "经验倍率",
+      "maxHealth": "生命上限"
+    }
+  }
+}

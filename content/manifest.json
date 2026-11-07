@@ -1,0 +1,57 @@
+{
+  "version": 3,
+  "defaults": {
+    "caseId": "sumireko_first_story",
+    "shopId": "kiosk",
+    "characterId": "investigator"
+  },
+  "files": {
+    "cases": [
+      "cases/mamizou_first_story.json",
+      "cases/aya_first_story.json",
+      "cases/sumireko_first_story.json",
+      "cases/marisa_first_story.json",
+      "cases/reimu_first_story.json",
+      "cases/sumireko_second_story.json",
+      "cases/marisa_second_story.json",
+      "cases/aya_second_story.json",
+      "cases/mamizou_second_story.json",
+      "cases/reimu_second_story.json"
+    ],
+    "items": [
+      "items.json"
+    ],
+    "skills": [
+      "skills.json"
+    ],
+    "enemies": [
+      "enemies.json"
+    ],
+    "battles": [
+      "battles.json"
+    ],
+    "shops": [
+      "shops.json"
+    ],
+    "characters": [
+      "characters.json"
+    ],
+    "events": [
+      "events.json"
+    ],
+    "weapons": [
+      "weapons.json"
+    ],
+    "equipment": [
+      "equipment.json"
+    ],
+    "tasks": [
+      "tasks/mamizou_sisters_duty.json",
+      "tasks/aya_basement_help.json",
+      "tasks/aya_extra_information.json",
+      "tasks/marisa_gift.json"
+    ]
+  },
+  "world": "world.json",
+  "specialFacilities": "special-facilities.json"
+}

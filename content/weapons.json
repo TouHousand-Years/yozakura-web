@@ -1,0 +1,548 @@
+[
+  {
+    "id": "unarmed",
+    "name": "徒手攻击",
+    "damageType": "physical",
+    "baseDamage": 20,
+    "hitChance": 1,
+    "criticalMultiplier": 1.2,
+    "requirements": {},
+    "scaling": {
+      "strength": 0.5,
+      "agility": 0.5
+    },
+    "skills": [],
+    "unarmed": true,
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "stone",
+    "name": "投掷石块",
+    "damageType": "mental",
+    "baseDamage": 20,
+    "hitChance": 1,
+    "criticalMultiplier": 1.2,
+    "requirements": {},
+    "scaling": {
+      "spirit": 0.5,
+      "knowledge": 0.5
+    },
+    "skills": [],
+    "unarmed": true,
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "rust_compass",
+    "name": "铁制圆规",
+    "damageType": "physical",
+    "baseDamage": 30,
+    "hitChance": 0.9,
+    "criticalMultiplier": 1.7,
+    "requirements": {
+      "agility": 2
+    },
+    "scaling": {
+      "agility": 2
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "铁制圆规",
+        "persistent": "持有 {count}",
+        "hover": "常用的文具，但最好别想用它来对付敌人。"
+      }
+    },
+    "image": "public/art/weapons/rust_compass.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "garden_shears",
+    "name": "园艺剪",
+    "damageType": "physical",
+    "baseDamage": 33,
+    "hitChance": 0.8,
+    "criticalMultiplier": 1.6,
+    "requirements": {
+      "agility": 1,
+      "strength": 1
+    },
+    "scaling": {
+      "agility": 1,
+      "strength": 1
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "园艺剪",
+        "persistent": "持有 {count}",
+        "hover": "常用于修剪花坛，但现在它剪断的可能不止是枯枝。"
+      }
+    },
+    "image": "public/art/weapons/garden_shears.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "paper_cutter",
+    "name": "裁纸刀",
+    "damageType": "physical",
+    "baseDamage": 38,
+    "hitChance": 0.85,
+    "criticalMultiplier": 1.5,
+    "requirements": {
+      "agility": 4
+    },
+    "scaling": {
+      "agility": 4
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "裁纸刀",
+        "persistent": "持有 {count}",
+        "hover": "裁纸用的小刀，刀刃锋利得过分。\n它本该只接触纸张，如今却不得不面对别的东西。"
+      }
+    },
+    "image": "public/art/weapons/paper_cutter.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "kitchen_knife",
+    "name": "厨刀",
+    "damageType": "physical",
+    "baseDamage": 44,
+    "hitChance": 0.8,
+    "criticalMultiplier": 1.7,
+    "requirements": {
+      "agility": 5,
+      "strength": 2
+    },
+    "scaling": {
+      "agility": 4,
+      "strength": 2
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "厨刀",
+        "persistent": "持有 {count}",
+        "hover": "厨房里最锋利的那把刀。\n切菜十年，今晚是第一次要切点别的。"
+      }
+    },
+    "image": "public/art/weapons/kitchen_knife.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "katana",
+    "name": "武士刀",
+    "damageType": "physical",
+    "baseDamage": 100,
+    "hitChance": 0.85,
+    "criticalMultiplier": 1.4,
+    "requirements": {
+      "agility": 12
+    },
+    "scaling": {
+      "agility": 12
+    },
+    "skills": [
+      "throat_cut"
+    ],
+    "display": {
+      "default": {
+        "label": "武士刀",
+        "persistent": "持有 {count}",
+        "hover": "开过刃的武士刀，刀身冰冷。"
+      }
+    },
+    "image": "public/art/weapons/katana.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "fire_axe",
+    "name": "消防斧",
+    "damageType": "physical",
+    "baseDamage": 87,
+    "hitChance": 0.75,
+    "criticalMultiplier": 3,
+    "requirements": {
+      "strength": 12
+    },
+    "scaling": {
+      "strength": 12
+    },
+    "skills": [
+      "armor_break"
+    ],
+    "display": {
+      "default": {
+        "label": "消防斧",
+        "persistent": "持有 {count}",
+        "hover": "破门用消防斧。\n漆面已经斑驳，却依然能劈开任何挡路的东西。"
+      }
+    },
+    "image": "public/art/weapons/fire_axe.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "baton",
+    "name": "警棍",
+    "damageType": "physical",
+    "baseDamage": 44,
+    "hitChance": 0.8,
+    "criticalMultiplier": 2,
+    "requirements": {
+      "agility": 5,
+      "strength": 4
+    },
+    "scaling": {
+      "agility": 4,
+      "strength": 4
+    },
+    "skills": [
+      "heavy_blow"
+    ],
+    "display": {
+      "default": {
+        "label": "警棍",
+        "persistent": "持有 {count}",
+        "hover": "从倒地的警察身上获得的警棍，握柄上还留着一丝手汗。"
+      }
+    },
+    "image": "public/art/weapons/baton.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "claw_hammer",
+    "name": "羊角锤",
+    "damageType": "physical",
+    "baseDamage": 38,
+    "hitChance": 0.85,
+    "criticalMultiplier": 1.9,
+    "requirements": {
+      "strength": 5,
+      "agility": 2
+    },
+    "scaling": {
+      "strength": 4,
+      "agility": 2
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "羊角锤",
+        "persistent": "持有 {count}",
+        "hover": "一头敲钉、一头拔钉的羊角锤。\n现在敲的那头显然更有用。"
+      }
+    },
+    "image": "public/art/weapons/claw_hammer.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "sledgehammer",
+    "name": "大锤",
+    "damageType": "physical",
+    "baseDamage": 80,
+    "hitChance": 0.6,
+    "criticalMultiplier": 3,
+    "requirements": {
+      "strength": 9
+    },
+    "scaling": {
+      "strength": 8
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "大锤",
+        "persistent": "持有 {count}",
+        "hover": "沉得单手都举不稳的大锤。"
+      }
+    },
+    "image": "public/art/weapons/sledgehammer.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "baseball_bat",
+    "name": "棒球棍",
+    "damageType": "physical",
+    "baseDamage": 46,
+    "hitChance": 0.75,
+    "criticalMultiplier": 2,
+    "requirements": {
+      "strength": 6
+    },
+    "scaling": {
+      "strength": 6
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "棒球棍",
+        "persistent": "持有 {count}",
+        "hover": "球队所用的旧棒球棍。\n它上一次击中球是什么时候呢？"
+      }
+    },
+    "image": "public/art/weapons/baseball_bat.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "crowbar",
+    "name": "撬棍",
+    "damageType": "physical",
+    "baseDamage": 63,
+    "hitChance": 0.7,
+    "criticalMultiplier": 1.8,
+    "requirements": {
+      "strength": 6,
+      "knowledge": 3
+    },
+    "scaling": {
+      "strength": 6,
+      "knowledge": 2
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "撬棍",
+        "persistent": "持有 {count}",
+        "hover": "利用杠杆原理的多用途撬棍，有时被视为物理学的象征符号。"
+      }
+    },
+    "image": "public/art/weapons/crowbar.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "flashlight",
+    "name": "手电筒",
+    "damageType": "physical",
+    "baseDamage": 37,
+    "hitChance": 0.85,
+    "criticalMultiplier": 1.5,
+    "requirements": {
+      "agility": 4
+    },
+    "scaling": {
+      "agility": 4
+    },
+    "skills": [
+      "dazzle"
+    ],
+    "display": {
+      "default": {
+        "label": "手电筒",
+        "persistent": "持有 {count}",
+        "hover": "能照出一小片光的手电筒。\n在黑暗里，光是少数能让人安心的东西。"
+      }
+    },
+    "image": "public/art/weapons/flashlight.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "mop",
+    "name": "拖把",
+    "damageType": "physical",
+    "baseDamage": 39,
+    "hitChance": 0.75,
+    "criticalMultiplier": 1.8,
+    "requirements": {
+      "strength": 4
+    },
+    "scaling": {
+      "strength": 4
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "拖把",
+        "persistent": "持有 {count}",
+        "hover": "拖地用的拖把。\n抡起来呼呼生风，只是别指望它真的有多厉害。"
+      }
+    },
+    "image": "public/art/weapons/mop.bmp",
+    "icon": "public/art/icons/categories/weapon-physical.bmp"
+  },
+  {
+    "id": "dictionary",
+    "name": "字典",
+    "damageType": "mental",
+    "baseDamage": 33,
+    "hitChance": 0.85,
+    "criticalMultiplier": 1.2,
+    "requirements": {
+      "knowledge": 2,
+      "strength": 1
+    },
+    "scaling": {
+      "knowledge": 1.5,
+      "strength": 0.5
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "字典",
+        "persistent": "持有 {count}",
+        "hover": "厚得能当砖头使的字典。\n知识的重量，此刻终于派上了物理意义上的用场。"
+      }
+    },
+    "image": "public/art/weapons/dictionary.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "instant_camera",
+    "name": "拍立得",
+    "damageType": "mental",
+    "baseDamage": 35,
+    "hitChance": 0.8,
+    "criticalMultiplier": 1.3,
+    "requirements": {
+      "spirit": 3,
+      "agility": 1
+    },
+    "scaling": {
+      "spirit": 3,
+      "agility": 1
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "拍立得",
+        "persistent": "持有 {count}",
+        "hover": "按下快门就吐出一张照片的拍立得。"
+      }
+    },
+    "image": "public/art/weapons/instant_camera.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "video_camera",
+    "name": "摄影机",
+    "damageType": "mental",
+    "baseDamage": 30,
+    "hitChance": 0.95,
+    "criticalMultiplier": 1.4,
+    "requirements": {
+      "spirit": 4,
+      "knowledge": 5
+    },
+    "scaling": {
+      "spirit": 4,
+      "knowledge": 4
+    },
+    "skills": [
+      "slow_motion"
+    ],
+    "display": {
+      "default": {
+        "label": "摄影机",
+        "persistent": "持有 {count}",
+        "hover": "可以录像的摄影机，再也不用害怕错过决定性瞬间了。"
+      }
+    },
+    "image": "public/art/weapons/video_camera.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "pepper_spray",
+    "name": "胡椒喷雾",
+    "damageType": "mental",
+    "baseDamage": 36,
+    "hitChance": 0.85,
+    "criticalMultiplier": 1.3,
+    "requirements": {
+      "knowledge": 5,
+      "spirit": 2
+    },
+    "scaling": {
+      "knowledge": 4,
+      "spirit": 2
+    },
+    "skills": [
+      "face_spray"
+    ],
+    "display": {
+      "default": {
+        "label": "胡椒喷雾",
+        "persistent": "持有 {count}",
+        "hover": "喷出刺激性液体的胡椒喷雾。\n传说盐能驱散邪物——提出这一点的人显然没有见识过胡椒喷雾的威力。"
+      }
+    },
+    "image": "public/art/weapons/pepper_spray.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "stun_gun",
+    "name": "电击器",
+    "damageType": "mental",
+    "baseDamage": 42,
+    "hitChance": 0.9,
+    "criticalMultiplier": 1.4,
+    "requirements": {
+      "spirit": 6,
+      "knowledge": 3
+    },
+    "scaling": {
+      "spirit": 6,
+      "knowledge": 2
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "电击器",
+        "persistent": "持有 {count}",
+        "hover": "按下按钮便噼啪作响的电击器。"
+      }
+    },
+    "image": "public/art/weapons/stun_gun.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "iron_pointer",
+    "name": "铁制教鞭",
+    "damageType": "mental",
+    "baseDamage": 38,
+    "hitChance": 0.9,
+    "criticalMultiplier": 1.3,
+    "requirements": {
+      "knowledge": 6
+    },
+    "scaling": {
+      "knowledge": 6
+    },
+    "skills": [],
+    "display": {
+      "default": {
+        "label": "铁制教鞭",
+        "persistent": "持有 {count}",
+        "hover": "老师用来指黑板的铁制教鞭。"
+      }
+    },
+    "image": "public/art/weapons/iron_pointer.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  },
+  {
+    "id": "strange_bead",
+    "name": "奇怪的珠子",
+    "damageType": "mental",
+    "baseDamage": 95,
+    "hitChance": 0.95,
+    "criticalMultiplier": 1.5,
+    "requirements": {
+      "spirit": 12
+    },
+    "scaling": {
+      "spirit": 12
+    },
+    "skills": [
+      "bead_release"
+    ],
+    "display": {
+      "default": {
+        "label": "奇怪的珠子",
+        "persistent": "持有 {count}",
+        "hover": "奇怪而光滑的珠子，散发着不祥的气息……"
+      }
+    },
+    "image": "public/art/weapons/strange_bead.bmp",
+    "icon": "public/art/icons/categories/weapon-mental.bmp"
+  }
+]
