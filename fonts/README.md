@@ -1,5 +1,7 @@
 # 游戏像素字体
 
+网页版兼容抓图另用构建生成的 `src/assets/font/capture.woff2` 字体子集，只保留当前源码和 JSON 内容会用到的字符，随构建自动更新。构建逐字验证轮廓、字宽和字体行度量，原网页字体不变。子集沿用 SIL OFL 1.1，保留原版权和许可信息；它是字体的裁剪版本。此文件经 Vite 以带哈希文件名发布，不会与旧版本缓存混用。
+
 使用 [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.10.16) 2026.10.16 的 `fusion-pixel-12px-monospaced-zh_hans.otf.woff2`，未经修改。
 
 字体随应用离线打包；采用 SIL Open Font License 1.1，见 `OFL.txt`，上游字形许可见 `LICENSES/`。
