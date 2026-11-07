@@ -15,8 +15,8 @@
         "hover": "软乎乎的狸猫抱枕，能给人心灵的慰藉。"
       }
     },
-    "image": "public/art/equipment/tanuki_pillow.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/tanuki_pillow.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "smartphone",
@@ -37,8 +37,8 @@
         "hover": "一部还没断网的智能手机。\n既能查资料，又能拍摄照片，真是方便。"
       }
     },
-    "image": "public/art/equipment/smartphone.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/smartphone.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "patched_uniform",
@@ -56,8 +56,8 @@
         "hover": "缝了又补的旧校服。"
       }
     },
-    "image": "public/art/equipment/patched_uniform.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/patched_uniform.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   },
   {
     "id": "music_box",
@@ -74,8 +74,8 @@
         "hover": "上满发条就会奏出旋律的八音盒。"
       }
     },
-    "image": "public/art/equipment/music_box.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/music_box.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "duty_armband",
@@ -93,8 +93,8 @@
         "hover": "红色的值日袖章。"
       }
     },
-    "image": "public/art/equipment/duty_armband.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/duty_armband.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "cut_resistant_gloves",
@@ -113,8 +113,8 @@
         "hover": "耐磨防割的手套，让你握紧刀刃也不会受伤。"
       }
     },
-    "image": "public/art/equipment/cut_resistant_gloves.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/cut_resistant_gloves.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   },
   {
     "id": "track_spikes",
@@ -133,8 +133,8 @@
         "hover": "鞋底满是钉子的田径鞋。"
       }
     },
-    "image": "public/art/equipment/track_spikes.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/track_spikes.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "goggles",
@@ -151,8 +151,8 @@
         "hover": "防飞溅的护目镜。\n进入实验室前必须佩戴。"
       }
     },
-    "image": "public/art/equipment/goggles.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/goggles.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   },
   {
     "id": "simple_bracelet",
@@ -169,8 +169,8 @@
         "hover": "一枚素净的金属手镯。"
       }
     },
-    "image": "public/art/equipment/simple_bracelet.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/simple_bracelet.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "red_string_bracelet",
@@ -189,8 +189,8 @@
         "hover": "系在腕上的红绳手链。\n据说红绳能避邪，希望那是真的。"
       }
     },
-    "image": "public/art/equipment/red_string_bracelet.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/red_string_bracelet.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "knee_pads",
@@ -207,8 +207,8 @@
         "hover": "保护膝盖的运动护膝，让你摔倒了还能再站起来。"
       }
     },
-    "image": "public/art/equipment/knee_pads.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/knee_pads.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   },
   {
     "id": "black_glasses",
@@ -226,8 +226,8 @@
         "hover": "尺寸合适的黑框眼镜。\n戴上之后，你感觉思路都清晰了。"
       }
     },
-    "image": "public/art/equipment/black_glasses.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/black_glasses.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "blank_name_tag",
@@ -246,8 +246,8 @@
         "hover": "没有名字的姓名牌，曾属于谁已经没人知道。"
       }
     },
-    "image": "public/art/equipment/blank_name_tag.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/blank_name_tag.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "library_card",
@@ -264,8 +264,8 @@
         "hover": "一张图书馆的借书证。\n从密密麻麻的借阅记录可以看出，其主人应该也是个热爱学习之人。"
       }
     },
-    "image": "public/art/equipment/library_card.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/library_card.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "reverse_watch",
@@ -283,8 +283,8 @@
         "hover": "指针逆走的旧腕表，看起来十分诡异。\n时间像是能倒流，只是它从没真的回去过。"
       }
     },
-    "image": "public/art/equipment/reverse_watch.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/reverse_watch.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "silver_ring",
@@ -303,8 +303,8 @@
         "hover": "一枚素面的银戒指。"
       }
     },
-    "image": "public/art/equipment/silver_ring.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/silver_ring.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "riot_shield",
@@ -326,8 +326,8 @@
         "hover": "厚重结实的防暴盾牌。\n举在身前，你终于敢正面对上那些东西。"
       }
     },
-    "image": "public/art/equipment/riot_shield.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/riot_shield.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   },
   {
     "id": "brass_knuckles",
@@ -346,8 +346,8 @@
         "hover": "套在指节上的金属指虎。"
       }
     },
-    "image": "public/art/equipment/brass_knuckles.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/brass_knuckles.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   },
   {
     "id": "salt_jar",
@@ -365,8 +365,8 @@
         "hover": "装满粗盐的小罐子。\n传说盐能辟邪，或许应该带上一罐。"
       }
     },
-    "image": "public/art/equipment/salt_jar.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/salt_jar.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "running_shoes",
@@ -384,8 +384,8 @@
         "hover": "轻盈合脚的长跑鞋。"
       }
     },
-    "image": "public/art/equipment/running_shoes.bmp",
-    "icon": "public/art/icons/categories/equipment-other.bmp"
+    "image": "public/art/equipment/running_shoes.png",
+    "icon": "public/art/icons/categories/equipment-other.png"
   },
   {
     "id": "chalk_box",
@@ -406,8 +406,8 @@
         "hover": "一盒五颜六色的粉笔。\n也许可以用来画点什么。"
       }
     },
-    "image": "public/art/equipment/chalk_box.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/chalk_box.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "compass",
@@ -425,8 +425,8 @@
         "hover": "指针摇摆不定的指南针。\n有时候，一个明确的方向是最奢侈的东西。"
       }
     },
-    "image": "public/art/equipment/compass.bmp",
-    "icon": "public/art/icons/categories/equipment-mental.bmp"
+    "image": "public/art/equipment/compass.png",
+    "icon": "public/art/icons/categories/equipment-mental.png"
   },
   {
     "id": "sports_medal",
@@ -444,7 +444,7 @@
         "hover": "运动会上赢来的奖牌。\n金光已经褪色，握在手里却还是沉甸甸的。"
       }
     },
-    "image": "public/art/equipment/sports_medal.bmp",
-    "icon": "public/art/icons/categories/equipment-physical.bmp"
+    "image": "public/art/equipment/sports_medal.png",
+    "icon": "public/art/icons/categories/equipment-physical.png"
   }
 ]

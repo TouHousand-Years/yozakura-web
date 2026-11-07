@@ -32,7 +32,7 @@
           "id": "shop_intro",
           "title": "纪念品店",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "近些年，为了促进旅游业，图书馆开设了纪念品店……谁会买这些又贵又意义不明的东西啊？",
           "next": {
             "kind": "node",
@@ -43,7 +43,7 @@
           "id": "gift_plan",
           "title": "胜利的准备",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "一想到灵梦输给自己了可能会哭鼻子……要不要提前给她准备一点礼物呢？毕竟你是她的姐妹啊！",
           "choices": [
             {
@@ -60,7 +60,7 @@
           "id": "choose_gift",
           "title": "就这个了",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "这里的东西都好贵！而且看起来灵梦都不太会喜欢，不过来都来了，不能白跑一趟……",
           "choices": [
             {
@@ -134,7 +134,7 @@
           "id": "bonus",
           "title": "……赠品！",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "不过今天还有活动，买一赠一！那另一个就留给你自己了！",
           "choices": [
             {
@@ -155,7 +155,7 @@
           "text": "给灵梦的礼物挑好了，店里的赠品则留给你自己。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/library.bmp"
+          "sceneImage": "public/art/scenes/locations/library.png"
         },
         {
           "id": "left",
@@ -163,7 +163,7 @@
           "text": "先离开纪念品店，想好了再来。",
           "outcome": "left",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/library.bmp"
+          "sceneImage": "public/art/scenes/locations/library.png"
         }
       ]
     }

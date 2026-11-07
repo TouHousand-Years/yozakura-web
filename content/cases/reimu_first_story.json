@@ -9,7 +9,7 @@
       ]
     },
     "intro": "魔！理！沙！博丽灵梦看到了魔理沙留下的挑战书，今晚谁能把问题学生抓回来呢？那个家伙——到底上哪里去了？……这样超级令人担心的啊。",
-    "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+    "sceneImage": "public/art/scenes/locations/dormitory.png",
     "stages": [
       {
         "id": "dormitory",
@@ -55,7 +55,7 @@
           "id": "dorm_intro",
           "title": "宿舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "少女们的宿舍，一切故事的起点……",
           "next": {
             "kind": "node",
@@ -66,7 +66,7 @@
           "id": "challenge",
           "title": "挑战书",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "是魔理沙的字迹——“魔理沙大人要去整肃风纪了，灵梦你别来得太晚……”你光看到了前两行字就已经血气上头了，你把它揉成一团，随后又长出一口气，展开看完，堇子那个家伙……看来今晚上又要加班了，注定不平静的一夜。",
           "choices": [
             {
@@ -83,7 +83,7 @@
           "id": "worry",
           "title": "担心",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "不过……还是挺担心她的，谁叫她是你的姐妹呢？",
           "choices": [
             {
@@ -100,7 +100,7 @@
           "id": "maria",
           "title": "玛丽亚",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "站在宿舍走廊尽头向下望去，玛丽亚的眼睛朝右看着，没有问题。",
           "choices": [
             {
@@ -117,7 +117,7 @@
           "id": "night_duty",
           "title": "今夜才刚开始",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "风纪委员的工作从来不只是抓晚归的学生。七大不可思议也好，旧校舍也好，只要在这所学校里，就都归你管。“旧校舍”——这是你想到的第一个答案，几乎也是唯一的答案。",
           "choices": [
             {
@@ -134,7 +134,7 @@
           "id": "first_gate_intro",
           "title": "旧校舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "闲置了很久的旧校舍，但它一直不孤独，校方、学生还有各种各样的鬼怪，你很确信，所有的存在都在这里有秘密。",
           "next": {
             "kind": "node",
@@ -145,7 +145,7 @@
           "id": "first_answer",
           "title": "第一个答案",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "如果是要去抓那个问题学生的话，果然要去旧校舍吧？剩下的不可思议都围绕着这些，不过今夜出现的不可思议，是哪一个呢？会不会是“旧校舍的百合幽灵？”，还是“动起来的玛丽亚”？不过，旧校舍的大门死死关着，看上去不像有人来过。",
           "choices": [
             {
@@ -162,7 +162,7 @@
           "id": "chapel_intro",
           "title": "礼堂",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "因为是教会女校，所以会有一个小教堂，但唱圣歌的会有佛教徒和神道教徒与无神论者……还会有什么呢？",
           "next": {
             "kind": "node",
@@ -173,7 +173,7 @@
           "id": "trace",
           "title": "蛛丝马迹",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "礼堂里没有人，风琴也没有响，月光穿过彩绘玻璃，投下冷冷的光。魔理沙应该不会在这里和你躲猫猫，会不会在仓库呢？仓库那边没有动静，圣母像前却传来了哭声。你转过身，雕像脸上的泪痕正在月光下发亮。",
           "choices": [
             {
@@ -190,7 +190,7 @@
           "id": "chapel_battle",
           "kind": "battle",
           "title": "礼堂的不可思议",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "encounter": {
             "kind": "battle",
             "battleId": "reimu_chapel_mystery"
@@ -204,7 +204,7 @@
           "id": "duty",
           "title": "分内事",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "雕像终于安静了。至少今晚，它不会再吓到路过的学生。之后得把这件事告诉猯藏会长——希望她别又劝你竞选学生会长。你又去看了看礼堂的仓库，那里有人来过的痕迹，不会是魔理沙吧？",
           "choices": [
             {
@@ -221,7 +221,7 @@
           "id": "kiosk_intro",
           "title": "小卖部",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "text": "学校的小卖部，卖各种各样的东西，真的，各 种 各 样，别太惊讶……不过这些东西用来干嘛的？",
           "next": {
             "kind": "node",
@@ -232,7 +232,7 @@
           "id": "witness",
           "title": "目击情报",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "text": "小卖部还亮着灯，你进去问了一圈，有几个女生回答了你。有人说先看见一个披斗篷的身影往教学楼去了。看来她先去了教学楼？",
           "choices": [
             {
@@ -249,7 +249,7 @@
           "id": "classroom_intro",
           "title": "教学楼",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "学校的教学楼，就连下课铃也用的是圣歌，不过学生们大多数不能很好地唱出来。",
           "next": {
             "kind": "node",
@@ -260,7 +260,7 @@
           "id": "exclude",
           "title": "排除",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "你把教学楼走了一遍。教室、楼梯、厕所，没有问题。没有她的影子，也没有别人的影子。那么剩下的答案……你正打算离开，突然听到了一阵钢琴声……",
           "choices": [
             {
@@ -277,7 +277,7 @@
           "id": "music",
           "title": "音乐教室",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "你轻轻推开音乐教室的门，钢琴声戛然而止。琴凳上的女生吓得站了起来，琴上还架着什么曲谱。",
           "choices": [
             {
@@ -294,7 +294,7 @@
           "id": "farce",
           "title": "闹剧",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "这就是“午夜的钢琴声”的真相……你看着哭丧着脸的女学生，对你道歉说再也不敢了，但是她真的对最近的比赛没什么信心……",
           "choices": [
             {
@@ -311,7 +311,7 @@
           "id": "last_answer",
           "title": "最后的答案",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "果然……还是旧校舍吗？之前可能因为去得太早错开了，现在耽误了不少时间。",
           "choices": [
             {
@@ -328,7 +328,7 @@
           "id": "return_gate_intro",
           "title": "旧校舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "闲置了很久的旧校舍，但它一直不孤独，校方、学生还有各种各样的鬼怪，你很确信，所有的存在都在这里有秘密。",
           "next": {
             "kind": "node",
@@ -339,7 +339,7 @@
           "id": "found",
           "title": "魔理沙——",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "找到了！真是绕了好大一圈啊！魔理沙正在一棵树后面打盹呢……敢在晚上这么跑出来，不得抓回去让她好好赔罪？",
           "choices": [
             {
@@ -374,7 +374,7 @@
           "text": "先去旧校舍找找那两个让人担心的家伙。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "nextStage": "first_gate"
         },
         {
@@ -383,7 +383,7 @@
           "text": "旧校舍的门还关着，再去礼堂看看。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "nextStage": "chapel"
         },
         {
@@ -392,7 +392,7 @@
           "text": "仓库有人来过。去小卖部问问，或许能打听到她们的去向。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "nextStage": "kiosk"
         },
         {
@@ -401,7 +401,7 @@
           "text": "按照目击者的说法，先去教学楼看看吧。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "nextStage": "classroom"
         },
         {
@@ -410,7 +410,7 @@
           "text": "教学楼也没有人。再去旧校舍看看，这次希望还来得及。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "nextStage": "return_gate"
         },
         {
@@ -419,7 +419,7 @@
           "text": "你总感觉，事情没那么简单呢……对啊，堇子去哪里了？不管了，先抓住魔理沙！",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+          "sceneImage": "public/art/scenes/locations/old_school.png"
         }
       ]
     }

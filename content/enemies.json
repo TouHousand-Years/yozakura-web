@@ -161,7 +161,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/anatomical_mannequin.bmp",
+    "portrait": "public/art/portraits/enemies/anatomical_mannequin.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -361,7 +361,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/running_ninomiya.bmp",
+    "portrait": "public/art/portraits/enemies/running_ninomiya.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -538,7 +538,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/mirror_person.bmp",
+    "portrait": "public/art/portraits/enemies/mirror_person.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -751,7 +751,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/rail_crawler.bmp",
+    "portrait": "public/art/portraits/enemies/rail_crawler.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -989,7 +989,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/slit_mouth_woman.bmp",
+    "portrait": "public/art/portraits/enemies/slit_mouth_woman.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -1191,7 +1191,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/eight_foot_shadow.bmp",
+    "portrait": "public/art/portraits/enemies/eight_foot_shadow.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -1302,7 +1302,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/eternal_companionship.bmp",
+    "portrait": "public/art/portraits/enemies/eternal_companionship.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": []
@@ -1469,7 +1469,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/fathers_shadow.bmp",
+    "portrait": "public/art/portraits/enemies/fathers_shadow.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -1703,7 +1703,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/red_person.bmp",
+    "portrait": "public/art/portraits/enemies/red_person.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -1916,7 +1916,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/smiling_bloody_madonna.bmp",
+    "portrait": "public/art/portraits/enemies/smiling_bloody_madonna.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -2093,7 +2093,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/string_puppet.bmp",
+    "portrait": "public/art/portraits/enemies/string_puppet.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [
@@ -2293,7 +2293,7 @@
         }
       ]
     },
-    "portrait": "public/art/portraits/enemies/watching_beethoven.bmp",
+    "portrait": "public/art/portraits/enemies/watching_beethoven.png",
     "physicalAvoidanceChance": 0,
     "mentalAvoidanceChance": 0,
     "rewards": [

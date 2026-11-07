@@ -9,7 +9,7 @@
       ]
     },
     "intro": "老是被追着像什么话？区区灵梦而已，如果被打败了，可不要哭鼻子哦！解决了灵梦之后，要带着她去把问题学生抓回来……等一下，说白了，你就是很喜欢她吧。",
-    "sceneImage": "public/art/scenes/locations/square.bmp",
+    "sceneImage": "public/art/scenes/locations/square.png",
     "stages": [
       {
         "id": "square",
@@ -43,7 +43,7 @@
           "id": "square_intro",
           "title": "广场",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "text": "广场，但其实没有人愿意在这里停留，少女们更喜欢在阴凉一点儿的地方说悄悄话。",
           "next": {
             "kind": "node",
@@ -54,7 +54,7 @@
           "id": "caught",
           "title": "逮着了",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "text": "“魔！理！沙！又给我添麻烦……”\n\n你跑了一路，还是被她逮住了。",
           "choices": [
             {
@@ -71,7 +71,7 @@
           "id": "duel",
           "title": "姐妹对决？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "text": "“老实点，把你押回去我还有工作。”\n\n这家伙仍然像平常那样不可一世，你有些发虚，毕竟你从来没赢过……",
           "choices": [
             {
@@ -88,7 +88,7 @@
           "id": "intruder",
           "title": "不速之客",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "text": "你发现一个从背后靠近她的影子，没想太多，直接扑倒了她……",
           "choices": [
             {
@@ -105,7 +105,7 @@
           "id": "shadow_battle",
           "title": "广场上的怪物",
           "kind": "battle",
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "encounter": {
             "kind": "enemy_pool",
             "enemyIds": [
@@ -122,7 +122,7 @@
           "id": "team",
           "title": "组队",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "text": "你们搞定了那个怪物，她少有地红着脸对你说谢谢：\n\n“那就仅限今晚一起，下不为例！”\n\n其实她看起来还挺高兴的……\n\n“先去学生会查一下资料吧。”她说。",
           "choices": [
             {
@@ -139,7 +139,7 @@
           "id": "union_intro",
           "title": "学生会大楼",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "学生会大楼，不光让少女们憧憬，也让少女们敬畏。\n\n在夜间尤其如此……“她”像是醒着一样。",
           "next": {
             "kind": "node",
@@ -150,7 +150,7 @@
           "id": "key",
           "title": "在门前",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "她有学生会大楼的钥匙，你难得堂堂正正地在晚上来到这里，她警告你：\n\n“别乱翻东西。”",
           "choices": [
             {
@@ -167,7 +167,7 @@
           "id": "chat",
           "title": "闲聊",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "档案室里整整齐齐码着校园内灵异事件的记录与线索，既有还没有破解的，也有已经被查明真相的。\n\n“灵梦，你会成为下一任学生会长吗？”\n\n你知道学生会的规矩，而灵梦目前解决的比你要多。\n\n“没那闲工夫。”她回答。",
           "choices": [
             {
@@ -184,7 +184,7 @@
           "id": "record",
           "title": "殉情",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "关于旧校舍的记录有整整一本，多亏了学生会前辈们的归档，你们很快找到了信息。当年的报道写着：“两名学生的尸体于中庭樱花树下被发现，此前有很多同学声称她们有很多亲密举动……”",
           "choices": [
             {
@@ -201,7 +201,7 @@
           "id": "missing_tree",
           "title": "树没了",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "你们继续往下看，发现报告里，那棵樱花树后来被砍了，可能是出于隐瞒和不吉利的原因。\n\n你刚想说出自己的想法时，灵梦先一步说：\n\n“我觉得，去折一枝樱花来怎么样？”",
           "choices": [
             {
@@ -218,7 +218,7 @@
           "id": "park_intro",
           "title": "樱花树下",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "sceneImage": "public/art/scenes/locations/park.png",
           "text": "不知道为什么，你感到在樱花树下的每一刻……都是永恒的。\n\n真的，真的停住了……",
           "next": {
             "kind": "node",
@@ -229,7 +229,7 @@
           "id": "still_blooming",
           "title": "定格",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "sceneImage": "public/art/scenes/locations/park.png",
           "text": "花期早就过了，花瓣也在飘落……不过你感觉樱花是无穷无尽的，就好像定格在了某一刻似的。\n\n仿佛就是在等人一样。\n\n“这种怪象难道也是这桩陈年旧事的影响吗？”",
           "choices": [
             {
@@ -246,7 +246,7 @@
           "id": "branch",
           "title": "折枝",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "sceneImage": "public/art/scenes/locations/park.png",
           "text": "灵梦挑了一枝，折了下来。\n\n别的树枝还是自顾自地撒着撒不完的花瓣。\n\n“如果让她们看了这花，会不会她们就愿意安息成佛了呢？”",
           "choices": [
             {
@@ -263,7 +263,7 @@
           "id": "shared_dream",
           "title": "梦",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "sceneImage": "public/art/scenes/locations/park.png",
           "text": "望着折下来的枝条，灵梦对你说出她的怪梦，关于无尽的樱花下，望着恋人的梦。而你听了，对她说：“我也一样”。\n\n原来你们最近也做了相似的梦。\n\n或许，这就是你们今夜相会的原因，这并非偶然。",
           "choices": [
             {
@@ -280,7 +280,7 @@
           "id": "courtyard_intro",
           "title": "庭院",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "这里荒草丛生，看上去荒废已久，路灯也是暗的。院子中央有一架长椅，高高的草叶在石板路两侧，像是在夹道欢迎你们。",
           "next": {
             "kind": "node",
@@ -291,7 +291,7 @@
           "id": "offering",
           "title": "祭品",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你们带着花枝来到旧校舍庭院，这里还是一样的寂静。\n\n你们想到了梦中樱花飞舞的样子，然而现在空空荡荡，只有一派恐怖之色……\n\n那个实际上刻满了字的树桩出现在你们面前。",
           "choices": [
             {
@@ -308,7 +308,7 @@
           "id": "bench",
           "title": "长椅",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "“结束了吗？”你问，这种事情上，你觉得灵梦的直觉更可靠。\n\n“不……好像还没有。”她说。周遭的气温好像低了几度，那可怜的一枝樱花确实在暗夜里微微发着光，但没什么特别的事情发生……好像还有什么事情被忽视了。\n\n你们在院中的长椅上坐下来。一路走来你忽然明白，她关心的并不是你究竟赢不赢得了她——这点想法让你没来由地轻松了不少。",
           "choices": [
             {
@@ -351,7 +351,7 @@
           "id": "gift",
           "title": "礼物",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你摸了摸怀里。那对买一赠一的小玩意，给她的那一份还好好包着。\n\n本来想等真正赢过她那天再给。但是……",
           "choices": [
             {
@@ -368,7 +368,7 @@
           "id": "reaction",
           "title": "给我的？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "“给，给我的吗？”\n\n“是，是啊，顺手买的，别想太多。”",
           "choices": [
             {
@@ -403,7 +403,7 @@
           "text": "你和灵梦暂时联手，动身去学生会大楼查找旧校舍的资料。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/square.bmp",
+          "sceneImage": "public/art/scenes/locations/square.png",
           "nextStage": "archives"
         },
         {
@@ -412,7 +412,7 @@
           "text": "旧校舍的樱花树已经被砍掉。你们决定去公园折一枝樱花，带回旧校舍。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "nextStage": "blossom"
         },
         {
@@ -421,7 +421,7 @@
           "text": "花枝已经到手。你和灵梦带着它回到旧校舍庭院。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/park.bmp",
+          "sceneImage": "public/art/scenes/locations/park.png",
           "nextStage": "offering"
         },
         {
@@ -430,7 +430,7 @@
           "text": "花枝在树桩前微微发着光。你和灵梦并肩坐在长椅上。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+          "sceneImage": "public/art/scenes/locations/old_school.png"
         },
         {
           "id": "gift_done",
@@ -438,7 +438,7 @@
           "text": "你把那份礼物交给灵梦，两个人仍并肩坐在长椅上。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+          "sceneImage": "public/art/scenes/locations/old_school.png"
         }
       ]
     }

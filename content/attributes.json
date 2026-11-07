@@ -9,8 +9,8 @@
     "upgrade": {
       "hover": "每级加成\n当前武器伤害补正 {weaponScalingPerLevel}\n物理暴击率 +1%"
     },
-    "icon": "public/art/icons/strength.bmp",
-    "image": "public/art/attributes/strength.bmp"
+    "icon": "public/art/icons/strength.png",
+    "image": "public/art/attributes/strength.png"
   },
   "agility": {
     "name": "敏捷",
@@ -22,8 +22,8 @@
     "upgrade": {
       "hover": "每级加成\n当前武器伤害补正 {weaponScalingPerLevel}\n移动速度 +0.1"
     },
-    "icon": "public/art/icons/agility.bmp",
-    "image": "public/art/attributes/agility.bmp"
+    "icon": "public/art/icons/agility.png",
+    "image": "public/art/attributes/agility.png"
   },
   "constitution": {
     "name": "体格",
@@ -35,8 +35,8 @@
     "upgrade": {
       "hover": "每级加成\n物理免伤率 +1%\n最大生命 +10（不受临时影响）"
     },
-    "icon": "public/art/icons/constitution.bmp",
-    "image": "public/art/attributes/constitution.bmp"
+    "icon": "public/art/icons/constitution.png",
+    "image": "public/art/attributes/constitution.png"
   },
   "spirit": {
     "name": "灵力",
@@ -48,8 +48,8 @@
     "upgrade": {
       "hover": "每级加成\n当前武器伤害补正 {weaponScalingPerLevel}\n精神暴击率 +1%"
     },
-    "icon": "public/art/icons/spirit.bmp",
-    "image": "public/art/attributes/spirit.bmp"
+    "icon": "public/art/icons/spirit.png",
+    "image": "public/art/attributes/spirit.png"
   },
   "knowledge": {
     "name": "学识",
@@ -61,8 +61,8 @@
     "upgrade": {
       "hover": "每级加成\n当前武器伤害补正 {weaponScalingPerLevel}\n经验倍率 +2%"
     },
-    "icon": "public/art/icons/knowledge.bmp",
-    "image": "public/art/attributes/knowledge.bmp"
+    "icon": "public/art/icons/knowledge.png",
+    "image": "public/art/attributes/knowledge.png"
   },
   "will": {
     "name": "意志",
@@ -74,7 +74,7 @@
     "upgrade": {
       "hover": "每级加成\n精神免伤率 +1%\n每损失 10% 生命时的能力减益降低 0.3%，可转为增益（不受临时影响）"
     },
-    "icon": "public/art/icons/will.bmp",
-    "image": "public/art/attributes/will.bmp"
+    "icon": "public/art/icons/will.png",
+    "image": "public/art/attributes/will.png"
   }
 }

@@ -10,8 +10,8 @@
         "hover": "用打印零件组装的非法枪械。\n与二战时期盟军所投放的“解放者”手枪同名，但却比前者还要难用。"
       }
     },
-    "image": "public/art/items/printed_gun.bmp",
-    "icon": "public/art/icons/categories/item-damage.bmp",
+    "image": "public/art/items/printed_gun.png",
+    "icon": "public/art/icons/categories/item-damage.png",
     "target": "enemy",
     "damage": {
       "amount": 150,
@@ -34,8 +34,8 @@
         "hover": "一颗新鲜的橘子。\n最好不要好奇它是从哪来的。"
       }
     },
-    "image": "public/art/items/orange.bmp",
-    "icon": "public/art/icons/categories/item-healing.bmp"
+    "image": "public/art/items/orange.png",
+    "icon": "public/art/icons/categories/item-healing.png"
   },
   {
     "id": "wire",
@@ -48,8 +48,8 @@
         "hover": "某些地方可以用来撬锁。"
       }
     },
-    "image": "public/art/items/wire.bmp",
-    "icon": "public/art/icons/categories/item-other.bmp",
+    "image": "public/art/items/wire.png",
+    "icon": "public/art/icons/categories/item-other.png",
     "usableInBattle": false
   },
   {
@@ -68,8 +68,8 @@
         "hover": "只能包扎小伤口。"
       }
     },
-    "image": "public/art/items/adhesive_bandage.bmp",
-    "icon": "public/art/icons/categories/item-healing.bmp"
+    "image": "public/art/items/adhesive_bandage.png",
+    "icon": "public/art/icons/categories/item-healing.png"
   },
   {
     "id": "bandage",
@@ -87,8 +87,8 @@
         "hover": "用于包扎中等伤口的绷带。"
       }
     },
-    "image": "public/art/items/bandage.bmp",
-    "icon": "public/art/icons/categories/item-healing.bmp"
+    "image": "public/art/items/bandage.png",
+    "icon": "public/art/icons/categories/item-healing.png"
   },
   {
     "id": "painkiller",
@@ -108,8 +108,8 @@
         "hover": "缓解疼痛的药片。\n并不能缓解伤势，只能让你暂时不那么在乎。"
       }
     },
-    "image": "public/art/items/painkiller.bmp",
-    "icon": "public/art/icons/categories/item-attribute.bmp"
+    "image": "public/art/items/painkiller.png",
+    "icon": "public/art/icons/categories/item-attribute.png"
   },
   {
     "id": "soda",
@@ -129,8 +129,8 @@
         "hover": "一瓶清凉的汽水，承载了多少人的夏日回忆。"
       }
     },
-    "image": "public/art/items/soda.bmp",
-    "icon": "public/art/icons/categories/item-attribute.bmp"
+    "image": "public/art/items/soda.png",
+    "icon": "public/art/icons/categories/item-attribute.png"
   },
   {
     "id": "spirit_tonic",
@@ -150,8 +150,8 @@
         "hover": "让精神振作的口服液。\n苦得让人瞬间清醒——这大概就是它的原理。"
       }
     },
-    "image": "public/art/items/spirit_tonic.bmp",
-    "icon": "public/art/icons/categories/item-attribute.bmp"
+    "image": "public/art/items/spirit_tonic.png",
+    "icon": "public/art/icons/categories/item-attribute.png"
   },
   {
     "id": "deluxe_bento",
@@ -170,8 +170,8 @@
         "hover": "一份过于丰盛的便当，放在平时肯定舍不得吃。"
       }
     },
-    "image": "public/art/items/deluxe_bento.bmp",
-    "icon": "public/art/icons/categories/item-healing.bmp"
+    "image": "public/art/items/deluxe_bento.png",
+    "icon": "public/art/icons/categories/item-healing.png"
   },
   {
     "id": "energy_drink",
@@ -191,8 +191,8 @@
         "hover": "甜得发腻的糖水，灌下去的几秒里，你确实觉得自己能一拳撂倒任何东西。"
       }
     },
-    "image": "public/art/items/energy_drink.bmp",
-    "icon": "public/art/icons/categories/item-attribute.bmp"
+    "image": "public/art/items/energy_drink.png",
+    "icon": "public/art/icons/categories/item-attribute.png"
   },
   {
     "id": "study_notes",
@@ -212,8 +212,8 @@
         "hover": "写满重点的笔记，常在考试之前被学生传阅。\n大部分学生选择在考试前一周内学完整个学期的内容，然后在考试后一周内把它忘掉。"
       }
     },
-    "image": "public/art/items/study_notes.bmp",
-    "icon": "public/art/icons/categories/item-attribute.bmp"
+    "image": "public/art/items/study_notes.png",
+    "icon": "public/art/icons/categories/item-attribute.png"
   },
   {
     "id": "fire_bomb",
@@ -233,8 +233,8 @@
         "hover": "装满酒精的玻璃瓶，瓶口塞了一小段布条。\n化学课没有白上，只是老师大概没想过它会派上这种用场。"
       }
     },
-    "image": "public/art/items/fire_bomb.bmp",
-    "icon": "public/art/icons/categories/item-damage.bmp",
+    "image": "public/art/items/fire_bomb.png",
+    "icon": "public/art/icons/categories/item-damage.png",
     "target": "enemy"
   },
   {
@@ -248,8 +248,8 @@
         "hover": "绘有驱灵符文的纸张。\n笔迹潦草得没人能认得出来，可那些东西似乎真的会怕。"
       }
     },
-    "image": "public/art/items/spirit_seal.bmp",
-    "icon": "public/art/icons/categories/item-damage.bmp",
+    "image": "public/art/items/spirit_seal.png",
+    "icon": "public/art/icons/categories/item-damage.png",
     "target": "enemy",
     "damage": {
       "amount": 20,
@@ -274,8 +274,8 @@
         "hover": "一把松散的沙土。\n可能是最古老的格斗术之一：迷住对方的眼睛。"
       }
     },
-    "image": "public/art/items/sand.bmp",
-    "icon": "public/art/icons/categories/item-other.bmp",
+    "image": "public/art/items/sand.png",
+    "icon": "public/art/icons/categories/item-other.png",
     "target": "enemy"
   },
   {
@@ -289,8 +289,8 @@
         "hover": "空玻璃瓶，打碎时会产生尖锐的边缘。"
       }
     },
-    "image": "public/art/items/glass_bottle.bmp",
-    "icon": "public/art/icons/categories/item-damage.bmp",
+    "image": "public/art/items/glass_bottle.png",
+    "icon": "public/art/icons/categories/item-damage.png",
     "target": "enemy",
     "damage": {
       "amount": 20,
@@ -315,7 +315,7 @@
         "hover": "一本旧书，写满了看不懂的内容。\n塞在衣服下能抵挡少许伤害，也算是没有白费。"
       }
     },
-    "image": "public/art/items/old_book.bmp",
-    "icon": "public/art/icons/categories/item-attribute.bmp"
+    "image": "public/art/items/old_book.png",
+    "icon": "public/art/icons/categories/item-attribute.png"
   }
 ]

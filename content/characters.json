@@ -32,7 +32,7 @@
         "skillId": "investigator_c"
       }
     ],
-    "portrait": "public/art/portraits/characters/investigator.bmp",
+    "portrait": "public/art/portraits/characters/investigator.png",
     "start": {
       "caseId": "sumireko_first_story",
       "locationId": "dormitory"
@@ -71,7 +71,7 @@
         "skillId": "mamizou_c"
       }
     ],
-    "portrait": "public/art/portraits/characters/mamizou.bmp",
+    "portrait": "public/art/portraits/characters/mamizou.png",
     "start": {
       "caseId": "mamizou_first_story",
       "locationId": "auditorium"
@@ -110,7 +110,7 @@
         "skillId": "aya_c"
       }
     ],
-    "portrait": "public/art/portraits/characters/aya.bmp",
+    "portrait": "public/art/portraits/characters/aya.png",
     "start": {
       "caseId": "aya_first_story",
       "locationId": "library"
@@ -149,7 +149,7 @@
         "skillId": "reimu_c"
       }
     ],
-    "portrait": "public/art/portraits/characters/reimu.bmp",
+    "portrait": "public/art/portraits/characters/reimu.png",
     "start": {
       "caseId": "reimu_first_story",
       "locationId": "dormitory"
@@ -188,7 +188,7 @@
         "skillId": "marisa_c"
       }
     ],
-    "portrait": "public/art/portraits/characters/marisa.bmp",
+    "portrait": "public/art/portraits/characters/marisa.png",
     "start": {
       "caseId": "marisa_first_story",
       "locationId": "dormitory"

@@ -12,12 +12,12 @@
     {
       "id": "truth",
       "music": "truth",
-      "sceneImage": "public/art/scenes/locations/old_school.bmp"
+      "sceneImage": "public/art/scenes/locations/old_school.png"
     },
     {
       "id": "dawn",
       "music": "finale",
-      "sceneImage": "public/art/scenes/locations/park.bmp"
+      "sceneImage": "public/art/scenes/locations/park.png"
     }
   ]
 }

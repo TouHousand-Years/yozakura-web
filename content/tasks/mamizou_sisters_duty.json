@@ -32,7 +32,7 @@
           "id": "hungry_nue",
           "title": "什么声音？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "你晃悠到了教学楼，发现你的同僚，学生会成员鵺的肚子正在咕咕叫。原来她又拿生活费去公园里买那些占卜用的小玩意了。",
           "choices": [
             {
@@ -57,7 +57,7 @@
           "id": "deliver_food",
           "title": "交付食物",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "给鵺的食物准备好了吗？",
           "choices": [
             {
@@ -88,7 +88,7 @@
           "id": "feed_nue",
           "title": "喂食",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "“谢谢老大——唔，唔，好吃！”\n\n你看着鵺狼吞虎咽，心想着这个月还有好几天呢。\n\n“每次把生活费花光，最后还不是得让我来替你收拾残局？”你无奈地摇了摇头。\n\n“嘿嘿，又让会长操心了嘛……”鵺倒是很乐天派，嘴里塞得满满当当，用含糊不清的声音让你从她刚买的新宝贝里挑一样作谢礼。",
           "choices": [
             {
@@ -146,7 +146,7 @@
           "text": "先去市场，买好豪华便当再回来找鵺。",
           "outcome": "left",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp"
+          "sceneImage": "public/art/scenes/locations/teaching_building.png"
         },
         {
           "id": "done",
@@ -154,7 +154,7 @@
           "text": "鵺吃饱了，你也收下了她送的小玩意。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp"
+          "sceneImage": "public/art/scenes/locations/teaching_building.png"
         }
       ]
     }

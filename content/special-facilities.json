@@ -5,7 +5,7 @@
     "kind": "reading",
     "name": "看书",
     "description": "你在书架间找到一些记载着奇妙技艺的书籍。",
-    "sceneImage": "public/art/scenes/locations/library.bmp",
+    "sceneImage": "public/art/scenes/locations/library.png",
     "actionHover": "随机学习一个其他角色的技能",
     "leaveHover": "返回地图",
     "actionText": "看书（异变 +{cost}）",
@@ -20,7 +20,7 @@
     "name": "占卜小摊",
     "description": "占卜师将塔罗牌铺在桌上：“要来占卜吗？”",
     "price": 5,
-    "sceneImage": "public/art/scenes/divination/back.bmp",
+    "sceneImage": "public/art/scenes/divination/back.png",
     "actionHover": "每张牌等概率抽取，结果立即生效",
     "leaveHover": "返回地图",
     "cards": [
@@ -33,7 +33,7 @@
           "amount": 1,
           "attribute": "strength"
         },
-        "sceneImage": "public/art/scenes/divination/strength.bmp"
+        "sceneImage": "public/art/scenes/divination/strength.png"
       },
       {
         "id": "chariot",
@@ -44,7 +44,7 @@
           "amount": 1,
           "attribute": "agility"
         },
-        "sceneImage": "public/art/scenes/divination/chariot.bmp"
+        "sceneImage": "public/art/scenes/divination/chariot.png"
       },
       {
         "id": "empress",
@@ -55,7 +55,7 @@
           "amount": 1,
           "attribute": "constitution"
         },
-        "sceneImage": "public/art/scenes/divination/empress.bmp"
+        "sceneImage": "public/art/scenes/divination/empress.png"
       },
       {
         "id": "magician",
@@ -66,7 +66,7 @@
           "amount": 1,
           "attribute": "spirit"
         },
-        "sceneImage": "public/art/scenes/divination/magician.bmp"
+        "sceneImage": "public/art/scenes/divination/magician.png"
       },
       {
         "id": "priestess",
@@ -77,7 +77,7 @@
           "amount": 1,
           "attribute": "knowledge"
         },
-        "sceneImage": "public/art/scenes/divination/priestess.bmp"
+        "sceneImage": "public/art/scenes/divination/priestess.png"
       },
       {
         "id": "emperor",
@@ -88,7 +88,7 @@
           "amount": 1,
           "attribute": "will"
         },
-        "sceneImage": "public/art/scenes/divination/emperor.bmp"
+        "sceneImage": "public/art/scenes/divination/emperor.png"
       },
       {
         "id": "hermit",
@@ -98,7 +98,7 @@
           "kind": "experience",
           "amount": 50
         },
-        "sceneImage": "public/art/scenes/divination/hermit.bmp"
+        "sceneImage": "public/art/scenes/divination/hermit.png"
       },
       {
         "id": "sun",
@@ -108,7 +108,7 @@
           "kind": "full_restore",
           "resource": "health"
         },
-        "sceneImage": "public/art/scenes/divination/sun.bmp"
+        "sceneImage": "public/art/scenes/divination/sun.png"
       },
       {
         "id": "tower",
@@ -118,7 +118,7 @@
           "kind": "health",
           "amount": -20
         },
-        "sceneImage": "public/art/scenes/divination/tower.bmp"
+        "sceneImage": "public/art/scenes/divination/tower.png"
       },
       {
         "id": "star",
@@ -128,7 +128,7 @@
           "kind": "full_restore",
           "resource": "energy"
         },
-        "sceneImage": "public/art/scenes/divination/star.bmp"
+        "sceneImage": "public/art/scenes/divination/star.png"
       },
       {
         "id": "moon",
@@ -138,7 +138,7 @@
           "kind": "anomaly",
           "amount": 10
         },
-        "sceneImage": "public/art/scenes/divination/moon.bmp"
+        "sceneImage": "public/art/scenes/divination/moon.png"
       },
       {
         "id": "temperance",
@@ -148,7 +148,7 @@
           "kind": "anomaly",
           "amount": -10
         },
-        "sceneImage": "public/art/scenes/divination/temperance.bmp"
+        "sceneImage": "public/art/scenes/divination/temperance.png"
       }
     ],
     "actionText": "花费 {price} 零钱抽一张塔罗牌",
@@ -161,7 +161,7 @@
     "kind": "rest",
     "name": "休息一下",
     "description": "回到宿舍歇一会儿，生命值和精力恢复到上限。",
-    "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+    "sceneImage": "public/art/scenes/locations/dormitory.png",
     "actionHover": "补满生命值和精力，异变 +{cost}",
     "leaveHover": "返回地图",
     "anomalyCost": 20,
@@ -175,7 +175,7 @@
     "kind": "donation",
     "name": "捐款箱",
     "description": "礼堂里摆着一个捐款箱。往里投些零钱吗？",
-    "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+    "sceneImage": "public/art/scenes/locations/auditorium.png",
     "actionHover": "花费 {price} 零钱，异变减少 {reduction}，最低降至 0",
     "leaveHover": "返回地图",
     "price": 5,

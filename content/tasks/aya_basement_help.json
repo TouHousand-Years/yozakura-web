@@ -32,7 +32,7 @@
           "id": "chapel_intro",
           "title": "礼堂",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "因为是教会女校，所以会有一个小教堂，但唱圣歌的会有佛教徒和神道教徒与无神论者……还会有什么呢？",
           "next": {
             "kind": "node",
@@ -43,7 +43,7 @@
           "id": "request",
           "title": "请求",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "有一位修女请求你帮她打扫一下地下室，因为今天只有她值班，但是她实在怕黑。",
           "choices": [
             {
@@ -68,7 +68,7 @@
           "id": "apparition",
           "title": "什么鬼",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "你打扫房间的时候，墙边的人体模型突然动了起来，挡住了通向楼梯的路。",
           "choices": [
             {
@@ -85,7 +85,7 @@
           "id": "basement_battle",
           "kind": "battle",
           "title": "地下室的异物",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "encounter": {
             "kind": "battle",
             "battleId": "aya_basement_apparition"
@@ -99,7 +99,7 @@
           "id": "relief",
           "title": "虚惊一场",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "人体模型终于不动了。它的行动方式真是毫无征兆。你不打算把这事儿告诉修女——她本来就已经很怕黑了。",
           "choices": [
             {
@@ -120,7 +120,7 @@
           "text": "你向修女告辞，等有空再来。",
           "outcome": "left",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp"
+          "sceneImage": "public/art/scenes/locations/auditorium.png"
         },
         {
           "id": "done",
@@ -128,7 +128,7 @@
           "text": "地下室已经打扫完了。刚才的遭遇，你决定暂且不提。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp"
+          "sceneImage": "public/art/scenes/locations/auditorium.png"
         }
       ]
     },

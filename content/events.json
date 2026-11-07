@@ -41,7 +41,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/lost_wallet/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/lost_wallet/nodes/stage.png"
         }
       ],
       "endings": [
@@ -51,7 +51,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/lost_wallet/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/lost_wallet/endings/completed.png"
         }
       ]
     }
@@ -86,7 +86,7 @@
             "kind": "end",
             "id": "completed"
           },
-          "sceneImage": "public/art/scenes/events/wild_encounter/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/wild_encounter/nodes/stage.png"
         }
       ],
       "endings": [
@@ -96,7 +96,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/wild_encounter/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/wild_encounter/endings/completed.png"
         }
       ]
     }
@@ -129,7 +129,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/cold_rain/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/cold_rain/nodes/stage.png"
         }
       ],
       "endings": [
@@ -139,14 +139,14 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/cold_rain/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/cold_rain/endings/completed.png"
         }
       ]
     }
   },
   {
     "id": "new_shop",
-    "sceneImage": "public/art/scenes/events/new_shop/background.bmp",
+    "sceneImage": "public/art/scenes/events/new_shop/background.png",
     "category": "shop",
     "title": "新开商店",
     "flow": {
@@ -183,7 +183,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.png"
         }
       ],
       "endings": [
@@ -193,7 +193,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.png"
         }
       ]
     }
@@ -239,7 +239,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.png"
         }
       ],
       "endings": [
@@ -249,7 +249,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.png"
         }
       ]
     }
@@ -282,7 +282,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.png"
         }
       ],
       "endings": [
@@ -292,7 +292,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.png"
         }
       ]
     }
@@ -348,7 +348,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.png"
         }
       ],
       "endings": [
@@ -358,7 +358,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.png"
         }
       ]
     }
@@ -425,7 +425,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.png"
         }
       ],
       "endings": [
@@ -435,7 +435,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.png"
         }
       ]
     }
@@ -486,7 +486,7 @@
               }
             }
           ],
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/nodes/stage.png"
         }
       ],
       "endings": [
@@ -496,7 +496,7 @@
           "text": "你继续前行。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.bmp"
+          "sceneImage": "public/art/scenes/events/quiet_crossroad/endings/completed.png"
         }
       ]
     }

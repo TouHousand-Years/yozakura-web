@@ -9,8 +9,8 @@
     },
     "damageType": "physical",
     "energyCost": 5,
-    "image": "public/art/skills/throat_cut.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/throat_cut.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -32,8 +32,8 @@
     },
     "damageType": "physical",
     "energyCost": 5,
-    "image": "public/art/skills/armor_break.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/armor_break.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -55,8 +55,8 @@
     },
     "damageType": "physical",
     "energyCost": 4,
-    "image": "public/art/skills/heavy_blow.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/heavy_blow.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "hitChance": "weapon",
     "criticalChanceSource": "weapon"
   },
@@ -70,8 +70,8 @@
     },
     "damageType": "mental",
     "energyCost": 2,
-    "image": "public/art/skills/dazzle.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/dazzle.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "hitChance": "weapon",
     "criticalChanceSource": "weapon"
   },
@@ -85,8 +85,8 @@
     },
     "damageType": "mental",
     "energyCost": 4,
-    "image": "public/art/skills/slow_motion.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/slow_motion.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -108,8 +108,8 @@
     },
     "damageType": "mental",
     "energyCost": 3,
-    "image": "public/art/skills/face_spray.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/face_spray.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -131,8 +131,8 @@
     },
     "damageType": "mental",
     "energyCost": 5,
-    "image": "public/art/skills/bead_release.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/bead_release.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -154,8 +154,8 @@
     },
     "damageType": "mental",
     "energyCost": 2,
-    "image": "public/art/skills/burst_photo.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/burst_photo.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -177,8 +177,8 @@
     },
     "damageType": "physical",
     "energyCost": 3,
-    "image": "public/art/skills/shield_bash.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/shield_bash.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -200,8 +200,8 @@
     },
     "damageType": "physical",
     "energyCost": 2,
-    "image": "public/art/skills/sudden_punch.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/sudden_punch.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -223,8 +223,8 @@
     },
     "damageType": "mental",
     "energyCost": 2,
-    "image": "public/art/skills/draw_seal.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/draw_seal.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "hitChance": "weapon",
     "criticalChanceSource": "weapon",
     "effects": [
@@ -249,8 +249,8 @@
         "investigator"
       ]
     },
-    "image": "public/art/skills/investigator_a.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/investigator_a.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.2
@@ -271,8 +271,8 @@
         "investigator"
       ]
     },
-    "image": "public/art/skills/investigator_b.bmp",
-    "icon": "public/art/icons/categories/skill-other.bmp",
+    "image": "public/art/skills/investigator_b.png",
+    "icon": "public/art/icons/categories/skill-other.png",
     "effects": [
       {
         "kind": "modifier",
@@ -301,8 +301,8 @@
         "investigator"
       ]
     },
-    "image": "public/art/skills/investigator_c.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/investigator_c.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.9
@@ -331,8 +331,8 @@
         "mamizou"
       ]
     },
-    "image": "public/art/skills/mamizou_a.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/mamizou_a.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.2
@@ -361,8 +361,8 @@
         "mamizou"
       ]
     },
-    "image": "public/art/skills/mamizou_b.bmp",
-    "icon": "public/art/icons/categories/skill-other.bmp",
+    "image": "public/art/skills/mamizou_b.png",
+    "icon": "public/art/icons/categories/skill-other.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -384,8 +384,8 @@
         "mamizou"
       ]
     },
-    "image": "public/art/skills/mamizou_c.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/mamizou_c.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.9
@@ -420,8 +420,8 @@
         "aya"
       ]
     },
-    "image": "public/art/skills/aya_a.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/aya_a.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.2
@@ -442,8 +442,8 @@
         "aya"
       ]
     },
-    "image": "public/art/skills/aya_b.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/aya_b.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "enemyEffects": [
       {
         "kind": "enemy_modifier",
@@ -478,8 +478,8 @@
         "aya"
       ]
     },
-    "image": "public/art/skills/aya_c.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/aya_c.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.9
@@ -508,8 +508,8 @@
         "reimu"
       ]
     },
-    "image": "public/art/skills/reimu_a.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/reimu_a.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "damageType": "physical",
     "hitChance": 1,
     "enemyEffects": [
@@ -550,8 +550,8 @@
         "reimu"
       ]
     },
-    "image": "public/art/skills/reimu_b.bmp",
-    "icon": "public/art/icons/categories/skill-other.bmp",
+    "image": "public/art/skills/reimu_b.png",
+    "icon": "public/art/icons/categories/skill-other.png",
     "effects": [
       {
         "kind": "stat_modifier",
@@ -579,8 +579,8 @@
         "reimu"
       ]
     },
-    "image": "public/art/skills/reimu_c.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/reimu_c.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.9
@@ -601,8 +601,8 @@
         "marisa"
       ]
     },
-    "image": "public/art/skills/marisa_a.bmp",
-    "icon": "public/art/icons/categories/skill-physical.bmp",
+    "image": "public/art/skills/marisa_a.png",
+    "icon": "public/art/icons/categories/skill-physical.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.2
@@ -623,8 +623,8 @@
         "marisa"
       ]
     },
-    "image": "public/art/skills/marisa_b.bmp",
-    "icon": "public/art/icons/categories/skill-other.bmp",
+    "image": "public/art/skills/marisa_b.png",
+    "icon": "public/art/icons/categories/skill-other.png",
     "effects": [
       {
         "kind": "modifier",
@@ -654,8 +654,8 @@
         "marisa"
       ]
     },
-    "image": "public/art/skills/marisa_c.bmp",
-    "icon": "public/art/icons/categories/skill-mental.bmp",
+    "image": "public/art/skills/marisa_c.png",
+    "icon": "public/art/icons/categories/skill-mental.png",
     "damage": {
       "basis": "weapon_actual",
       "multiplier": 1.9

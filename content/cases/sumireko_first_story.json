@@ -9,7 +9,7 @@
       ]
     },
     "intro": "作为非公开社团“秘封俱乐部”的社长，曾经侦破过校园七大不可思议之一“十三阶梯”的宇佐见堇子，最强的女子高中生最近常为怪梦所侵扰……所有的线索都指向旧校舍。",
-    "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+    "sceneImage": "public/art/scenes/locations/dormitory.png",
     "stages": [
       {
         "id": "dormitory",
@@ -37,7 +37,7 @@
           "id": "dorm_intro",
           "title": "宿舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "少女们的宿舍，一切故事的起点……",
           "next": {
             "kind": "node",
@@ -48,7 +48,7 @@
           "id": "dream",
           "title": "……又是梦？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "最近你时常为这一个怪梦所困扰。梦中樱花飘飘，在夜晚似乎闪着光，你似乎附在一位很久很久以前的学姐身上，那时候就连校服也还是大正袴，而这位学姐似乎总是和另一位学姐待在一起，但是你总是看不清她的面容。",
           "choices": [
             {
@@ -65,7 +65,7 @@
           "id": "wake",
           "title": "醒来……",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "你尝试着去看清那个金发的身影，却看见她本就模糊的脸直接消失了。梦境世界从她脸上的裂口起，就像纸一样被撕开，粉碎。你浸淫灵异事件研究多年，看到梦中那盛放的樱花，本能地觉得一定有什么不对……",
           "choices": [
             {
@@ -82,7 +82,7 @@
           "id": "departure",
           "title": "秘封俱乐部，出发！",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "旧校舍听起来就和七大不可思议有关系，你可绝对不会错过……不过事发突然，你得回教学楼拿点东西，必须要做好万全准备。你披上斗篷，借着夜色躲开舍监溜了出去。",
           "choices": [
             {
@@ -99,7 +99,7 @@
           "id": "classroom_intro",
           "title": "教学楼",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "学校的教学楼，就连下课铃也用的是圣歌，不过学生们大多数不能很好地唱出来。",
           "next": {
             "kind": "node",
@@ -110,7 +110,7 @@
           "id": "entrance",
           "title": "今夜开始",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "避开舍监溜了出来。路边那座玛丽亚像，眼睛是朝左看的，这没问题。你来到了在夜里一片漆黑的教学楼前。",
           "choices": [
             {
@@ -141,7 +141,7 @@
           "id": "entrance_warning",
           "title": "门后的动静",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "你推开大门，门厅深处忽然传来异响。一个模糊的身影挡住去路，朝你扑了过来。看来直接走大门还是太鲁莽了……",
           "choices": [
             {
@@ -158,7 +158,7 @@
           "id": "entrance_battle",
           "kind": "battle",
           "title": "教学楼的遭遇",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "encounter": {
             "kind": "enemy_pool",
             "enemyIds": [
@@ -175,7 +175,7 @@
           "id": "window",
           "title": "安全，没被发现……",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "运气不错，你才找了一会就找到了没有关好的窗户，你轻手轻脚地翻进去，没发出什么声音。",
           "choices": [
             {
@@ -192,7 +192,7 @@
           "id": "apology",
           "title": "总算脱身",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "那个身影终于不再拦着你。你听了听走廊里的动静，赶紧往教室跑去。今晚还没开始调查，就已经遇上了怪事。",
           "choices": [
             {
@@ -209,7 +209,7 @@
           "id": "equipment",
           "title": "拿到了！",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "text": "你平安抵达了教室。柜子里放着一本字典、两枚创可贴、一些零钱，还有你私藏的一把3D打印枪。你把它们收进背包，现在可以去旧校舍了。",
           "choices": [
             {
@@ -247,7 +247,7 @@
           "id": "old_school_intro",
           "title": "旧校舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "闲置了很久的旧校舍，但它一直不孤独，校方、学生还有各种各样的鬼怪，你很确信，所有的存在都在这里有秘密。",
           "next": {
             "kind": "node",
@@ -258,7 +258,7 @@
           "id": "welcome",
           "title": "……这是欢迎仪式吗？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你抵达了旧校舍，玛丽亚还是朝左看，都在意料之中……除了旧校舍的钥匙就插在大门上这一点，是谁做的？是什么在欢迎你吗？",
           "choices": [
             {
@@ -275,7 +275,7 @@
           "id": "ghost_warning",
           "title": "什么情况？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "一个男人的阴影立在门内。这里明明是女校来着？不对，怎么会有这样的东西？没时间想清楚了，它扑过来了——",
           "choices": [
             {
@@ -292,7 +292,7 @@
           "id": "ghost_battle",
           "kind": "battle",
           "title": "男人的阴影",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "encounter": {
             "kind": "battle",
             "battleId": "sumireko_old_school_ghost"
@@ -306,7 +306,7 @@
           "id": "breath",
           "title": "长出一口气",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "就算是你也很少遇到这样的怪事。好在你准备的装备派上了用场，总算应付过来。那道阴影身上的旧式衣装，让你想起梦里的年代……难道有什么关联吗？",
           "choices": [
             {
@@ -341,7 +341,7 @@
           "text": "先绕开舍监，到教学楼取回调查用的装备。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "nextStage": "classroom"
         },
         {
@@ -350,7 +350,7 @@
           "text": "装备已经拿到，该去旧校舍查个究竟了。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+          "sceneImage": "public/art/scenes/locations/teaching_building.png",
           "nextStage": "old_school"
         },
         {
@@ -359,7 +359,7 @@
           "text": "你缓过一口气，开始规划探索旧校舍的路线。梦里的年代、眼前的鬼魂，或许并非毫无关联。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+          "sceneImage": "public/art/scenes/locations/old_school.png"
         }
       ]
     }

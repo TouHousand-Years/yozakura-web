@@ -3,13 +3,13 @@
   "locations": [
     {
       "id": "dormitory",
-      "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+      "sceneImage": "public/art/scenes/locations/dormitory.png",
       "name": "学生宿舍",
       "description": "学生宿舍，校外地点。",
       "x": 347,
       "y": 103,
       "localMap": {
-        "image": "public/art/maps/local/clinic.bmp",
+        "image": "public/art/maps/local/clinic.png",
         "actions": [
           {
             "id": "sumireko_first_story_dormitory",
@@ -76,12 +76,12 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/clinic.bmp",
+      "mapIcon": "public/art/maps/locations/clinic.png",
       "campus": false
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "sumireko_first_story_classroom",
@@ -157,9 +157,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "teaching_building",
-      "sceneImage": "public/art/scenes/locations/teaching_building.bmp",
+      "sceneImage": "public/art/scenes/locations/teaching_building.png",
       "name": "教学楼",
       "x": 256,
       "y": 273,
@@ -168,13 +168,13 @@
     },
     {
       "id": "square",
-      "sceneImage": "public/art/scenes/locations/square.bmp",
+      "sceneImage": "public/art/scenes/locations/square.png",
       "name": "广场",
       "description": "广场，校内地点。",
       "x": 408,
       "y": 305,
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "marisa_second_square",
@@ -192,12 +192,12 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "campus": true
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "mamizou_first_story_chapel",
@@ -290,9 +290,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "auditorium",
-      "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+      "sceneImage": "public/art/scenes/locations/auditorium.png",
       "name": "礼堂",
       "x": 422,
       "y": 215,
@@ -301,7 +301,7 @@
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "mamizou_first_story_council",
@@ -387,9 +387,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "student_union",
-      "sceneImage": "public/art/scenes/locations/student_union.bmp",
+      "sceneImage": "public/art/scenes/locations/student_union.png",
       "name": "学生会",
       "x": 482,
       "y": 397,
@@ -398,7 +398,7 @@
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "clinic_shop",
@@ -437,9 +437,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "kiosk",
-      "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+      "sceneImage": "public/art/scenes/locations/kiosk.png",
       "name": "小卖部",
       "x": 239,
       "y": 203,
@@ -448,7 +448,7 @@
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "sumireko_first_story_old_school",
@@ -594,9 +594,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "old_school",
-      "sceneImage": "public/art/scenes/locations/old_school.bmp",
+      "sceneImage": "public/art/scenes/locations/old_school.png",
       "name": "旧校舍",
       "x": 263,
       "y": 371,
@@ -605,7 +605,7 @@
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "aya_first_story_fortune",
@@ -658,9 +658,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "park",
-      "sceneImage": "public/art/scenes/locations/park.bmp",
+      "sceneImage": "public/art/scenes/locations/park.png",
       "name": "公园",
       "x": 680,
       "y": 165,
@@ -669,13 +669,13 @@
     },
     {
       "id": "library",
-      "sceneImage": "public/art/scenes/locations/library.bmp",
+      "sceneImage": "public/art/scenes/locations/library.png",
       "name": "市图书馆",
       "description": "市图书馆，校外地点。",
       "x": 639,
       "y": 388,
       "localMap": {
-        "image": "public/art/maps/local/archive.bmp",
+        "image": "public/art/maps/local/archive.png",
         "actions": [
           {
             "id": "library_reading",
@@ -751,12 +751,12 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/archive.bmp",
+      "mapIcon": "public/art/maps/locations/archive.png",
       "campus": false
     },
     {
       "localMap": {
-        "image": "public/art/maps/local/square.bmp",
+        "image": "public/art/maps/local/square.png",
         "actions": [
           {
             "id": "square_market",
@@ -767,9 +767,9 @@
           }
         ]
       },
-      "mapIcon": "public/art/maps/locations/square.bmp",
+      "mapIcon": "public/art/maps/locations/square.png",
       "id": "market",
-      "sceneImage": "public/art/scenes/locations/market.bmp",
+      "sceneImage": "public/art/scenes/locations/market.png",
       "name": "市场",
       "x": 120,
       "y": 349,
@@ -841,7 +841,7 @@
     }
   ],
   "eventInterval": 1,
-  "mapImage": "public/art/maps/world/city.bmp",
+  "mapImage": "public/art/maps/world/city.png",
   "facilities": [
     {
       "id": "clinic_kiosk",
@@ -930,58 +930,58 @@
   ],
   "actionIcons": {
     "main": {
-      "image": "public/art/icons/map-main.bmp",
+      "image": "public/art/icons/map-main.png",
       "label": "主线任务推进"
     },
     "accept": {
-      "image": "public/art/icons/map-accept.bmp",
+      "image": "public/art/icons/map-accept.png",
       "label": "支线任务接取"
     },
     "progress": {
-      "image": "public/art/icons/map-progress.bmp",
+      "image": "public/art/icons/map-progress.png",
       "label": "支线任务推进"
     },
     "shop": {
-      "image": "public/art/icons/map-shop.bmp",
+      "image": "public/art/icons/map-shop.png",
       "label": "商店&特殊"
     },
     "facility": {
-      "image": "public/art/icons/map-shop.bmp",
+      "image": "public/art/icons/map-shop.png",
       "label": "特殊设施"
     }
   },
   "nodeIcons": {
     "main": {
-      "image": "public/art/icons/world-map-main.bmp",
+      "image": "public/art/icons/world-map-main.png",
       "label": "主线推进"
     },
     "accept": {
-      "image": "public/art/icons/world-map-accept.bmp",
+      "image": "public/art/icons/world-map-accept.png",
       "label": "支线接取"
     },
     "progress": {
-      "image": "public/art/icons/world-map-progress.bmp",
+      "image": "public/art/icons/world-map-progress.png",
       "label": "支线推进"
     },
     "shop": {
-      "image": "public/art/icons/world-map-shop.bmp",
+      "image": "public/art/icons/world-map-shop.png",
       "label": "商店"
     },
     "none": {
-      "image": "public/art/icons/world-map-none.bmp",
+      "image": "public/art/icons/world-map-none.png",
       "label": "无特殊"
     },
     "facility": {
-      "image": "public/art/icons/world-map-shop.bmp",
+      "image": "public/art/icons/world-map-shop.png",
       "label": "特殊设施"
     }
   },
-  "playerImage": "public/art/icons/world-map-player.bmp",
+  "playerImage": "public/art/icons/world-map-player.png",
   "mapSize": {
     "width": 768,
     "height": 512
   },
-  "completedActionImage": "public/art/icons/map-completed.bmp",
+  "completedActionImage": "public/art/icons/map-completed.png",
   "travel": {
     "pixelsPerDistance": 100,
     "campusTransitionTime": 1

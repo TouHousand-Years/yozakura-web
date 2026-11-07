@@ -13,7 +13,7 @@
     },
     "skills": [],
     "unarmed": true,
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "stone",
@@ -29,7 +29,7 @@
     },
     "skills": [],
     "unarmed": true,
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "rust_compass",
@@ -52,8 +52,8 @@
         "hover": "常用的文具，但最好别想用它来对付敌人。"
       }
     },
-    "image": "public/art/weapons/rust_compass.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/rust_compass.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "garden_shears",
@@ -78,8 +78,8 @@
         "hover": "常用于修剪花坛，但现在它剪断的可能不止是枯枝。"
       }
     },
-    "image": "public/art/weapons/garden_shears.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/garden_shears.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "paper_cutter",
@@ -102,8 +102,8 @@
         "hover": "裁纸用的小刀，刀刃锋利得过分。\n它本该只接触纸张，如今却不得不面对别的东西。"
       }
     },
-    "image": "public/art/weapons/paper_cutter.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/paper_cutter.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "kitchen_knife",
@@ -128,8 +128,8 @@
         "hover": "厨房里最锋利的那把刀。\n切菜十年，今晚是第一次要切点别的。"
       }
     },
-    "image": "public/art/weapons/kitchen_knife.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/kitchen_knife.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "katana",
@@ -154,8 +154,8 @@
         "hover": "开过刃的武士刀，刀身冰冷。"
       }
     },
-    "image": "public/art/weapons/katana.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/katana.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "fire_axe",
@@ -180,8 +180,8 @@
         "hover": "破门用消防斧。\n漆面已经斑驳，却依然能劈开任何挡路的东西。"
       }
     },
-    "image": "public/art/weapons/fire_axe.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/fire_axe.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "baton",
@@ -208,8 +208,8 @@
         "hover": "从倒地的警察身上获得的警棍，握柄上还留着一丝手汗。"
       }
     },
-    "image": "public/art/weapons/baton.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/baton.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "claw_hammer",
@@ -234,8 +234,8 @@
         "hover": "一头敲钉、一头拔钉的羊角锤。\n现在敲的那头显然更有用。"
       }
     },
-    "image": "public/art/weapons/claw_hammer.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/claw_hammer.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "sledgehammer",
@@ -258,8 +258,8 @@
         "hover": "沉得单手都举不稳的大锤。"
       }
     },
-    "image": "public/art/weapons/sledgehammer.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/sledgehammer.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "baseball_bat",
@@ -282,8 +282,8 @@
         "hover": "球队所用的旧棒球棍。\n它上一次击中球是什么时候呢？"
       }
     },
-    "image": "public/art/weapons/baseball_bat.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/baseball_bat.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "crowbar",
@@ -308,8 +308,8 @@
         "hover": "利用杠杆原理的多用途撬棍，有时被视为物理学的象征符号。"
       }
     },
-    "image": "public/art/weapons/crowbar.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/crowbar.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "flashlight",
@@ -334,8 +334,8 @@
         "hover": "能照出一小片光的手电筒。\n在黑暗里，光是少数能让人安心的东西。"
       }
     },
-    "image": "public/art/weapons/flashlight.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/flashlight.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "mop",
@@ -358,8 +358,8 @@
         "hover": "拖地用的拖把。\n抡起来呼呼生风，只是别指望它真的有多厉害。"
       }
     },
-    "image": "public/art/weapons/mop.bmp",
-    "icon": "public/art/icons/categories/weapon-physical.bmp"
+    "image": "public/art/weapons/mop.png",
+    "icon": "public/art/icons/categories/weapon-physical.png"
   },
   {
     "id": "dictionary",
@@ -384,8 +384,8 @@
         "hover": "厚得能当砖头使的字典。\n知识的重量，此刻终于派上了物理意义上的用场。"
       }
     },
-    "image": "public/art/weapons/dictionary.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/dictionary.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "instant_camera",
@@ -410,8 +410,8 @@
         "hover": "按下快门就吐出一张照片的拍立得。"
       }
     },
-    "image": "public/art/weapons/instant_camera.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/instant_camera.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "video_camera",
@@ -438,8 +438,8 @@
         "hover": "可以录像的摄影机，再也不用害怕错过决定性瞬间了。"
       }
     },
-    "image": "public/art/weapons/video_camera.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/video_camera.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "pepper_spray",
@@ -466,8 +466,8 @@
         "hover": "喷出刺激性液体的胡椒喷雾。\n传说盐能驱散邪物——提出这一点的人显然没有见识过胡椒喷雾的威力。"
       }
     },
-    "image": "public/art/weapons/pepper_spray.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/pepper_spray.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "stun_gun",
@@ -492,8 +492,8 @@
         "hover": "按下按钮便噼啪作响的电击器。"
       }
     },
-    "image": "public/art/weapons/stun_gun.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/stun_gun.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "iron_pointer",
@@ -516,8 +516,8 @@
         "hover": "老师用来指黑板的铁制教鞭。"
       }
     },
-    "image": "public/art/weapons/iron_pointer.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/iron_pointer.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   },
   {
     "id": "strange_bead",
@@ -542,7 +542,7 @@
         "hover": "奇怪而光滑的珠子，散发着不祥的气息……"
       }
     },
-    "image": "public/art/weapons/strange_bead.bmp",
-    "icon": "public/art/icons/categories/weapon-mental.bmp"
+    "image": "public/art/weapons/strange_bead.png",
+    "icon": "public/art/icons/categories/weapon-mental.png"
   }
 ]

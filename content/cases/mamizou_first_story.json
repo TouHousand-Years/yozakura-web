@@ -9,7 +9,7 @@
       ]
     },
     "intro": "“学生会长要做的事情，比她的姐妹们想象得要多得多……”二岩猯藏没想到前任会长卸任时的话原来是这个意思。",
-    "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+    "sceneImage": "public/art/scenes/locations/auditorium.png",
     "stages": [
       {
         "id": "chapel",
@@ -49,7 +49,7 @@
           "id": "hymn",
           "title": "恍惚",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "你又一次唱完了圣歌，帮修女们做完了日常事务，但是学生会长还得多做很多事情……远比你想象的要多，也远比你想象的要复杂。",
           "choices": [
             {
@@ -66,7 +66,7 @@
           "id": "sunlight",
           "title": "阳光",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "走出礼堂外，阳光洒在你的脸上，今天天气格外好，如果能多去散一会儿步就好了。但是你还有学生会长的特殊工作要做……关于学校的七大不可思议的，总之，先去做一些准备吧？",
           "choices": [
             {
@@ -83,7 +83,7 @@
           "id": "kiosk_arrival",
           "title": "小卖部",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "text": "你到了小卖部，这里还有不少学生在排队，不过你是学生会长……一见到你，大家都叫你会长姐姐，给你让出路来。",
           "choices": [
             {
@@ -100,7 +100,7 @@
           "id": "rumor",
           "title": "传言",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "text": "你正在思索要不要再给学生会室添一些乱七八糟的东西的时候，突然有学生叫住你，询问你是否知道关于旧校舍的事情。",
           "choices": [
             {
@@ -125,7 +125,7 @@
           "id": "demolition",
           "title": "拆迁的消息",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "text": "你想起关于旧校舍要拆迁的消息——听说近期已有勘测、清理的安排，但还不到真正拆除的时候。这位女同学对你说她其实还想去探险来着……",
           "choices": [
             {
@@ -150,7 +150,7 @@
           "id": "mysteries",
           "title": "不可思议",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "text": "“这可是机密事项，可不能轻易透露……”\n\n你记得自己是怎么当上学生会长的，要当上学生会长就得先解决一个不可思议。",
           "choices": [
             {
@@ -175,7 +175,7 @@
           "id": "council_duty",
           "title": "关于旧校舍",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "你必须在卸任学生会长之前再破解七大不可思议之一……虽然现在只剩下五个了，你还得创造新的怪谈，把缺位全部补上。",
           "choices": [
             {
@@ -192,7 +192,7 @@
           "id": "council_archive",
           "title": "书卷时光……",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "你翻看着学生会室那些档案，都是之前的学生会成员留下来的。你发现剩下的几个不可思议似乎都在旧校舍，好像是日新月异的学校把它们赶到那里似的……",
           "choices": [
             {
@@ -219,7 +219,7 @@
           "id": "research_choice",
           "title": "特权阶层……",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "作为市内有名的贵族女校的学生会长走到哪里都很方便，就连市图书馆的储藏室都可以随便进，不过时间有限，查什么好呢？",
           "choices": [
             {
@@ -243,7 +243,7 @@
           "id": "news",
           "title": "旧新闻初报",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "你在储藏室的报刊合订本里翻出了当年的旧新闻。泛黄的版面上刊载着事故的报道，声称在旧校舍中庭的樱花树下发现了两名女学生的尸体，言辞间暗示两人因关系亲密而一同走上了绝路。你注意到，学生会档案室里那份旧记录，几乎是原封不动地照抄了这篇报道。",
           "choices": [
             {
@@ -260,7 +260,7 @@
           "id": "registry",
           "title": "校籍与获救记录",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "你又调出了校史档案与校籍变更的后续记录。在翻找之中，你查出了两位当事人的完整姓名——西行寺幽幽子与八云紫，还找到了附有姓名的校史旧照。\n\n更重要的是，后续记录与报纸初报截然不同：当年的事故中，西行寺幽幽子不幸身亡，而八云紫其实被及时抢救了回来，但再也没有回学校。看来学生会并没有把这一误解给澄清，又或者，这件事难道刻意被隐瞒了？",
           "choices": [
             {
@@ -277,7 +277,7 @@
           "id": "closure",
           "title": "停用与封校记录",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "你最后又翻到了校舍管理的旧卷宗。上面清楚地记载着，那场事故发生后，校方很快下达了封闭旧校舍的决定，正式停用的时间正是当年的八月。至于八云紫离校之后又去了哪里，这里估计是查不到了。",
           "choices": [
             {
@@ -294,7 +294,7 @@
           "id": "time_passed",
           "title": "时间流逝……",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "text": "回过神来，你已经看了许久的资料……",
           "choices": [
             {
@@ -321,7 +321,7 @@
           "id": "investigation_return",
           "title": "整理资料",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "text": "你带着在市图书馆费尽周折查到的所有线索——那些相互矛盾的新闻报道、校籍记录的差异，回到了学生会室。\n\n档案柜里的纸张记录着往日的秘密，而你现在手中掌握的这些，足以拼凑出当年那个被掩盖的真相。",
           "choices": [
             {
@@ -356,7 +356,7 @@
           "text": "先去小卖部看看，为接下来的工作做些准备。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "nextStage": "kiosk"
         },
         {
@@ -365,7 +365,7 @@
           "text": "听过旧校舍的传言，你决定回学生会室翻一翻前辈留下的档案。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/kiosk.bmp",
+          "sceneImage": "public/art/scenes/locations/kiosk.png",
           "nextStage": "council"
         },
         {
@@ -374,7 +374,7 @@
           "text": "你拨通了射命丸文的电话，将查到的信息一一告知。你们约定好今晚在旧校舍集合，彻底揭开这段旧事的真相。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/student_union.bmp"
+          "sceneImage": "public/art/scenes/locations/student_union.png"
         },
         {
           "id": "to_library",
@@ -382,7 +382,7 @@
           "text": "先去市图书馆查阅资料。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/student_union.bmp",
+          "sceneImage": "public/art/scenes/locations/student_union.png",
           "nextStage": "research"
         },
         {
@@ -391,7 +391,7 @@
           "text": "资料查阅完毕，返回学生会联系同伴。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/library.bmp",
+          "sceneImage": "public/art/scenes/locations/library.png",
           "nextStage": "report"
         }
       ]

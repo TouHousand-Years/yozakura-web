@@ -9,7 +9,7 @@
       ]
     },
     "intro": "七大不可思议？如果灵梦可以解决的话，你也得能解决才行。有一个过于耀眼的姐妹确实很头疼……不，实际上你喜欢她吧？跟小学男生一样，喜欢就要出风头……",
-    "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+    "sceneImage": "public/art/scenes/locations/dormitory.png",
     "stages": [
       {
         "id": "dormitory",
@@ -43,7 +43,7 @@
           "id": "dorm_intro",
           "title": "宿舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "少女们的宿舍，一切故事的起点……",
           "next": {
             "kind": "node",
@@ -54,7 +54,7 @@
           "id": "opportunity",
           "title": "机会！",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "楼下闪过一道披着斗篷的身影，一般来说没有人会注意到这些，但你可是义务风纪委员魔理沙！\n\n一定是那个宇佐见堇子又蹑手蹑脚地溜出了宿舍……而你的姐妹，正牌风纪委员博丽灵梦却完全没有察觉。",
           "choices": [
             {
@@ -71,7 +71,7 @@
           "id": "duty",
           "title": "事不宜迟！",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "要在那个问题学生闯出大麻烦之前把她抓回来，这是义务风纪委员的职责！",
           "choices": [
             {
@@ -88,7 +88,7 @@
           "id": "note",
           "title": "旧校舍！",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "text": "最近的流言都有关旧校舍，堇子似乎也是往那边走的，赶紧过去吧！不过走之前，要给灵梦留一张纸条。“魔理沙大人要去整肃风纪了，灵梦你别来得太晚！”",
           "choices": [
             {
@@ -105,7 +105,7 @@
           "id": "gate_intro",
           "title": "旧校舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "闲置了很久的旧校舍，但它一直不孤独，校方、学生还有各种各样的鬼怪，你很确信，所有的存在都在这里有秘密。",
           "next": {
             "kind": "node",
@@ -116,7 +116,7 @@
           "id": "locked",
           "title": "门是关的？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你来到了旧校舍前，门是关的，真伤脑筋。要是对方不进入旧校舍的话，那就没法惩罚对方了……",
           "choices": [
             {
@@ -133,7 +133,7 @@
           "id": "chapel_plan",
           "title": "试试礼堂？",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "仓库在礼堂那边……为了证明你比灵梦厉害，就只能这么做了。去旧校舍探探险也蛮有意思的不是吗？",
           "choices": [
             {
@@ -150,7 +150,7 @@
           "id": "chapel_intro",
           "title": "礼堂",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "因为是教会女校，所以会有一个小教堂，但唱圣歌的会有佛教徒和神道教徒与无神论者……还会有什么呢？",
           "next": {
             "kind": "node",
@@ -161,7 +161,7 @@
           "id": "warehouse_door",
           "title": "仓库",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "你来到了礼堂附近的仓库，门是锁着的，但是看上去不太牢靠，也不知道附近有没有巡夜的老师……",
           "choices": [
             {
@@ -211,7 +211,7 @@
           "id": "warehouse_battle",
           "kind": "battle",
           "title": "破门后的遭遇",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "encounter": {
             "kind": "enemy_pool",
             "enemyIds": [
@@ -228,7 +228,7 @@
           "id": "inside",
           "title": "仓库内",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "text": "几经波折，你还是进入了仓库之中，要不要趁机搜一搜宝贝？反正都积灰了，估计也没人要……",
           "choices": [
             {
@@ -321,7 +321,7 @@
           "id": "waiting_intro",
           "title": "旧校舍",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "闲置了很久的旧校舍，但它一直不孤独，校方、学生还有各种各样的鬼怪，你很确信，所有的存在都在这里有秘密。",
           "next": {
             "kind": "node",
@@ -332,7 +332,7 @@
           "id": "insert_key",
           "title": "留下钥匙",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "旧校舍的大门就在眼前，把钥匙插上，等堇子过来吧。",
           "choices": [
             {
@@ -349,7 +349,7 @@
           "id": "waiting",
           "title": "万事俱备",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你把钥匙插在门上，然后蹲在草丛后面静等堇子的到来……什么，这么做会不会太奇怪？你才不会在乎这个，你满脑子都在想着成为正式的风纪委员，然后你那过于优秀的姐妹，会牵着你的手夸奖你……",
           "choices": [
             {
@@ -384,7 +384,7 @@
           "text": "给灵梦留下纸条后，你抢先赶往旧校舍。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/dormitory.bmp",
+          "sceneImage": "public/art/scenes/locations/dormitory.png",
           "nextStage": "gate"
         },
         {
@@ -393,7 +393,7 @@
           "text": "先去礼堂附近的仓库，找一找旧校舍的钥匙。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "nextStage": "warehouse"
         },
         {
@@ -402,7 +402,7 @@
           "text": "钥匙已经到手，回旧校舍等着吧。",
           "outcome": "stage_completed",
           "completes": false,
-          "sceneImage": "public/art/scenes/locations/auditorium.bmp",
+          "sceneImage": "public/art/scenes/locations/auditorium.png",
           "nextStage": "waiting"
         },
         {
@@ -411,7 +411,7 @@
           "text": "“魔！理！沙！”远处传来不和谐的吼声……一道嫣红直冲你而来。你这才回过神来：自己刚刚竟然一不留神睡着了！钥匙已经被拧动，大门半开着。堇子的身影早就不在门外。\n\n现在灵梦找到你了，快跑！",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+          "sceneImage": "public/art/scenes/locations/old_school.png"
         }
       ]
     }

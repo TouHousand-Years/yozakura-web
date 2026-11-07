@@ -9,7 +9,7 @@
       ]
     },
     "intro": "调查已经接近尾声，大家该讲讲今晚的所见所闻了，怪谈就是要讲出来的，然后人们要破解它，跨过它——这就是怪谈或者不可思议的价值，作为学生会长，你深知这样的道理。",
-    "sceneImage": "public/art/scenes/locations/old_school.bmp",
+    "sceneImage": "public/art/scenes/locations/old_school.png",
     "flow": {
       "start": "bench_intro",
       "nodes": [
@@ -17,7 +17,7 @@
           "id": "bench_intro",
           "title": "召集",
           "kind": "story",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你怀揣着沉甸甸的调查记录赶到旧校舍。\n\n月光洒落的庭院里，宇佐见堇子、雾雨魔理沙和博丽灵梦已经先一步抵达，正在树桩前交谈。\n\n紧接着，射命丸文的脚步声也从主楼内传来。五个人，在这个被遗忘的角落里终于凑齐了。",
           "next": {
             "kind": "node",
@@ -28,7 +28,7 @@
           "id": "gathering",
           "title": "集合",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你看着面前的四人：在这个学园里，每一个学生的名字与性格你都了如指掌，而今夜，这些线索随着她们的到来而在你的心中交汇。\n\n你主持着这次谈话，尽管知道接下来揭开的事情可能会打破大家对旧校舍的所有认知，但这正是身为学生会长的你，身为这出“不可思议”的组织者所必须承担的责任。\n\n你甚至有些分心地想起了你的姐妹小铃，要是她也在场，一定会对这复杂的因缘感到困惑吧。",
           "choices": [
             {
@@ -45,7 +45,7 @@
           "id": "step_old_report",
           "title": "获救记录",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "雾雨魔理沙率先发话了：“刚才我尝试献花，根本没有任何回应，这很不符合幽魂一般的习性。”\n\n你拿出了自己在图书馆复印的后续报道：“所有传言都说这里有两个亡魂，但根据这份后续记录，当事人西行寺幽幽子与八云紫，其中八云紫其实获救后离校，而幽幽子……”你没有往下说。",
           "choices": [
             {
@@ -62,7 +62,7 @@
           "id": "step_sumireko",
           "title": "画像与日记",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "堇子掏出手机，然后在相册里翻了起来。“找到了，”她指着一张画像的照片说，“这是我在房间里见到的一张画像。”\n\n你接过来看了一眼：“没错了，可以和照片对上，这个少女的形象确实是西行寺幽幽子本人。”\n\n“除此之外，还有这是那个房间的日记。”她又递上了一本残破的笔记本。",
           "choices": [
             {
@@ -79,7 +79,7 @@
           "id": "step_timeline",
           "title": "时间对上了",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "“值班表显示她们所处的月份确实是八月，与校史中那份‘事故封校记录’时间完全重合，这意味着那起事故发生后，校方迅速采取了强制封校的手段。至于这些新的痕迹，大概率是拆除前的准备。”\n\n提到异象，大家谈论起各自的梦境。虽然大家梦见这里的时间点略有不同，但可以确定的是，正如文所言，这一系列现象都是在学校启动拆除计划后才突然加剧。\n\n“还有，”堇子低头看着树下的草地，“今晚我注意到，无论月光的角度怎么变化，那对影子都一动不动，就像是被刻在地上一样。”",
           "choices": [
             {
@@ -96,7 +96,7 @@
           "id": "step_pressure",
           "title": "日记与异象",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "“那些袭击我们的东西，也不是凭空出现的。”灵梦翻阅着那本堇子找到的日记，忽然说。\n\n大家重新翻看堇子摘录的日记残页，上面断续记载着长辈们的严厉训斥、她们遭受的婚配压力，以及两人为了不被拆散而做出的种种抗争。\n\n很明显，旧校舍里游荡的那些提线木偶与身着黑衣的男人阴影，正是幽幽子生前所承受的恐惧，在漫长的岁月中演变成的、守卫着那段残存记忆的扭曲怪物。",
           "choices": [
             {
@@ -113,7 +113,7 @@
           "id": "step_apology",
           "title": "转述歉意",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "射命丸文深吸了一口气，环视着众人，将自己在梦中听到的那些断断续续的低语转述了出来。\n\n“那些道歉、那些痛苦……看起来就是八云紫想传递的东西。魔理沙你说献上花后也没有反应，可能说明她等待的不是祭品，是一个回应。”\n\n她看着大家，眼神坚定地提出：“那份迟来的道歉不知为何出现在了我的梦中。既然这样，那我就作为传话人，替她把话带到。”",
           "choices": [
             {
@@ -130,7 +130,7 @@
           "id": "last_duty",
           "title": "最后的工作",
           "kind": "choice",
-          "sceneImage": "public/art/scenes/locations/old_school.bmp",
+          "sceneImage": "public/art/scenes/locations/old_school.png",
           "text": "你对着众人安排道：“好了，分配任务。灵梦，你负责破除房间里那些敌意的存在，那是她生前恐惧的具象化；文，在危险解除后，由你进入房间，把我们刚才的发现，以及你说的什么回应传达给幽幽子。”",
           "choices": [
             {
@@ -165,7 +165,7 @@
           "text": "你将目光投向博丽灵梦，在这所学校里，也只有她能以那种压倒性的力量解除残留的危险。灵梦默契地接受了委托，一切已准备就绪，真相的大门即将打开。",
           "outcome": "completed",
           "completes": true,
-          "sceneImage": "public/art/scenes/locations/old_school.bmp"
+          "sceneImage": "public/art/scenes/locations/old_school.png"
         }
       ]
     }

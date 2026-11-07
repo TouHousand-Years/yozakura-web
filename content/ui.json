@@ -1,17 +1,17 @@
 {
   "mapToggleIcons": {
-    "world": "public/art/maps/to-world.bmp",
-    "local": "public/art/maps/to-local.bmp"
+    "world": "public/art/maps/to-world.png",
+    "local": "public/art/maps/to-local.png"
   },
   "navigationIcons": {
-    "investigation": "public/art/icons/navigation/investigation.bmp",
-    "journal": "public/art/icons/navigation/journal.bmp",
-    "bag": "public/art/icons/navigation/bag.bmp",
-    "attributes": "public/art/icons/navigation/attributes.bmp",
-    "equipment": "public/art/icons/navigation/equipment.bmp",
-    "skills": "public/art/icons/navigation/skills.bmp",
-    "map": "public/art/icons/navigation/map.bmp",
-    "settings": "public/art/icons/navigation/settings.bmp"
+    "investigation": "public/art/icons/navigation/investigation.png",
+    "journal": "public/art/icons/navigation/journal.png",
+    "bag": "public/art/icons/navigation/bag.png",
+    "attributes": "public/art/icons/navigation/attributes.png",
+    "equipment": "public/art/icons/navigation/equipment.png",
+    "skills": "public/art/icons/navigation/skills.png",
+    "map": "public/art/icons/navigation/map.png",
+    "settings": "public/art/icons/navigation/settings.png"
   },
   "shopPersistent": "售价 {price} 零钱 持有 {count}",
   "shopRefresh": "看看别的（+5异变）",
