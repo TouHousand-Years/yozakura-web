@@ -6,7 +6,7 @@ The 12 tarot face scenes and initial card-back scene in `public/art/scenes/divin
 incorporate the corresponding 51×79 Original/1X Major Arcana cards and card back
 from the free pack by SeeOne. Card colors are
 mapped one-to-one to the game's four grayscale colors, and the cards are flattened
-onto an AI-generated wooden tabletop. `table.bmp` contains only that tabletop.
+onto an wooden tabletop. `table.bmp` contains only that tabletop.
 
 The source page permits use in free and commercial projects and modification to
 suit the project; credit is appreciated but not required. It prohibits redistributing
