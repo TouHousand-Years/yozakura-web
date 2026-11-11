@@ -18,7 +18,3 @@ no overscan or rounded-corner cropping, and upstream curvature disabled.
 The existing independently controlled barrel displacement supplies curvature
 and shares its coordinate map with pointer hit testing.
 
-Manual verification: enable CRT_Geom with barrel disabled, adjust intensity
-from 0 to 100, then combine with barrel, bloom and glitch. Check text, animation,
-scrolling, pointer alignment, window resizing and high-DPI output. Disable the
-filter and verify that the original display returns; restart to check persistence.
